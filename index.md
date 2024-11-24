@@ -1,6 +1,7 @@
 ---
 layout: single
 author_profile: false
+classes: wide
 ---
 
 Welcome to Three Space Tokyo, a space for creating and connecting. Beyond serving as the studio for our founding members, it is also a workspace for resident artists and a venue for events and exhibitions. Our goal is to bring together international artists and designers in Tokyo and connect them with the Japanese community. 
