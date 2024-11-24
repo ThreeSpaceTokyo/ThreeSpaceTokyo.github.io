@@ -10,4 +10,4 @@ Three Space Tokyo was founded by design artist [Ying Chang](https://www.yingchan
 We are currently searching for a physical location and plan to open in spring 2025. Please contact us if you are interested in collaborating: threespacetokyo@gmail.com.
 
 ![home](https://www.ayaogas.com/wp-content/uploads/2013/06/Ritual_in_the_courtyard_72x48_Oiloncanvas_2012.jpg)
-Image: "Ritual in the Courtyard” by Aya Ogasawara 48×72 in, oil on canvas, 2012
+"Ritual in the Courtyard" by Aya Ogasawara (48 × 72 inches, oil on canvas, 2012)
