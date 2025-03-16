@@ -16,7 +16,7 @@ Beyond serving as the studio for our founding members, it is also a workspace fo
 
 日本語：
 
-**Three Space Tokyo**へようこそ。ここは、創造と交流のための空間です。私たちの目標は、東京に集う国際的なアーティストやデザイナーと、日本のコミュニティをつなぐことです。Three Space Tokyoは、デザインアーティストのイン・チャン（[**Ying Chang**](https://www.yingchang.co.uk/)）、ファインアートペインターの小笠原彩（[**Aya Ogasawara**](https://www.ayaogas.com/)）、そして計算宇宙学者のリュウ・ジア（[**Jia Liu**](https://liuxx479.github.io/)）によって設立されました。
+**Three Space Tokyo**へようこそ。ここは、創造と交流のための空間です。私たちの目標は、東京に集う国際的なアーティストやデザイナーと、日本のコミュニティをつなぐことです。Three Space Tokyoは、デザインアーティストのイン・チャン（[**Ying Chang**](https://www.yingchang.co.uk/)）、ファインアートペインターの小笠原彩（[**Aya Ogasawara**](https://www.ayaogas.com/)）、そして計算宇宙物理学者のリュウ・ジア（[**Jia Liu**](https://liuxx479.github.io/)）によって設立されました。
 
 このスペースは、創設メンバーのスタジオであると同時に、レジデントアーティストのための制作空間や、イベント・展示の会場としても活用されます。現在、私たちは物理的な拠点を探しており、2025年春のオープンを予定しています。
 
