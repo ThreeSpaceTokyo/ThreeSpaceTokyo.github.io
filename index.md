@@ -5,7 +5,7 @@ author_profile: false
 
 
 <p align="center">
-  <img src="/assets/open1.jpg" width="600"/>
+  <img src="/assets/open1.jpg" />
 </p>
 
 ### SOFT OPENING: [RSVP](https://www.eventbrite.com/e/three-space-tokyo-gallery-opening-tickets-1585491229949?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl)
