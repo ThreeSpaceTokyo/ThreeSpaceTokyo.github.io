@@ -8,13 +8,13 @@ author_profile: false
   <img src="/assets/open1.jpg" />
 </p>
 
-### SOFT OPENING: [RSVP](https://www.eventbrite.com/e/three-space-tokyo-gallery-opening-tickets-1585491229949?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl)
+### SOFT OPENING: [RSVP](https://forms.gle/wFEJjbw8nyotrvqBA)
 
 Celebrate the soft opening of Three Space Tokyo, our new home for art, design, and connection. On this special evening, the space will feature exhibitions from our founding members and guest artists, music throughout the evening, and light snacks and drinks to enjoy. Guests are welcome to meet, connect, and dance.
 
 The opening will take place on **Sunday, August 31, 2025, from 4:00 pm** at [Three Space Tokyo](https://maps.app.goo.gl/U6qfJWBaE5sk5ypv9).
 
-The event is free with [RSVP](https://www.eventbrite.com/e/three-space-tokyo-gallery-opening-tickets-1585491229949?utm-campaign=social&utm-content=attendeeshare&utm-medium=discovery&utm-term=listing&utm-source=cp&aff=ebdsshcopyurl).
+The event is free with [RSVP](https://forms.gle/wFEJjbw8nyotrvqBA).
 
 <br>
 
