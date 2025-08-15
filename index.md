@@ -10,13 +10,13 @@ author_profile: false
 
 ### SOFT OPENING
 
-Celebrate the soft opening of Three Space Tokyo, our new home for art, design, and connection. On this special evening, the space will feature exhibitions from our founding members and guest artists, music throughout the evening, and light snacks and drinks to enjoy. Guests are welcome to meet, connect, and dance.
+Celebrate the soft opening of Three Space Tokyo, our new home for art, design, and connection. On this special evening, the space will feature exhibitions from our founding members and guest artists, music throughout the evening, and light snacks and drinks to enjoy. Guests are welcome to meet, connect, and dance. The event is free with RSVP.
 
-**Time**: Sunday, August 31, 2025, from 4:00 PM
+[<img src="/assets/rsvp1.png" width="200"/>](https://forms.gle/wFEJjbw8nyotrvqBA)
 
+**Time**: Sunday, August 31, 2025, from 4:00 PM <br>
 **Location**: Three Space Tokyo (Asakusabashi 3-6-6, Taito City, Tokyo 111-0053, [map](https://maps.app.goo.gl/U6qfJWBaE5sk5ypv9).
 
-The event is free with [RSVP](https://forms.gle/wFEJjbw8nyotrvqBA).
 
 <br>
 
