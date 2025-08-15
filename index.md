@@ -24,7 +24,6 @@ The event is free with [RSVP](https://forms.gle/wFEJjbw8nyotrvqBA).
 
 Welcome to **Three Space Tokyo**, a space for creating and connecting. We bring together international artists and designers in Tokyo and connect them with the Japanese community. Three Space Tokyo was founded by designer [**Ying Chang**](https://www.yingchang.co.uk/), fine artist [**Aya Ogasawara**](https://www.ayaogas.com/), and computational cosmologist [**Jia Liu**](https://liuxx479.github.io/). Beyond serving as the studio for our founding members, it is also a workspace for resident artists and a venue for events and exhibitions. Please contact us if you are interested in collaborating.
 
-
 **Three Space Tokyo**へようこそ。ここは、創造と交流のための空間です。私たちの目標は、東京に集う国際的なアーティストやデザイナーと、日本のコミュニティをつなぐことです。Three Space Tokyoは、デザイナーのイン・チャン（[**Ying Chang**](https://www.yingchang.co.uk/)）、ファインアートペインターの小笠原彩（[**Aya Ogasawara**](https://www.ayaogas.com/)）、そして計算宇宙物理学者のリュウ・ジア（[**Jia Liu**](https://liuxx479.github.io/)）によって設立されました。創設メンバーのシェアアトリエとしての役割に加え、レジデントアーティストの制作拠点、またイベントや展示の会場としても活用される予定です。コラボレーションにご興味のある方は、ぜひご連絡ください。
 
 <!---
@@ -34,6 +33,19 @@ Welcome to **Three Space Tokyo**, a space for creating and connecting. We bring 
 
 *Painting credit: "Her Tiny Equilibrium" by Aya Ogasawara (oil and egg tempera on canvas, 2023)*
 -->
+
+<br>
+
+### SUPPORT US
+
+[Donate](https://www.paypal.com/paypalme/ThreeSpaceTokyo)
+
+Our gallery is currently running on our founders’ life savings. Your donation will help cover event costs, electricity, the screws to hang our art, and keeping your drinks cold :)
+
+私たちのギャラリーは、現在、創設メンバーの私財で運営しています。
+皆さまからのご寄付は、イベント運営費、電気代、作品を掛けるためのネジ代、そしてドリンクを冷やしておくための費用に充てられます :)
+
+
 
 <br>
 
