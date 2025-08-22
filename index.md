@@ -15,16 +15,17 @@ Celebrate the soft opening of Three Space Tokyo, our new gallery for art, design
 [<img src="/assets/rsvp1.png" width="200"/>](https://forms.gle/wFEJjbw8nyotrvqBA)
 
 **Time**: Sunday, August 31, 2025, from 4:00 PM <br>
-**Location**: Three Space Tokyo (Asakusabashi 3-6-6, Taito City, Tokyo 111-0053, [map](https://maps.app.goo.gl/U6qfJWBaE5sk5ypv9).
+**Location**: Three Space Tokyo (Asakusabashi 3-6-6, Taito City, Tokyo 111-0053, [map](https://maps.app.goo.gl/U6qfJWBaE5sk5ypv9)).
 
 
 <br>
 
-### THREE SPACE TOKYO
+### THREE SPACE TOKYO 
 
-Welcome to **Three Space Tokyo**, a space for creating and connecting. We bring together international artists and designers in Tokyo and connect them with the Japanese community. Three Space Tokyo was founded by designer [**Ying Chang**](https://www.yingchang.co.uk/), fine artist [**Aya Ogasawara**](https://www.ayaogas.com/), and computational cosmologist [**Jia Liu**](https://liuxx479.github.io/). Beyond serving as the studio for our founding members, it is also a workspace for resident artists and a venue for events and exhibitions. Please contact us if you are interested in collaborating.
+Welcome to **Three Space Tokyo**, an artist-run gallery for creating and connecting. Founded by designer [**Ying Chang**](https://www.yingchang.co.uk/), fine artist [**Aya Ogasawara**](https://www.ayaogas.com/), and computational cosmologist [**Jia Liu**](https://liuxx479.github.io/), the gallery brings together international artists and designers in Tokyo and connects them with the Japanese community. Our exhibitions highlight contemporary art, while residencies, performances, and events foster dialogue across disciplines and cultures. For collaborations, please get in touch.  
 
-**Three Space Tokyo**へようこそ。ここは、創造と交流のための空間です。私たちの目標は、東京に集う国際的なアーティストやデザイナーと、日本のコミュニティをつなぐことです。Three Space Tokyoは、デザイナーのイン・チャン（[**Ying Chang**](https://www.yingchang.co.uk/)）、ファインアートペインターの小笠原彩（[**Aya Ogasawara**](https://www.ayaogas.com/)）、そして計算宇宙物理学者のリュウ・ジア（[**Jia Liu**](https://liuxx479.github.io/)）によって設立されました。創設メンバーのシェアアトリエとしての役割に加え、レジデントアーティストの制作拠点、またイベントや展示の会場としても活用される予定です。コラボレーションにご興味のある方は、ぜひご連絡ください。
+Three Space Tokyo へようこそ。創造とつながりのためのアーティスト・ラン・ギャラリーです。デザイナーのイン・チャン（[**Ying Chang**](https://www.yingchang.co.uk/)）、ファインアートペインターの小笠原彩（[**Aya Ogasawara**](https://www.ayaogas.com/)）、そして宇宙物理学者のリュウ・ジア（[**Jia Liu**](https://liuxx479.github.io/)）によって設立されました。国際的なアーティストやデザイナーを東京に迎え、日本のコミュニティとつなげることを目指しています。展示では現代美術を取り上げ、またレジデンシー、パフォーマンス、イベントを通して、分野や文化を越えた対話を育んでいます。コラボレーションにご関心のある方は、ぜひご連絡ください。  
+
 
 <!---
 <p align="center">
