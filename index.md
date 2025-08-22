@@ -10,7 +10,7 @@ author_profile: false
 
 ### SOFT OPENING
 
-Celebrate the soft opening of Three Space Tokyo, our new home for art, design, and connection. On this special evening, the space will feature exhibitions from our founding members and guest artists, music throughout the evening, and light snacks and drinks to enjoy. Guests are welcome to meet, connect, and dance. The event is free with RSVP.
+Celebrate the soft opening of Three Space Tokyo, our new gallery for art, design, and connection. On this special evening, the space will feature exhibitions from our founding members and guest artists, music throughout the evening, and light snacks and drinks to enjoy. Guests are welcome to meet, connect, and dance. The event is free with RSVP.
 
 [<img src="/assets/rsvp1.png" width="200"/>](https://forms.gle/wFEJjbw8nyotrvqBA)
 
