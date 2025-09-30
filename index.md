@@ -5,18 +5,19 @@ author_profile: false
 
 
 <p align="center">
-  <img src="/assets/open1.jpg" />
+  <img src="/assets/event_DFU2025.jpg" />
 </p>
 
-### SOFT OPENING
+### LIVE MUSIC & DRAWING SESSION WITH DFU
 
-Celebrate the soft opening of Three Space Tokyo, our new gallery for art, design, and connection. On this special evening, the space will feature exhibitions from our founding members and guest artists, music throughout the evening, and light snacks and drinks to enjoy. Guests are welcome to meet, connect, and dance. The event is free with RSVP.
+Join us at Three Space Tokyo (@threespacetokyo) for a 1.5-hour live music and drawing session, followed by a free-styling period to explore your creativity. Reservation only. Limited spots.
 
-[<img src="/assets/rsvp1.png" width="200"/>](https://forms.gle/wFEJjbw8nyotrvqBA)
+[<img src="/assets/rsvp1.png" width="200"/>](https://forms.gle/B5etcbMeMQstDQhe6)
 
-**Time**: Sunday, August 31, 2025, from 4:00 PM <br>
-**Location**: Three Space Tokyo (Asakusabashi 3-6-6, Taito City, Tokyo 111-0053, [map](https://maps.app.goo.gl/U6qfJWBaE5sk5ypv9)).
-
+**Time**: Saturday, October 11th, 3:00 PM – 5:00 PM (please arrive by 2:45 PM) <br>
+**Location**: Three Space Tokyo (Asakusabashi 3-6-6, Taito City, Tokyo 111-0053, [map](https://maps.app.goo.gl/U6qfJWBaE5sk5ypv9)).<br>
+**Payment (cash at the door)**: Adults: ¥1,500; Kids: ¥500<br>
+**Included with your ticket**: A notepad to take home and one juice box per child.<br>
 
 <br>
 
