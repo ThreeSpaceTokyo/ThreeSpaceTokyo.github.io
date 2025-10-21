@@ -3,8 +3,12 @@ layout: single
 author_profile: false
 ---
 
-
 <p align="center">
+<img src="/assets/paintinglogo.jpg" width="600"/>
+</p>
+
+
+<!-- <p align="center">
   <img src="/assets/event_DFU2025.jpg" />
 </p>
 
@@ -19,7 +23,7 @@ Join us at Three Space Tokyo (@threespacetokyo) for a 1.5-hour live music and dr
 **Payment (cash at the door)**: Adults: ¥1,500; Kids: ¥500<br>
 **Included with your ticket**: A notepad to take home and one juice box per child.<br>
 
-<br>
+<br> -->
 
 ### THREE SPACE TOKYO 
 
@@ -27,14 +31,6 @@ Welcome to **Three Space Tokyo**, an artist-run gallery for creating and connect
 
 Three Space Tokyo へようこそ。創造とつながりのためのアーティスト・ラン・ギャラリーです。デザイナーのイン・チャン（[**Ying Chang**](https://www.yingchang.co.uk/)）、ファインアートペインターの小笠原彩（[**Aya Ogasawara**](https://www.ayaogas.com/)）、そして宇宙物理学者のリュウ・ジア（[**Jia Liu**](https://liuxx479.github.io/)）によって設立されました。国際的なアーティストやデザイナーを東京に迎え、日本のコミュニティとつなげることを目指しています。展示では現代美術を取り上げ、またレジデンシー、パフォーマンス、イベントを通して、分野や文化を越えた対話を育んでいます。コラボレーションにご関心のある方は、ぜひご連絡ください。  
 
-
-<!---
-<p align="center">
-<img src="/assets/paintinglogo.jpg" width="600"/>
-</p>
-
-*Painting credit: "Her Tiny Equilibrium" by Aya Ogasawara (oil and egg tempera on canvas, 2023)*
--->
 
 <br>
 
@@ -55,3 +51,6 @@ Our gallery is currently running on our founders’ life savings. Your donation 
 Email: [threespacetokyo@gmail.com](mailto:threespacetokyo@gmail.com)  
 Instagram: [threespacetokyo](https://www.instagram.com/threespacetokyo/)  
 Address: [Asakusabashi 3-6-6, Taito City, Tokyo 111-0053](https://maps.app.goo.gl/U6qfJWBaE5sk5ypv9)  
+
+*Painting credit: "Her Tiny Equilibrium" by Aya Ogasawara (oil and egg tempera on canvas, 2023)*
+
