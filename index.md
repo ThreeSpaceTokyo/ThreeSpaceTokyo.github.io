@@ -5,7 +5,7 @@ author_profile: false
 
 
  <p align="left">
-  <img src="/assets/loveunbounded1.jpg" width="400"/>
+  <img src="/assets/loveunbounded2.jpg" width="400"/>
 </p>
 
 ### Love Unbounded: A workshop exploring the many ways we love and connect.
