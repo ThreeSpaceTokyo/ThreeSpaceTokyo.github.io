@@ -15,7 +15,7 @@ Join us for a 90-minute exploration of how we form relationships, how we negotia
 All identities and relationship styles — monogamous, non-monogamous, or anything beyond labels — are welcome. Please come with curiosity, respect, and presence.
 
 **Time:** 2025. 12. 13 (Saturday), 4:30–6:00 PM<br>
-**Location**: Three Space Tokyo (Asakusabashi 3-6-6, Taito City, Tokyo 111-0053, [map])<br>
+**Location**: Three Space Tokyo (Asakusabashi 3-6-6, Taito City, Tokyo 111-0053, [map](https://maps.app.goo.gl/U6qfJWBaE5sk5ypv9))<br>
 **Suggested donation:** ¥1000 at the door<br><br>
 [<img src="/assets/rsvp1.png" width="200"/>](https://forms.gle/NxzqBNUWvTaUd5pB9)
 
