@@ -28,9 +28,9 @@ Who we welcome:
 - Curators and researchers working across disciplines
 - International and Japan-based applicants
 
-Apply (one PDF under 10 MB): [threespacetokyo@gmail.com](mailto:threespacetokyo@gmail.com)  
-**Deadline**: 9 January 2026
-Student concessions available.
+Apply (one PDF under 10 MB): [threespacetokyo@gmail.com](mailto:threespacetokyo@gmail.com)  <br>
+Deadline: 9 January 2026<br>
+Student concessions available.<br>
 
 Disclaimer: This project is independently organised by Three Space Tokyo and is not an official programme of Kavli IPMU or The University of Tokyo.
 
