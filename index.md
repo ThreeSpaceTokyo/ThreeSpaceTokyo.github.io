@@ -5,6 +5,70 @@ author_profile: false
 
 
  <p align="left">
+  <img src="/assets/TraceEcho_poster.jpg" width="400"/>
+</p>
+
+### OPEN CALL: Trace / Echo
+
+(日本語版は以下をご覧ください)
+
+**Process-based science–art residency**<br>
+Three Space Tokyo<br>
+2–26 February 2026<br>
+Exhibition: 27 Feb – 3 Mar<br>
+
+We invite 2 Artists and 1 Curator / Process Curator to join a residency exploring how artistic practice and scientific thinking shape one another.
+
+Independently organised by Three Space Tokyo, with the kind, personal cooperation of Professor Tom Melia, a theoretical physicist affiliated with the Kavli Institute for the Physics and Mathematics of the Universe (Kavli IPMU), The University of Tokyo, the residency focuses on process, observation, and creative response.
+
+Participants will work in a shared studio environment and take part in two pre-arranged, non-public meetings at Kavli IPMU in Kashiwa, organised personally by the cooperating researcher. The residency concludes with a public, process-based exhibition.
+
+Who we welcome:
+- Artists interested in experimentation and process
+- Curators and researchers working across disciplines
+- International and Japan-based applicants
+
+Apply (one PDF under 10 MB): [threespacetokyo@gmail.com](mailto:threespacetokyo@gmail.com)  
+**Deadline**: 9 January 2026
+Student concessions available.
+
+Disclaimer: This project is independently organised by Three Space Tokyo and is not an official programme of Kavli IPMU or The University of Tokyo.
+
+Click [here](/assets/TraceEchoOpenCall_ThreeSpaceTokyo.pdf) for the full open call text and terms and conditions.
+
+
+**公募：Trace / Echo**<br>
+Three Space Tokyoによるプロセスベースのサイエンス×アート・レジデンシー<br>
+2026年2月2日〜26日<br>
+展覧会：2026年2月27日〜3月3日<br>
+
+Three Space Tokyoでは、アーティスト2名およびキュレーター／プロセス・キュレーター1名を募集します。本レジデンシーでは、芸術実践と科学的思考がどのように相互に影響し合い、形づくられていくのかを探求します。
+
+本レジデンシーは Three Space Tokyo により企画・運営され、東京大学カブリ数物連携宇宙研究機構（Kavli IPMU）に所属する理論物理学者 トム・メリア教授の個人的かつ善意による協力のもと実施されます。本企画は、プロセス、観察、創造的な応答に焦点を当てています。
+
+参加者はスタジオ環境を共有しながら活動に取り組み、柏にある Kavli IPMU でのミーティング2回に参加します。(非公式かつ、協力研究者により事前調整済み)
+レジデンシーは、一般公開のプロセスベースの展覧会で締めくくられます。
+
+募集対象
+- 実験性やプロセスに関心のあるアーティスト
+- 分野横断的に活動するキュレーターおよび研究者
+- 国内外の応募者
+
+応募方法（10MB以内のPDF 1点）：[threespacetokyo@gmail.com](mailto:threespacetokyo@gmail.com)  <br>
+**応募締切**： 2026年1月9日<br>
+※学生割引あり<br>
+
+※免責事項：本プロジェクトは Three Space Tokyo により独立して企画・運営されるものであり、Kavli IPMU または東京大学の公式プログラムではありません。
+
+[公募の詳細](/assets/TraceEchoOpenCall_ThreeSpaceTokyo.pdf)（全文・応募条件）はこちらからご確認ください。
+<br>
+<br>
+
+---
+
+<!-- COMMENTED OUT FROM HERE
+
+<p align="left">
   <img src="/assets/loveunbounded2.jpg" width="400"/>
 </p>
 
@@ -19,11 +83,7 @@ All identities and relationship styles — monogamous, non-monogamous, or anythi
 **Suggested donation:** ¥1000 at the door<br><br>
 [<img src="/assets/rsvp1.png" width="200"/>](https://forms.gle/NxzqBNUWvTaUd5pB9)
 
-<br>
 
-
-
-<!-- COMMENTED OUT FROM HERE
  <p align="left">
   <img src="/assets/seen_logo.jpeg" width="400"/>
 </p>
