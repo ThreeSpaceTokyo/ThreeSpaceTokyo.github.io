@@ -5,7 +5,7 @@ author_profile: false
 
 
  <p align="left">
-  <img src="/assets/TraceEcho_poster.jpg" width="400"/>
+  <img src="/assets/TraceEcho_poster.jpg" width="600"/>
 </p>
 
 ### OPEN CALL: Trace / Echo
