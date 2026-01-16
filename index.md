@@ -3,7 +3,23 @@ layout: single
 author_profile: false
 ---
 
+<p align="left">
+  <img src="/assets/loveunbounded3.jpg" width="400"/>
+</p>
 
+### Love Unbounded: A workshop exploring the many ways we love and connect.
+
+Join us for a 90-minute exploration of how we form relationships, how we negotiate intimacy, and how love takes shape across different lives. We’ll begin with a brief introduction before moving into a guided open discussion. 
+
+All identities and relationship styles — monogamous, non-monogamous, or anything beyond labels — are welcome. Please come with curiosity, respect, and presence.
+
+**Time:** 2026. 1. 31 (Saturday), 4:30–6:00 PM<br>
+**Location**: Three Space Tokyo (Asakusabashi 3-6-6, Taito City, Tokyo 111-0053, [map](https://maps.app.goo.gl/U6qfJWBaE5sk5ypv9))<br>
+**Ticket:** ¥1000 at the door<br><br>
+[<img src="/assets/rsvp1.png" width="200"/>](https://forms.gle/NxzqBNUWvTaUd5pB9)
+
+
+<!-- COMMENTED OUT FROM HERE
  <p align="left">
   <img src="/assets/TraceEcho_poster.jpg" width="600"/>
 </p>
@@ -66,7 +82,7 @@ Three Space Tokyoでは、アーティスト2名およびキュレーター／�
 
 ---
 
-<!-- COMMENTED OUT FROM HERE
+
 
 <p align="left">
   <img src="/assets/loveunbounded2.jpg" width="400"/>
