@@ -2,7 +2,7 @@
 layout: single
 author_profile: false
 ---
-
+<!-- COMMENTED OUT FROM HERE
 <p align="left">
   <img src="/assets/loveunbounded3.jpg" width="400"/>
 </p>
@@ -19,7 +19,7 @@ All identities and relationship styles — monogamous, non-monogamous, or anythi
 [<img src="/assets/rsvp1.png" width="200"/>](https://forms.gle/NxzqBNUWvTaUd5pB9)
 
 
-<!-- COMMENTED OUT FROM HERE
+
  <p align="left">
   <img src="/assets/TraceEcho_poster.jpg" width="600"/>
 </p>
