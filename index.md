@@ -2,7 +2,63 @@
 layout: single
 author_profile: false
 ---
-<!-- COMMENTED OUT FROM HERE
+
+
+<p align="left">
+<img src="/assets/paintinglogo.jpg" width="600"/>
+</p>
+
+### THREE SPACE TOKYO 
+
+Welcome to Three Space Tokyo, a conceptual gallery and experimental space in Asakusabashi, Tokyo.
+
+Once a neighborhood of hat makers and sewing workshops, Asakusabashi has long been shaped by craftsmanship and the sounds of making. In the summer of 2025, we transformed a three-story warehouse here into a space for art and experiment.
+
+Art, dance, music, dialogue, performance, and beyond. Free from genre boundaries, we bring together international artists and the Tokyo community for encounters, collisions, and unexpected ideas.
+
+Rooted in the memory of the city, Three Space Tokyo invites you to a third space—beyond home and work—where new expressions and encounters emerge.
+
+### THREE SPACE TOKYO [日本語]
+
+Three Space Tokyoへようこそ。
+浅草橋にあるコンセプチュアルギャラリー兼エクスペリメンタルスペースです。
+
+かつて浅草橋は、帽子職人や縫製工房が軒を連ね、ミシンの音が響く街でした。手仕事とものづくりの気配に形づくられてきたこの場所に、2025年の夏、Three Space Tokyoは誕生しました。三階建ての倉庫を改装し、アートと実験のための空間へと生まれ変わらせました。
+
+アート、ダンス、音楽、対話、パフォーマンス、そしてその先へ。
+ジャンルの境界にとらわれることなく、日本で活動する国際的なアーティストと東京のコミュニティをつなぎ、出会い、衝突、そして思いがけないアイデアが生まれる場をつくります。
+
+街の記憶に根ざしながら、Three Space Tokyoは「第三の場所」をひらきます。
+それは、家でも職場でもない、あらたな表現と出会いが生まれる場所です。
+
+### CONTACT US
+Instagram: [threespacetokyo](https://www.instagram.com/threespacetokyo/)  
+Email: [threespacetokyo@gmail.com](mailto:threespacetokyo@gmail.com)  
+Address: [Asakusabashi 3-6-6, Taito City, Tokyo 111-0053](https://maps.app.goo.gl/U6qfJWBaE5sk5ypv9)  
+
+*Painting credit: "Her Tiny Equilibrium" by Aya Ogasawara (oil and egg tempera on canvas, 2023)*
+
+
+<!-- ################ COMMENTED OUT FROM HERE #####################
+Welcome to **Three Space Tokyo**, an artist-run gallery for creating and connecting. Founded by designer [**Ying Chang**](https://www.yingchang.co.uk/), fine artist [**Aya Ogasawara**](https://www.ayaogas.com/), and computational cosmologist [**Jia Liu**](https://liuxx479.github.io/), the gallery brings together international artists and designers in Tokyo and connects them with the Japanese community. Our exhibitions highlight contemporary art, while residencies, performances, and events foster dialogue across disciplines and cultures. For collaborations, please get in touch.  
+
+Three Space Tokyo へようこそ。創造とつながりのためのアーティスト・ラン・ギャラリーです。デザイナーのイン・チャン（[**Ying Chang**](https://www.yingchang.co.uk/)）、ファインアートペインターの小笠原彩（[**Aya Ogasawara**](https://www.ayaogas.com/)）、そして宇宙物理学者のリュウ・ジア（[**Jia Liu**](https://liuxx479.github.io/)）によって設立されました。国際的なアーティストやデザイナーを東京に迎え、日本のコミュニティとつなげることを目指しています。展示では現代美術を取り上げ、またレジデンシー、パフォーマンス、イベントを通して、分野や文化を越えた対話を育んでいます。コラボレーションにご関心のある方は、ぜひご連絡ください。  
+
+
+<br>
+
+### SUPPORT US
+
+[Donate](https://www.paypal.com/paypalme/ThreeSpaceTokyo)
+
+Our gallery is currently running on our founders’ life savings. Your donation will help cover event costs, electricity, the screws to hang our art, and keeping your drinks cold :)
+
+私たちのギャラリーは、現在、創設メンバーの私財で運営しています。
+皆さまからのご寄付は、イベント運営費、電気代、作品を掛けるためのネジ代、そしてドリンクを冷やしておくための費用に充てられます :)
+
+
+
+
 <p align="left">
   <img src="/assets/loveunbounded3.jpg" width="400"/>
 </p>
@@ -115,41 +171,4 @@ An open performance exploring presence, intimacy, and human connection in an age
 
 <br>
 <br> -->
-
-
-
-
-
-<p align="left">
-<img src="/assets/paintinglogo.jpg" width="600"/>
-</p>
-
-### THREE SPACE TOKYO 
-
-Welcome to **Three Space Tokyo**, an artist-run gallery for creating and connecting. Founded by designer [**Ying Chang**](https://www.yingchang.co.uk/), fine artist [**Aya Ogasawara**](https://www.ayaogas.com/), and computational cosmologist [**Jia Liu**](https://liuxx479.github.io/), the gallery brings together international artists and designers in Tokyo and connects them with the Japanese community. Our exhibitions highlight contemporary art, while residencies, performances, and events foster dialogue across disciplines and cultures. For collaborations, please get in touch.  
-
-Three Space Tokyo へようこそ。創造とつながりのためのアーティスト・ラン・ギャラリーです。デザイナーのイン・チャン（[**Ying Chang**](https://www.yingchang.co.uk/)）、ファインアートペインターの小笠原彩（[**Aya Ogasawara**](https://www.ayaogas.com/)）、そして宇宙物理学者のリュウ・ジア（[**Jia Liu**](https://liuxx479.github.io/)）によって設立されました。国際的なアーティストやデザイナーを東京に迎え、日本のコミュニティとつなげることを目指しています。展示では現代美術を取り上げ、またレジデンシー、パフォーマンス、イベントを通して、分野や文化を越えた対話を育んでいます。コラボレーションにご関心のある方は、ぜひご連絡ください。  
-
-
-<br>
-
-### SUPPORT US
-
-[Donate](https://www.paypal.com/paypalme/ThreeSpaceTokyo)
-
-Our gallery is currently running on our founders’ life savings. Your donation will help cover event costs, electricity, the screws to hang our art, and keeping your drinks cold :)
-
-私たちのギャラリーは、現在、創設メンバーの私財で運営しています。
-皆さまからのご寄付は、イベント運営費、電気代、作品を掛けるためのネジ代、そしてドリンクを冷やしておくための費用に充てられます :)
-
-
-
-<br>
-
-### CONTACT US
-Email: [threespacetokyo@gmail.com](mailto:threespacetokyo@gmail.com)  
-Instagram: [threespacetokyo](https://www.instagram.com/threespacetokyo/)  
-Address: [Asakusabashi 3-6-6, Taito City, Tokyo 111-0053](https://maps.app.goo.gl/U6qfJWBaE5sk5ypv9)  
-
-*Painting credit: "Her Tiny Equilibrium" by Aya Ogasawara (oil and egg tempera on canvas, 2023)*
 
