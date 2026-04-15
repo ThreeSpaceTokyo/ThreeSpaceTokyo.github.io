@@ -18,7 +18,7 @@ Art, dance, music, dialogue, performance, and beyond. Free from genre boundaries
 
 Rooted in the memory of the city, Three Space Tokyo invites you to a third space—beyond home and work—where new expressions and encounters emerge.
 
-### THREE SPACE TOKYO [日本語]
+[日本語]
 
 Three Space Tokyoへようこそ。
 浅草橋にあるコンセプチュアルギャラリー兼エクスペリメンタルスペースです。
@@ -30,6 +30,21 @@ Three Space Tokyoへようこそ。
 
 街の記憶に根ざしながら、Three Space Tokyoは「第三の場所」をひらきます。
 それは、家でも職場でもない、あらたな表現と出会いが生まれる場所です。
+
+### House Rules
+
+Three Space Tokyo is a space to create and connect across disciplines and cultures.  All who enter the space are expected to treat others with respect and curiosity, to communicate with care, and to respect consent and personal boundaries. Harassment, discrimination, or exclusionary behavior of any kind is not tolerated.  Please care for the space and shared materials, and be mindful of noise, safety, and the comfort of those around you.  If someone’s behavior violates these principles, the organizers may ask them to leave and may restrict future participation to protect the safety and integrity of the space.
+
+[日本語]
+
+Three Space Tokyo は、分野や文化を越えて創造し、つながるための空間です。この場に入るすべての人には、他者に対して敬意と好奇心を持って接し、思いやりをもってコミュニケーションを行い、同意と個人の境界を尊重することが求められます。いかなるハラスメント、差別、排他的な行為も許容されません。また、空間および共有物を大切に扱い、周囲の人々の快適さに配慮しつつ、騒音や安全にも注意してください。これらの原則に反する行動があった場合、主催者はその方に退出を求めることがあり、空間の安全性と健全性を守るため、今後の参加を制限することがあります。
+
+### NEWS & EVENTS
+
+For the latest news and upcoming events, follow us on Instagram: @[threespacetokyo](https://www.instagram.com/threespacetokyo/)  
+
+最新情報やイベントについては、Instagram（@[threespacetokyo](https://www.instagram.com/threespacetokyo/)  ）をご覧ください。
+
 
 ### CONTACT US
 Instagram: [threespacetokyo](https://www.instagram.com/threespacetokyo/)  
