@@ -3,6 +3,31 @@ layout: single
 author_profile: false
 ---
 
+<p align="left">
+<img src="/assets/opencall2026.png" width="600"/>
+</p>
+
+### OPEN CALL 2026 (JULY-DECEMBER)
+
+Three Space Tokyo invites proposals for exhibitions taking place from July to December 2026. 
+
+We are especially interested in works that respond to our unique space, are process- or research-based, or exist between cultures and disciplines. 
+
+For full consideration, please submit by June 1. 
+
+More details and application form: [link](https://forms.gle/7JrZUtLS8NpddV6s9). 
+
+[日本語]
+
+Three Space Tokyoでは、2026年7月から12月に開催される展示企画（個展、グループ展）の提案を募集します。
+
+この空間を活かした作品や、プロセスやリサーチに基づく実験的な展示など、幅広いジャンルからの応募をお待ちしています。
+
+審査の対象となるには、6月1日までにご提出ください。
+
+詳細および応募フォーム：[link](https://forms.gle/7JrZUtLS8NpddV6s9)。
+
+<br>
 
 <p align="left">
 <img src="/assets/paintinglogo.jpg" width="600"/>
@@ -54,7 +79,15 @@ Address: [Asakusabashi 3-6-6, Taito City, Tokyo 111-0053](https://maps.app.goo.g
 *Painting credit: "Her Tiny Equilibrium" by Aya Ogasawara (oil and egg tempera on canvas, 2023)*
 
 
+
+
+
+
+
+
+
 <!-- ################ COMMENTED OUT FROM HERE #####################
+
 Welcome to **Three Space Tokyo**, an artist-run gallery for creating and connecting. Founded by designer [**Ying Chang**](https://www.yingchang.co.uk/), fine artist [**Aya Ogasawara**](https://www.ayaogas.com/), and computational cosmologist [**Jia Liu**](https://liuxx479.github.io/), the gallery brings together international artists and designers in Tokyo and connects them with the Japanese community. Our exhibitions highlight contemporary art, while residencies, performances, and events foster dialogue across disciplines and cultures. For collaborations, please get in touch.  
 
 Three Space Tokyo へようこそ。創造とつながりのためのアーティスト・ラン・ギャラリーです。デザイナーのイン・チャン（[**Ying Chang**](https://www.yingchang.co.uk/)）、ファインアートペインターの小笠原彩（[**Aya Ogasawara**](https://www.ayaogas.com/)）、そして宇宙物理学者のリュウ・ジア（[**Jia Liu**](https://liuxx479.github.io/)）によって設立されました。国際的なアーティストやデザイナーを東京に迎え、日本のコミュニティとつなげることを目指しています。展示では現代美術を取り上げ、またレジデンシー、パフォーマンス、イベントを通して、分野や文化を越えた対話を育んでいます。コラボレーションにご関心のある方は、ぜひご連絡ください。  
