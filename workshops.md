@@ -1,5 +1,6 @@
 ---
 layout: single
+title: "Workshops"
 author_profile: false
 permalink: /workshops/
 toc: true
