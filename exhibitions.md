@@ -1,5 +1,6 @@
 ---
 layout: single
+title: "Exhibitions"
 author_profile: false
 permalink: /exhibitions/
 toc: false
