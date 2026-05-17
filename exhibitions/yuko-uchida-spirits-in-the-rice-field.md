@@ -1,10 +1,8 @@
 ---
 layout: single
-title: Spirits in the Rice Field — Yuko Uchida
+title: Spirits in the Rice Field — Yuko Uchida (2026)
 permalink: /exhibitions/yuko-uchida-spirits-in-the-rice-field/
 ---
-
-## Spirits in the Rice Field — Yuko Uchida (2026)
 
 <img src="/assets/yuko-uchida-spirits-in-the-rice-field/yuko-poster-2026.png" width="400">
 
