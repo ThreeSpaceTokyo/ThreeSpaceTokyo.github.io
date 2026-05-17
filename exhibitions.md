@@ -53,7 +53,7 @@ SEEN was an open participatory performance inviting visitors to sit in silent ey
 A live improvisational music and drawing session led by turntablist and music curator DFU. Blending turntablism, live looping, ethnic percussion, and experimental sound, the event invited participants into a collaborative, creative environment centered on listening, movement, drawing, and spontaneous expression.
 
 
-### No.223 & Ying Chang (2025)
+### No. 223 & Ying Chang (2025)
 **Exhibition:** August 31 - September 30, 2025  
 **Open:** Thursday & Friday, 14:00–19:00
 
