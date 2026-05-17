@@ -3,6 +3,10 @@ layout: single
 author_profile: false
 ---
 
+<p align="left">
+<img src="/assets/paintinglogo.jpg" width="600"/>
+</p>
+
 ### THREE SPACE TOKYO 
 
 Welcome to Three Space Tokyo, a conceptual gallery and experimental space in Asakusabashi, Tokyo.
