@@ -1,7 +1,7 @@
 ---
 layout: single
 author_profile: false
-permalink: /opencall/
+permalink: /exhibitions/
 toc: true
 toc_sticky: true
 ---
