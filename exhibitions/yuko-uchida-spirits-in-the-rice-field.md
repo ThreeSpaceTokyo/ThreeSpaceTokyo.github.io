@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Spirits in the Rice Field — Yuko Uchida
-permalink: /exhibitions/yuko-uchida-spirits-in-the-rice-field.md
+permalink: /exhibitions/yuko-uchida-spirits-in-the-rice-field/
 ---
 
 ## Spirits in the Rice Field — Yuko Uchida (2026)
