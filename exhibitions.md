@@ -2,8 +2,8 @@
 layout: single
 author_profile: false
 permalink: /exhibitions/
-toc: true
-toc_sticky: true
+toc: false
+toc_sticky: false
 ---
 
 ## Ongoing & Upcoming
