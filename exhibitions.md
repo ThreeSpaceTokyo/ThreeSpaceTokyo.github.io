@@ -15,6 +15,7 @@ toc_sticky: true
 
 Brooklyn-based Japanese multidisciplinary artist Yuko Uchida explores the connections between nature, labor, and cultural memory through an installation rooted in Japanese agricultural and spiritual traditions. Using rice and straw as physical and symbolic materials, the exhibition evokes unseen presences within nature, culminating in a live performance inspired by the belief that seven spirits reside within a single grain of rice.
 
+**[Exhibition Page](/exhibitions/yuko-uchida-spirits-in-the-rice-field.md)** (Including Works for Purchase)
 
 ## Past
 
