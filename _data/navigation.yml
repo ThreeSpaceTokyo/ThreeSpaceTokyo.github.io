@@ -1,5 +1,14 @@
 # main links
 main:
+  - title: "About"
+    url: https://threespacetokyo.github.io/
+  - title: "Exhibitions"
+    url: /exhibitions/
+  - title: "Open Call"
+    url: /opencall/
+  - title: "Workshops"
+    url: /workshops/
+  
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   #- title: "Home"
