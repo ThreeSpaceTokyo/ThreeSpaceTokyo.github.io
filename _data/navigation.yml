@@ -8,6 +8,9 @@ main:
     url: /opencall/
   - title: "Workshops"
     url: /workshops/
+  - title: "Works for Purchases"
+    url: /works/
+  
   
   #- title: "Quick-Start Guide"
   #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
