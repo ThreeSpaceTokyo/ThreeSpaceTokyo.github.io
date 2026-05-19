@@ -3,8 +3,8 @@ layout: single
 title: "Workshops"
 author_profile: false
 permalink: /workshops/
-toc: true
-toc_sticky: true
+toc: false
+toc_sticky: false
 ---
 
 ### Three Space To Move
