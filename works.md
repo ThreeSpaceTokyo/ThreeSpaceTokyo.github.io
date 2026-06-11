@@ -92,7 +92,7 @@ Glazed ceramic<br>
 Glazed ceramic<br>
 18 × 18 × 15 cm<br>
 ¥70,000<br><br>
-<a href="https://square.link/u/UEnuNjqg">Purchase Work</a>
+SOLD
 </td>
 
 <td align="center" valign="bottom" width="33%" height="420">
