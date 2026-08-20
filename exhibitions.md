@@ -9,6 +9,51 @@ toc_sticky: false
 
 ## Ongoing & Upcoming
 
+### SUPPOSE WE COUNTED EVERY EDGE OF THE GRID — Timotej Janko (2026)
+**Reception:** Friday, August 21, 18:00–21:00  
+**Exhibition:** August 22–23, 12:00–20:00
+
+Through analogue image-making and spoken word, Slovak artist Timotej Janko explores how perception becomes memory, and how memory continuously reshapes itself over time. The exhibition brings together silver gelatin prints and 8mm film shot in Tokyo, accompanied by a live soundtrack composed from intimate monologues recorded during the artist's travels — transformed into a sound composition in collaboration with Bangkok-based artist Wasawat Somno, who performs the work live at the opening alongside Naoki Nomoto.
+
+
+### SOAP AND CANDY — Liz Saba (2026)
+**Reception:** Friday, August 28, 18:00–21:00  
+**Exhibition:** August 29–30, 12:00–18:00
+
+Paris-based artist Liz Saba presents soap and candy cast into the same forms. Visitors are invited to touch, smell, and play with the works, and to eat the candy, watching words written on the surfaces gradually disappear through use. By repeating one form in different materials, Saba explores casting as a language of duplication and change, blurring the boundaries between touching, tasting, using, and consuming as the works are shared, handled, and slowly disappear.
+
+## Past
+
+### Slim City — I, still flesh (2026)
+**Reception:** Saturday, July 18, 18:00–21:00  
+**Exhibition:** July 18–26, 13:00–18:00 (Closed Mon–Wed)  
+**Artist Talk:** July 26, 15:00 (English)  
+**Artists:** Em Watarihiki, Pardis Ghasemi, Diao Chentong, Paul Ramsey
+
+Four artists who each found their way to Tokyo curated a space to be vulnerable together. Reflecting on a city that slims itself down — where hyperoptimization slips from preference into morality and the unnecessary is trimmed away until parts of ourselves feel negotiable — the exhibition held onto the "I" not as identity but as memory, desire, exhaustion, and persistence. Flesh, never entirely self-contained, contaminates, touches, and holds one another.
+
+
+### THREE PIECES OF STEEL — Lina Teufel (2026)
+**Reception:** Friday, July 10, 18:00–21:00  
+**Exhibition:** July 11–12, 12:00–18:00
+
+Munich-based artist Lina Teufel (b. 1999, Germany), currently working in Tokyo, presented a sculptural installation exploring the perception of space and material through minimal intervention. Flat steel elements positioned in relation to wall, floor, and ceiling made the architecture an active part of the work, producing forms that appeared both stable and vulnerable. The work also reflected on industrial production and standardization, as the steel's dimensions are determined by manufacturing norms that vary across national contexts.
+
+
+### FALSE POSITIVE — Aska Sumihara (2026)
+**Reception:** Friday, June 26, 18:00–21:00  
+**Exhibition:** June 27–28, 13:00–18:00
+
+Tokyo-based multidisciplinary artist and creative director Aska Sumihara examined the space between bodily reaction and emotional reality. Drawing from research into the biochemical processes associated with physical intimacy, the exhibition considered how attachment can form within the body before it is fully understood by the mind — approaching attachment as a private biological event at the intersection of chemistry, bodily memory, misrecognition, absence, and withdrawal.
+
+
+### MONSTER BARBIE: WHERE I BELONG — Juntong Xiao (2026)
+**Reception:** Friday, June 12, 18:00–21:00  
+**Exhibition:** June 13–20, 12:00–18:00
+
+Across painting, RISO printing, digital drawing, and mixed media, Juntong Xiao repeatedly returned to fragmented bodies, sharp color, and symbolic forms — from which MONSTER BARBIE emerged as the figure that most naturally carried her voice. Bodies split, repeat, merge, and distort as sharp RISO colors collide with painted surfaces. For Xiao, MONSTER BARBIE is not a fictional character but a way of expressing things that resist direct explanation, exploring identity as something unstable, multiplied, and continuously reconstructed.
+
+
 ### Spirits in the Rice Field — Yuko Uchida (2026)
 **Reception:** Friday, May 16, 18:00–21:00  
 **Performance:** Sunday, May 24, 15:00  
@@ -18,7 +63,6 @@ Brooklyn-based Japanese multidisciplinary artist Yuko Uchida explores the connec
 
 **[Exhibition Page](/exhibitions/yuko-uchida-spirits-in-the-rice-field.md)** (Including Works for Purchase)
 
-## Past
 
 ### Lines of Reason — Lilith Greta Meyer (2026)
 **Reception:** Friday, April 24, 18:00–21:00  
