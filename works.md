@@ -14,7 +14,7 @@ toc_sticky: false
 <table>
 <tr>
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/negar-kaghazchi-birthday-stories/there-are-at-least-three.jpg" style="max-height:300px; width:auto; height:auto;"><br><br>
+<a href="/assets/negar-kaghazchi-birthday-stories/there-are-at-least-three-large.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/negar-kaghazchi-birthday-stories/there-are-at-least-three.jpg" style="max-height:300px; width:auto; height:auto;"></a><br><br>
 <b>There Are At Least Three!</b><br>
 2026<br>
 Acrylic on canvas<br>
@@ -24,7 +24,7 @@ Acrylic on canvas<br>
 </td>
 
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/negar-kaghazchi-birthday-stories/how-to-tie-a-ribbon.jpg" style="max-height:300px; width:auto; height:auto;"><br><br>
+<a href="/assets/negar-kaghazchi-birthday-stories/how-to-tie-a-ribbon-large.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/negar-kaghazchi-birthday-stories/how-to-tie-a-ribbon.jpg" style="max-height:300px; width:auto; height:auto;"></a><br><br>
 <b>How to Tie a Ribbon</b><br>
 2026<br>
 Acrylic on canvas<br>
@@ -34,7 +34,7 @@ Triptych, 3 × 100 × 60 cm<br>
 </td>
 
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece1.jpg" style="max-height:300px; width:auto; height:auto;"><br><br>
+<a href="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece1.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece1.jpg" style="max-height:300px; width:auto; height:auto;"></a><br><br>
 <b>The Most Expensive Piece of Cake — Piece 1</b><br>
 2026<br>
 Acrylic on canvas<br>
@@ -46,7 +46,7 @@ Acrylic on canvas<br>
 
 <tr>
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece2.jpg" style="max-height:300px; width:auto; height:auto;"><br><br>
+<a href="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece2.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece2.jpg" style="max-height:300px; width:auto; height:auto;"></a><br><br>
 <b>The Most Expensive Piece of Cake — Piece 2</b><br>
 2026<br>
 Acrylic on canvas<br>
@@ -56,7 +56,7 @@ Acrylic on canvas<br>
 </td>
 
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece3.jpg" style="max-height:300px; width:auto; height:auto;"><br><br>
+<a href="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece3.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece3.jpg" style="max-height:300px; width:auto; height:auto;"></a><br><br>
 <b>The Most Expensive Piece of Cake — Piece 3</b><br>
 2026<br>
 Acrylic on canvas<br>
@@ -66,7 +66,7 @@ Acrylic on canvas<br>
 </td>
 
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece4.jpg" style="max-height:300px; width:auto; height:auto;"><br><br>
+<a href="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece4.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece4.jpg" style="max-height:300px; width:auto; height:auto;"></a><br><br>
 <b>The Most Expensive Piece of Cake — Piece 4</b><br>
 2026<br>
 Acrylic on canvas<br>
@@ -78,7 +78,7 @@ Acrylic on canvas<br>
 
 <tr>
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece5.jpg" style="max-height:300px; width:auto; height:auto;"><br><br>
+<a href="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece5.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece5.jpg" style="max-height:300px; width:auto; height:auto;"></a><br><br>
 <b>The Most Expensive Piece of Cake — Piece 5</b><br>
 2026<br>
 Acrylic on canvas<br>
@@ -88,7 +88,7 @@ Acrylic on canvas<br>
 </td>
 
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece6.jpg" style="max-height:300px; width:auto; height:auto;"><br><br>
+<a href="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece6.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece6.jpg" style="max-height:300px; width:auto; height:auto;"></a><br><br>
 <b>The Most Expensive Piece of Cake — Piece 6</b><br>
 2026<br>
 Acrylic on canvas<br>
@@ -98,7 +98,7 @@ Acrylic on canvas<br>
 </td>
 
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece8.jpg" style="max-height:300px; width:auto; height:auto;"><br><br>
+<a href="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece8.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/negar-kaghazchi-birthday-stories/most-expensive-piece-of-cake-piece8.jpg" style="max-height:300px; width:auto; height:auto;"></a><br><br>
 <b>The Most Expensive Piece of Cake — Piece 8</b><br>
 2026<br>
 Acrylic on canvas<br>
