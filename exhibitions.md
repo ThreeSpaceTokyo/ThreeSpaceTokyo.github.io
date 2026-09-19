@@ -9,20 +9,46 @@ toc_sticky: false
 
 ## Ongoing & Upcoming
 
-### SUPPOSE WE COUNTED EVERY EDGE OF THE GRID — Timotej Janko (2026)
-**Reception:** Friday, August 21, 18:00–21:00  
-**Exhibition:** August 22–23, 12:00–20:00
+### UPROOTING 根は移ろいゆく — Group Exhibition (2026)
+**Opening Reception:** Friday, September 18, 18:00–21:00 (DJ: Finnic)  
+**Exhibition:** September 19–21, 12:00–18:00  
+**Panel Discussion:** Monday (holiday), September 21, 15:00 (English, approx. 1 hour; open to public, free of charge)  
+**Artists:** Chan Sinyi ([@sinnniiii](https://www.instagram.com/sinnniiii/)), Lin Jiayin ([@jiayinlin99](https://www.instagram.com/jiayinlin99/)), Liu Yanzi ([@yanziliuyanzi](https://www.instagram.com/yanziliuyanzi/)), Ronnie Karfiol ([@ronnielle](https://www.instagram.com/ronnielle/))  
+**Curation:** Lin Wenxuan ([@ellielin612](https://www.instagram.com/ellielin612/))
 
-Through analogue image-making and spoken word, Slovak artist Timotej Janko explores how perception becomes memory, and how memory continuously reshapes itself over time. The exhibition brings together silver gelatin prints and 8mm film shot in Tokyo, accompanied by a live soundtrack composed from intimate monologues recorded during the artist's travels — transformed into a sound composition in collaboration with Bangkok-based artist Wasawat Somno, who performs the work live at the opening alongside Naoki Nomoto.
+Uprooting brings together four artists whose practices reflect experiences of moving between places and cultures. The exhibition explores how leaving a familiar place transforms our sense of home, memory, language, and belonging. "Uprooting" describes both displacement and the process of adapting, transforming, and growing somewhere new.
+
+
+### BIRTHDAY STORIES — Negar Kaghazchi (2026)
+**Reception:** Friday, September 25, 18:00–21:00  
+**Exhibition:** September 26–October 1, 14:00–19:00 (Closed Mon & Wed)
+
+Birthday Stories presents a new series of paintings and installations by Negar Kaghazchi, exploring time, memory, and the rituals of everyday life. Taking its title from a collection of short stories edited by Haruki Murakami, the exhibition reflects on birthdays as quiet encounters with time. Through recurring motifs and atmospheric installations, Kaghazchi revisits familiar rituals such as decorating cakes, lighting candles, and taking photographs, uncovering beauty and meaning within impermanence.
+
+**[Exhibition Page](/exhibitions/negar-kaghazchi-birthday-stories.md)** (Including Works for Purchase)
+
+## Past
+
+### SPECTRAL LANDSCAPES — Suzanne Mooney (2026)
+**Reception:** Friday, September 11, 18:00–21:00  
+**Exhibition:** September 12–13, 12:00–18:00
+
+Irish artist Suzanne Mooney, based in Tokyo, brought together photography, panoramic imagery, light, and virtual reality to explore how landscape can expand beyond the photographic frame into a spatial and sensory experience. Beginning with a large-scale photograph of the Burren, a distinctive limestone landscape in western Ireland, the exhibition unfolded across the gallery's three floors as landscape gradually shifted from a depicted place into a perceptual environment, with a VR work further exploring the relationship between the virtual and visible worlds. This work was supported by JSPS KAKENHI Grant Number 22K00216.
 
 
 ### SOAP AND CANDY — Liz Saba (2026)
 **Reception:** Friday, August 28, 18:00–21:00  
 **Exhibition:** August 29–30, 12:00–18:00
 
-Paris-based artist Liz Saba presents soap and candy cast into the same forms. Visitors are invited to touch, smell, and play with the works, and to eat the candy, watching words written on the surfaces gradually disappear through use. By repeating one form in different materials, Saba explores casting as a language of duplication and change, blurring the boundaries between touching, tasting, using, and consuming as the works are shared, handled, and slowly disappear.
+Paris-based artist Liz Saba presented soap and candy cast into the same forms. Visitors were invited to touch, smell, and play with the works, and to eat the candy, watching words written on the surfaces gradually disappear through use. By repeating one form in different materials, Saba explored casting as a language of duplication and change, blurring the boundaries between touching, tasting, using, and consuming as the works were shared, handled, and slowly disappeared.
 
-## Past
+
+### SUPPOSE WE COUNTED EVERY EDGE OF THE GRID — Timotej Janko (2026)
+**Reception:** Friday, August 21, 18:00–21:00  
+**Exhibition:** August 22–23, 12:00–20:00
+
+Through analogue image-making and spoken word, Slovak artist Timotej Janko explored how perception becomes memory, and how memory continuously reshapes itself over time. The exhibition brought together silver gelatin prints and 8mm film shot in Tokyo, accompanied by a live soundtrack composed from intimate monologues recorded during the artist's travels — transformed into a sound composition in collaboration with Bangkok-based artist Wasawat Somno, who performed the work live at the opening alongside Naoki Nomoto.
+
 
 ### Slim City — I, still flesh (2026)
 **Reception:** Saturday, July 18, 18:00–21:00  
