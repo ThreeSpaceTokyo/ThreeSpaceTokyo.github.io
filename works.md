@@ -9,6 +9,8 @@ toc_sticky: false
 
 ### BIRTHDAY STORIES — Negar Kaghazchi (2026)
 
+**[Exhibition Page](/exhibitions/negar-kaghazchi-birthday-stories/)**
+
 <table>
 <tr>
 <td align="center" valign="bottom" width="33%" height="420">
@@ -108,6 +110,8 @@ Acrylic on canvas<br>
 </table>
 
 ### Spirits in the Rice Field — Yuko Uchida (2026)
+
+**[Exhibition Page](/exhibitions/yuko-uchida-spirits-in-the-rice-field/)**
 
 <table>
 <tr>
