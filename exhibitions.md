@@ -9,12 +9,12 @@ toc_sticky: false
 
 ## Ongoing & Upcoming
 
-### UPROOTING 根は移ろいゆく — Group Exhibition (2026)
-**Opening Reception:** Friday, September 18, 18:00–21:00 (DJ: Finnic)  
+### UPROOTING — Group Exhibition (2026)
+**Reception:** Friday, September 18, 18:00–21:00  
 **Exhibition:** September 19–21, 12:00–18:00  
-**Panel Discussion:** Monday (holiday), September 21, 15:00 (English, approx. 1 hour; open to public, free of charge)  
-**Artists:** Chan Sinyi ([@sinnniiii](https://www.instagram.com/sinnniiii/)), Lin Jiayin ([@jiayinlin99](https://www.instagram.com/jiayinlin99/)), Liu Yanzi ([@yanziliuyanzi](https://www.instagram.com/yanziliuyanzi/)), Ronnie Karfiol ([@ronnielle](https://www.instagram.com/ronnielle/))  
-**Curation:** Lin Wenxuan ([@ellielin612](https://www.instagram.com/ellielin612/))
+**Panel Discussion:** September 21, 15:00 (English)  
+**Artists:** Chan Sinyi, Lin Jiayin, Liu Yanzi, Ronnie Karfiol  
+**Curator:** Lin Wenxuan
 
 Uprooting brings together four artists whose practices reflect experiences of moving between places and cultures. The exhibition explores how leaving a familiar place transforms our sense of home, memory, language, and belonging. "Uprooting" describes both displacement and the process of adapting, transforming, and growing somewhere new.
 
