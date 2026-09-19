@@ -11,6 +11,8 @@ toc_sticky: false
 
 **[Exhibition Page](/exhibitions/negar-kaghazchi-birthday-stories/)**
 
+*The Most Expensive Piece of Cake* works can be purchased individually at ¥70,000 each, or as the complete set of seven for ¥420,000. For the complete set, please [contact us](mailto:threespacetokyo@gmail.com).
+
 <table>
 <tr>
 <td align="center" valign="bottom" width="33%" height="420">
@@ -19,7 +21,7 @@ toc_sticky: false
 2026<br>
 Acrylic on canvas<br>
 100 × 100 cm<br>
-¥450,000<br><br>
+¥380,000<br><br>
 <a href="https://square.link/u/l3QtXKO1">Purchase Work</a>
 </td>
 
@@ -29,7 +31,7 @@ Acrylic on canvas<br>
 2026<br>
 Acrylic on canvas<br>
 Triptych, 3 × 100 × 60 cm<br>
-¥450,000<br><br>
+¥400,000<br><br>
 <a href="https://square.link/u/73yM7ujB">Purchase Work</a>
 </td>
 
@@ -39,7 +41,7 @@ Triptych, 3 × 100 × 60 cm<br>
 2026<br>
 Acrylic on canvas<br>
 20 × 20 cm<br>
-¥90,000<br><br>
+¥70,000<br><br>
 <a href="https://square.link/u/wGauHU32">Purchase Work</a>
 </td>
 </tr>
@@ -51,7 +53,7 @@ Acrylic on canvas<br>
 2026<br>
 Acrylic on canvas<br>
 20 × 20 cm<br>
-¥90,000<br><br>
+¥70,000<br><br>
 <a href="https://square.link/u/WWybK7zd">Purchase Work</a>
 </td>
 
@@ -61,7 +63,7 @@ Acrylic on canvas<br>
 2026<br>
 Acrylic on canvas<br>
 20 × 20 cm<br>
-¥90,000<br><br>
+¥70,000<br><br>
 <a href="https://square.link/u/N963BzXK">Purchase Work</a>
 </td>
 
@@ -71,7 +73,7 @@ Acrylic on canvas<br>
 2026<br>
 Acrylic on canvas<br>
 20 × 20 cm<br>
-¥90,000<br><br>
+¥70,000<br><br>
 <a href="https://square.link/u/BUbzCUNL">Purchase Work</a>
 </td>
 </tr>
@@ -83,7 +85,7 @@ Acrylic on canvas<br>
 2026<br>
 Acrylic on canvas<br>
 20 × 20 cm<br>
-¥90,000<br><br>
+¥70,000<br><br>
 <a href="https://square.link/u/B1yC1wJ1">Purchase Work</a>
 </td>
 
@@ -93,7 +95,7 @@ Acrylic on canvas<br>
 2026<br>
 Acrylic on canvas<br>
 20 × 20 cm<br>
-¥90,000<br><br>
+¥70,000<br><br>
 <a href="https://square.link/u/7bwmyDS8">Purchase Work</a>
 </td>
 
@@ -103,7 +105,7 @@ Acrylic on canvas<br>
 2026<br>
 Acrylic on canvas<br>
 20 × 20 cm<br>
-¥90,000<br><br>
+¥70,000<br><br>
 <a href="https://square.link/u/36caWLIJ">Purchase Work</a>
 </td>
 </tr>
