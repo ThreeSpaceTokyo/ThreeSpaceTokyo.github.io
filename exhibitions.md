@@ -13,8 +13,7 @@ toc_sticky: false
 **Reception:** Friday, September 18, 18:00–21:00  
 **Exhibition:** September 19–21, 12:00–18:00  
 **Panel Discussion:** September 21, 15:00 (English)  
-**Artists:** Chan Sinyi, Lin Jiayin, Liu Yanzi, Ronnie Karfiol  
-**Curator:** Lin Wenxuan
+**Artists:** Chan Sinyi, Lin Jiayin, Liu Yanzi, Ronnie Karfiol
 
 Uprooting brings together four artists whose practices reflect experiences of moving between places and cultures. The exhibition explores how leaving a familiar place transforms our sense of home, memory, language, and belonging. "Uprooting" describes both displacement and the process of adapting, transforming, and growing somewhere new.
 
