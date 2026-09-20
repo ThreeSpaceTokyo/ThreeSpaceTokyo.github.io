@@ -118,7 +118,7 @@ Acrylic on canvas<br>
 <table>
 <tr>
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/yuko-uchida-spirits-in-the-rice-field/Sun.jpg" height="300"><br><br>
+<a href="/assets/yuko-uchida-spirits-in-the-rice-field/Sun.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/yuko-uchida-spirits-in-the-rice-field/Sun.jpg" height="300"></a><br><br>
 <b>Sun</b><br>
 2021<br>
 Glazed ceramic<br>
@@ -128,7 +128,7 @@ Glazed ceramic<br>
 </td>
 
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/yuko-uchida-spirits-in-the-rice-field/Water.jpg" height="300"><br><br>
+<a href="/assets/yuko-uchida-spirits-in-the-rice-field/Water.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/yuko-uchida-spirits-in-the-rice-field/Water.jpg" height="300"></a><br><br>
 <b>Water</b><br>
 2021<br>
 Glazed ceramic<br>
@@ -138,7 +138,7 @@ Glazed ceramic<br>
 </td>
 
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/yuko-uchida-spirits-in-the-rice-field/Cloud.jpg" height="300"><br><br>
+<a href="/assets/yuko-uchida-spirits-in-the-rice-field/Cloud.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/yuko-uchida-spirits-in-the-rice-field/Cloud.jpg" height="300"></a><br><br>
 <b>Cloud</b><br>
 2021<br>
 Glazed ceramic<br>
@@ -150,7 +150,7 @@ Glazed ceramic<br>
 
 <tr>
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/yuko-uchida-spirits-in-the-rice-field/Soil.jpg" height="300"><br><br>
+<a href="/assets/yuko-uchida-spirits-in-the-rice-field/Soil.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/yuko-uchida-spirits-in-the-rice-field/Soil.jpg" height="300"></a><br><br>
 <b>Soil</b><br>
 2021<br>
 Glazed ceramic<br>
@@ -160,7 +160,7 @@ Glazed ceramic<br>
 </td>
 
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/yuko-uchida-spirits-in-the-rice-field/Wind.jpg" height="300"><br><br>
+<a href="/assets/yuko-uchida-spirits-in-the-rice-field/Wind.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/yuko-uchida-spirits-in-the-rice-field/Wind.jpg" height="300"></a><br><br>
 <b>Wind</b><br>
 2021<br>
 Glazed ceramic<br>
@@ -170,7 +170,7 @@ Glazed ceramic<br>
 </td>
 
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/yuko-uchida-spirits-in-the-rice-field/Insect.jpg" height="300"><br><br>
+<a href="/assets/yuko-uchida-spirits-in-the-rice-field/Insect.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/yuko-uchida-spirits-in-the-rice-field/Insect.jpg" height="300"></a><br><br>
 <b>Insect</b><br>
 2021<br>
 Glazed ceramic<br>
@@ -182,7 +182,7 @@ Glazed ceramic<br>
 
 <tr>
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/yuko-uchida-spirits-in-the-rice-field/Farmer.jpg" height="300"><br><br>
+<a href="/assets/yuko-uchida-spirits-in-the-rice-field/Farmer.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/yuko-uchida-spirits-in-the-rice-field/Farmer.jpg" height="300"></a><br><br>
 <b>Farmer</b><br>
 2021<br>
 Glazed ceramic<br>
@@ -192,7 +192,7 @@ Glazed ceramic<br>
 </td>
 
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/yuko-uchida-spirits-in-the-rice-field/Embracing.jpg" height="300"><br><br>
+<a href="/assets/yuko-uchida-spirits-in-the-rice-field/Embracing.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/yuko-uchida-spirits-in-the-rice-field/Embracing.jpg" height="300"></a><br><br>
 <b>Embracing</b><br>
 2020<br>
 Glazed ceramic<br>
@@ -202,7 +202,7 @@ SOLD
 </td>
 
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/yuko-uchida-spirits-in-the-rice-field/Whisper.jpg" height="300"><br><br>
+<a href="/assets/yuko-uchida-spirits-in-the-rice-field/Whisper.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/yuko-uchida-spirits-in-the-rice-field/Whisper.jpg" height="300"></a><br><br>
 <b>Whisper in a shadow</b><br>
 2025<br>
 Glazed ceramic, wire<br>
@@ -214,7 +214,7 @@ Variable dimensions<br>
 
 <tr>
 <td align="center" valign="bottom" width="33%" height="420">
-<img src="/assets/yuko-uchida-spirits-in-the-rice-field/Mask.jpg" height="300"><br><br>
+<a href="/assets/yuko-uchida-spirits-in-the-rice-field/Mask.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/yuko-uchida-spirits-in-the-rice-field/Mask.jpg" height="300"></a><br><br>
 <b>Mask</b><br>
 2026<br>
 Hand sew-plants dyed fabric, papermache<br>
