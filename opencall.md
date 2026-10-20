@@ -16,7 +16,7 @@ We are especially interested in works that respond to our unique space, are proc
 
 Applicants may also choose to be considered separately for Works in Progress – in situ, a five-month creative incubator running from February to June.
 
-**Application deadline:** October 15, 2026.
+**Applications closed on October 15, 2026.** Thank you to everyone who applied — we are reviewing proposals and will be in touch with applicants. The next open call will be announced here and on Instagram.
 
 More details and application form: [link](https://forms.gle/kZKWFhQUJ6ikjcf18) or link in bio [@threespacetokyo](https://www.instagram.com/threespacetokyo/).
 
@@ -28,7 +28,7 @@ Three Space Tokyoでは、2027年1月から6月に開催される展示企画（
 
 応募者は、2月から6月にかけて行われる5か月間のクリエイティブ・インキュベーター「Works in Progress – in situ」への参加を別途希望することもできます。
 
-応募締切：2026年10月15日。
+応募は2026年10月15日に締め切りました。ご応募いただいた皆さま、ありがとうございます。現在選考中で、結果は応募者の方に直接ご連絡します。次回の公募はこのページとInstagramでお知らせします。
 
 詳細および応募フォーム：[link](https://forms.gle/kZKWFhQUJ6ikjcf18)、またはプロフィールのリンク [@threespacetokyo](https://www.instagram.com/threespacetokyo/) より。
 

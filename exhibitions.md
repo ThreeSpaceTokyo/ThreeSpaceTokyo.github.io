@@ -9,6 +9,18 @@ toc_sticky: false
 
 ## Ongoing & Upcoming
 
+### EPHEMERE PHOTO FEST 2026 — TRIPLICITIES
+**Dates:** October 17–27, 2026, 12:00–19:00  
+**Opening party:** Saturday, October 17, 12:00–19:00  
+**Admission:** Free and open to the public  
+**Organized by:** [Ephemere](https://www.ephemere.tokyo/) ([@ephemere.tokyo](https://www.instagram.com/ephemere.tokyo/))
+
+Three Space Tokyo is the main venue of Ephemere Photo Fest 2026, an international festival of contemporary photography, photobooks and printed matter. Guided by this year's theme, *Triplicities*, the eleven-day program fills all three floors: *Come What May: Threefold Perspectives, Fragments, and Forms*, a group exhibition of triptychs by some 90 artists (1F); the Ephemere Photobook Exhibition of 50+ independent photobooks from around the world (2F); and *ANTHOLOGY 3*, a group show of nine photographers from Japan and abroad (3F). The festival also presents the Ephemere Photobook Grant selections and launches Ephemere Photo Journal Vol. 2.
+
+Weekends are for public programs — artist talks, book launches, free workshops (anthotype, cyanotype, mordançage, zine making) and social gatherings; weekdays are for quiet exhibition viewing. See [@ephemere.tokyo](https://www.instagram.com/ephemere.tokyo/) for the daily schedule.
+
+## Past
+
 ### UPROOTING — Group Exhibition (2026)
 **Reception:** Friday, September 18, 18:00–21:00  
 **Exhibition:** September 19–21, 12:00–18:00  
@@ -24,9 +36,7 @@ Uprooting brings together four artists whose practices reflect experiences of mo
 
 Birthday Stories presents a new series of paintings and installations by Negar Kaghazchi, exploring time, memory, and the rituals of everyday life. Taking its title from a collection of short stories edited by Haruki Murakami, the exhibition reflects on birthdays as quiet encounters with time. Through recurring motifs and atmospheric installations, Kaghazchi revisits familiar rituals such as decorating cakes, lighting candles, and taking photographs, uncovering beauty and meaning within impermanence.
 
-**[Exhibition Page](/exhibitions/negar-kaghazchi-birthday-stories.md)** (Including Works for Purchase)
-
-## Past
+**[Exhibition Page](/exhibitions/negar-kaghazchi-birthday-stories/)** (Including Works for Purchase)
 
 ### SPECTRAL LANDSCAPES — Suzanne Mooney (2026)
 **Reception:** Friday, September 11, 18:00–21:00  

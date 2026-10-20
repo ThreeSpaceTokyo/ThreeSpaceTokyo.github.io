@@ -1,0 +1,36 @@
+# Upcoming sessions for the Mending Workshop Asakusabashi (/mending/).
+# Aya / Linh: edit this file to add, remove or update sessions. No HTML needed.
+#
+#   date:    YYYY-MM-DD
+#   time:    shown as-is
+#   seats:   seats still available (0 = sold out)
+#   status:  open | few | soldout | cancelled   (controls the label and button)
+#   link:    Square checkout link for this session. Leave empty ("") until it
+#            exists — the button then becomes an email request.
+#   channel: direct | airbnb   (airbnb rows are shown as "Book on Airbnb")
+#   note:    optional short note shown under the date (e.g. a holiday)
+#
+# Past dates are hidden automatically; you can delete them whenever you like.
+
+- { date: 2026-11-03, time: "10:00–12:00", seats: 4, status: open, link: "", channel: direct, note: "Culture Day (public holiday)" }
+- { date: 2026-11-03, time: "14:00–16:00", seats: 4, status: open, link: "", channel: direct, note: "Culture Day (public holiday)" }
+- { date: 2026-11-05, time: "10:00–12:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-11-05, time: "14:00–16:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-11-10, time: "10:00–12:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-11-10, time: "14:00–16:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-11-17, time: "10:00–12:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-11-17, time: "14:00–16:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-11-24, time: "10:00–12:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-11-24, time: "14:00–16:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-12-01, time: "10:00–12:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-12-01, time: "14:00–16:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-12-03, time: "10:00–12:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-12-03, time: "14:00–16:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-12-08, time: "10:00–12:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-12-08, time: "14:00–16:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-12-15, time: "10:00–12:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-12-15, time: "14:00–16:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-12-22, time: "10:00–12:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-12-22, time: "14:00–16:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-12-29, time: "10:00–12:00", seats: 4, status: open, link: "", channel: direct }
+- { date: 2026-12-29, time: "14:00–16:00", seats: 4, status: open, link: "", channel: direct }

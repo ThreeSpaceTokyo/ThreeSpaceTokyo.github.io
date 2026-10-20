@@ -1,11 +1,49 @@
 ---
 layout: single
-title: "Workshops"
+title: "Workshops & Events"
 author_profile: false
 permalink: /workshops/
 toc: false
 toc_sticky: false
 ---
+
+## Upcoming
+
+### Art, Science and Complexity
+**A fishbowl discussion with Ulrike Kuchner and Mark Neyrinck**  
+**Date:** Saturday, October 31, 2026, 18:10–19:30  
+**Location:** Three Space Tokyo, Asakusabashi 3-6-6, Taito-ku, Tokyo  
+**Admission:** Free. No registration needed — just come along!
+
+How can art and science help us make sense of — and act within — complex worlds? From ecology and AI to the cosmic web, join us to explore what artistic and scientific perspectives can offer each other.
+
+In this participatory “fishbowl” conversation, you can listen, then take a seat to join the discussion. Together, we’ll trace emerging questions and connections through a live visual map. Artists, scientists and anyone curious are welcome. Bring your questions!
+
+[日本語]
+
+**アート・科学・複雑性 — Ulrike KuchnerとMark Neyrinckによる参加型対話**  
+2026年10月31日（土）18:10–19:30 ／ Three Space Tokyo（東京都台東区浅草橋3-6-6）／ 参加無料・予約不要
+
+アートと科学は、複雑な世界を理解し、その中で行動するために、どんな手がかりを与えてくれるでしょうか。生態系やAIから宇宙の大規模構造まで。アートと科学の異なる視点を持ち寄り、一緒に考えます。
+
+「フィッシュボウル」は、参加者が席を入れ替わりながら会話に加わる対話形式です。まずは耳を傾け、話したくなったら輪の中へ。生まれた問いやつながりを、その場で視覚的なマップにしていきます。アーティスト、科学者、そして関心のある方ならどなたでも。あなたの問いを持ち寄ってください！
+
+
+## Ongoing
+
+### Mending Workshop Asakusabashi — Kintsugi
+<a href="/mending/"><img src="/assets/mending/seam-closeup.jpg" width="320" alt="Gold seam on an antique dish"></a>
+
+**Schedule:** Every Tuesday and the first Thursday of each month, 10:00–12:00 and 14:00–16:00  
+**Led by:** Linh Nguyen ([@lynh.ko](https://www.instagram.com/lynh.ko/))  
+**Group size:** Max. 4 guests · **Price:** ¥20,000 per person (¥22,000 incl. tax)  
+**Languages:** English, Japanese, French, Vietnamese  
+**Location:** Three Space Tokyo, Asakusabashi 3-6-6, Taito-ku, Tokyo
+
+A two-hour, hands-on kintsugi workshop using natural urushi and real gold — no epoxy, no substitutes. Each guest finishes the repair of an antique vessel prepared in advance by the teacher: painting a line of urushi along the seam and sprinkling it with gold using the maki-e technique, then takes the piece home. Beginners and visitors to Japan welcome.
+
+**[Dates, details & booking → /mending/](/mending/)**
+
 
 ### Works in Progress – in situ
 **Instagram:** [@wip.in.situ](https://www.instagram.com/wip.in.situ/)  
