@@ -6,7 +6,7 @@ permalink: /mending/
 toc: false
 toc_sticky: false
 classes: wide
-excerpt: "Traditional kintsugi with natural urushi and real gold. A two-hour, four-person workshop in Asakusabashi, Tokyo."
+excerpt: "Traditional kintsugi with natural urushi and real gold. A two-hour small-group workshop in Asakusabashi, Tokyo."
 header:
   og_image: /assets/mending/hero-plate.jpg
 ---
@@ -61,14 +61,13 @@ header:
   </video>
   <div class="hero-text">
     <p class="tagline">Traditional kintsugi with natural urushi and real gold · Asakusabashi, Tokyo</p>
-    <p class="lead">Spend two quiet hours finishing a real kintsugi repair with your own hands. In a group of up to four, you paint a line of urushi along the seam of an antique vessel, sprinkle it with gold, and take the piece home.</p>
+    <p class="lead">Spend two quiet hours finishing a real kintsugi repair with your own hands. In a small group, you paint a line of urushi along the seam of an antique vessel, sprinkle it with gold, and take the piece home.</p>
     <p><a class="btn-gold" href="#sessions">View dates &amp; book</a> &nbsp; <a class="btn-line" href="#location">Where we are</a></p>
   </div>
 </div>
 
 <div class="facts">
   <div><b>Duration</b>2 hours</div>
-  <div><b>Group size</b>Max. 4 guests</div>
   <div><b>Price</b>¥20,000 per person<br><span class="small">(¥22,000 incl. tax)</span></div>
   <div><b>Level</b>Beginners welcome</div>
   <div><b>Age</b>12 and over</div>
@@ -108,7 +107,7 @@ header:
   <a href="/assets/mending/hero-plate.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/hero-plate.jpg" alt="A finished dish with a gold seam on indigo cloth"></a>
 </div>
 
-<video controls preload="none" playsinline poster="/assets/mending/process-poster.jpg" style="width:100%; border-radius:3px; margin:.5em 0 1em;">
+<video controls preload="none" playsinline poster="/assets/mending/process-poster.jpg" style="width:100%; max-width:480px; border-radius:3px; margin:.5em 0 1em; display:block;">
   <source src="/assets/mending/process-clip.mp4" type="video/mp4">
 </video>
 
@@ -122,7 +121,7 @@ header:
 </div>
 
 <h2 id="sessions">Upcoming sessions</h2>
-<p>Regular sessions run every <strong>Tuesday</strong> and on the <strong>first Thursday</strong> of each month, at <strong>10:00–12:00</strong> and <strong>14:00–16:00</strong>. Each session takes up to four guests. Private sessions for groups of four, and other dates, are available on request.</p>
+<p>Regular sessions run every <strong>Tuesday</strong> and on the <strong>first Thursday</strong> of each month, at <strong>10:00–12:00</strong> and <strong>14:00–16:00</strong>. Private sessions and other dates are available on request.</p>
 
 {% assign today = site.time | date: "%Y-%m-%d" %}
 {% assign sessions = site.data.mending_sessions | sort: "date" %}
@@ -142,7 +141,7 @@ header:
       {% if s.status == "soldout" or s.seats == 0 %}<span class="pill soldout">Sold out</span>
       {% elsif s.status == "cancelled" %}<span class="pill cancelled">Cancelled</span>
       {% elsif s.status == "few" or s.seats <= 2 %}<span class="pill few">{{ s.seats }} left</span>
-      {% else %}<span class="pill">{{ s.seats }} of 4 open</span>{% endif %}
+      {% else %}<span class="pill">{{ s.seats }} open</span>{% endif %}
     </td>
     <td>
       {% if s.status == "soldout" or s.status == "cancelled" or s.seats == 0 %}
@@ -173,7 +172,7 @@ header:
 <details><summary>Caring for your piece at home</summary><p>Gold-finished urushi needs a few weeks to cure fully. Keep the piece in its box in a cool, slightly humid place, away from direct sun, and don’t wash it or use it until the date on your care sheet. After that it can be used gently; hand-wash only, no microwave or dishwasher.</p></details>
 <details><summary>Age</summary><p>Guests must be 12 or older. Guests aged 12–15 should be accompanied by a participating adult.</p></details>
 <details><summary>Cancellations</summary><p>Because each vessel is prepared for a specific guest, we ask for notice: full refund up to 7 days before the session, 50% up to 48 hours before, and no refund after that. You may transfer your seat to someone else at any time. If we have to cancel, you receive a full refund.</p></details>
-<details><summary>Private sessions &amp; groups</summary><p>Book all four seats of any open session for a private workshop, or <a href="mailto:threespacetokyo@gmail.com?subject=Mending%20Workshop%20private%20session">email us</a> for other dates and times.</p></details>
+<details><summary>Private sessions &amp; groups</summary><p>Book all the seats of an open session for a private workshop, or <a href="mailto:threespacetokyo@gmail.com?subject=Mending%20Workshop%20private%20session">email us</a> for other dates and times.</p></details>
 
 <h2 id="location">Location</h2>
 <div class="two">
