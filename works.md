@@ -197,7 +197,6 @@ Glazed ceramic<br>
 2020<br>
 Glazed ceramic<br>
 18 × 18 × 15 cm<br>
-¥70,000<br><br>
 SOLD
 </td>
 
