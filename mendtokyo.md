@@ -14,9 +14,7 @@ header:
 <style>
 .mending { --gold:#b8933f; --ink:#2b2b2b; --muted:#6b6b6b; --line:#e6e2da; }
 .mending .lead { font-size:1.15em; line-height:1.6; max-width:40em; }
-.mending .hero { margin:0 0 1em; align-items:center; }
-.mending .hero img, .mending .hero video { width:100%; height:auto; display:block; border-radius:4px; }
-.mending .hero-text { margin:0; }
+.mending .hero { margin:0 0 1em; }
 .mending .tagline { font-size:1.2em; color:var(--muted); margin:0 0 .6em; }
 .mending .btn-gold { display:inline-block; background:var(--gold); color:#fff !important; padding:.6em 1.3em; border-radius:3px; text-decoration:none; font-weight:600; letter-spacing:.02em; }
 .mending .btn-gold:hover { background:#a07f32; }
@@ -55,16 +53,10 @@ header:
 
 <div class="mending" markdown="0">
 
-<div class="hero two">
-  <div class="hero-text">
-    <p class="tagline">Traditional kintsugi with natural urushi and real gold · Asakusabashi, Tokyo</p>
-    <p class="lead">Spend two quiet hours finishing a real kintsugi repair with your own hands. In a small group, you paint a line of urushi along the seam of an antique vessel, sprinkle it with gold, and take the piece home.</p>
-    <p><a class="btn-gold" href="#sessions">View dates &amp; book</a> &nbsp; <a class="btn-line" href="#location">Where we are</a></p>
-  </div>
-  <video autoplay muted loop playsinline poster="/assets/mending/hero-poster.jpg">
-    <source src="/assets/mending/hero-loop.mp4" type="video/mp4">
-    <img src="/assets/mending/hero-poster.jpg" alt="An antique porcelain dish repaired with a seam of gold, resting on indigo cloth in dappled light">
-  </video>
+<div class="hero">
+  <p class="tagline">Traditional kintsugi with natural urushi and real gold · Asakusabashi, Tokyo</p>
+  <p class="lead">Spend two quiet hours finishing a real kintsugi repair with your own hands. In a small group, you paint a line of urushi along the seam of an antique vessel, sprinkle it with gold, and take the piece home.</p>
+  <p><a class="btn-gold" href="#sessions">View dates &amp; book</a> &nbsp; <a class="btn-line" href="#location">Where we are</a></p>
 </div>
 
 <div class="facts">
