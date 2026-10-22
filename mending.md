@@ -25,13 +25,14 @@ header:
 .mending .facts div { font-size:.95em; line-height:1.4; }
 .mending .facts b { display:block; color:var(--gold); font-size:.8em; text-transform:uppercase; letter-spacing:.08em; }
 .mending h2 { margin-top:2em; border-bottom:none; }
-.mending .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:.8em; margin:1em 0; }
-.mending .grid img { width:100%; height:100%; object-fit:cover; aspect-ratio:3/4; display:block; border-radius:3px; }
-.mending .grid .wide { grid-column:span 2; }
-.mending .grid .wide img { aspect-ratio:4/3; }
+.mending .grid { display:grid; grid-template-columns:repeat(5,1fr); gap:.6em; margin:1em 0; }
+.mending .grid a { display:block; }
+.mending .grid img, .mending .grid video { width:100%; aspect-ratio:3/4; object-fit:cover; display:block; border-radius:3px; background:#111; }
+@media (max-width:900px){ .mending .grid { grid-template-columns:repeat(3,1fr); } }
+@media (max-width:560px){ .mending .grid { grid-template-columns:repeat(2,1fr); } }
 .mending .two { display:grid; grid-template-columns:1fr 1fr; gap:1.5em; align-items:start; }
 .mending .two img { width:100%; border-radius:3px; }
-@media (max-width:700px){ .mending .two { grid-template-columns:1fr; } .mending .grid .wide { grid-column:span 1; } }
+@media (max-width:700px){ .mending .two { grid-template-columns:1fr; } }
 .mending .steps { counter-reset:s; list-style:none; padding:0; }
 .mending .steps li { counter-increment:s; position:relative; padding-left:2.4em; margin:.7em 0; }
 .mending .steps li::before { content:counter(s); position:absolute; left:0; top:0; width:1.7em; height:1.7em; border-radius:50%; background:var(--gold); color:#fff; text-align:center; font-size:.85em; line-height:1.7em; font-weight:700; }
@@ -95,20 +96,17 @@ header:
 <p>The atmosphere is slow and focused: a quiet time, one task at a time. It is a cultural experience as much as a craft class, and no experience is needed. Aprons, arm covers and gloves are provided.</p>
 
 <div class="grid">
-  <a href="/assets/mending/table-overhead.jpg?full" target="_blank" rel="noopener" class="wide"><img src="/assets/mending/table-overhead.jpg" alt="Antique vessels and tools laid out on the workshop table"></a>
+  <a href="/assets/mending/table-overhead.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/table-overhead.jpg" alt="Antique vessels laid out on the workshop table"></a>
   <a href="/assets/mending/gold-powder.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/gold-powder.jpg" alt="Gold powder on washi paper between two tubes"></a>
   <a href="/assets/mending/vessels-box.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/vessels-box.jpg" alt="A box of antique dishes with repaired cracks, ready for the final gold step"></a>
   <a href="/assets/mending/painting-seam.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/painting-seam.jpg" alt="A guest painting urushi along the seam of a small dish under a lamp"></a>
   <a href="/assets/mending/sprinkling-gold.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/sprinkling-gold.jpg" alt="Gloved hands sprinkling gold powder onto the lacquered seam"></a>
   <a href="/assets/mending/finished-dish.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/finished-dish.jpg" alt="A guest holding her finished dish"></a>
-  <a href="/assets/mending/room-wide.jpg?full" target="_blank" rel="noopener" class="wide"><img src="/assets/mending/room-wide.jpg" alt="Lynh and guests chatting at the workshop table"></a>
   <a href="/assets/mending/linh-teaching.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/linh-teaching.jpg" alt="Lynh demonstrating to the group at the workshop table"></a>
+  <a href="/assets/mending/room-wide.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/room-wide.jpg" alt="Lynh and guests chatting at the workshop table"></a>
+  <video controls preload="none" playsinline poster="/assets/mending/process-poster.jpg" title="Lynh demonstrating the gold step"><source src="/assets/mending/process-clip.mp4" type="video/mp4"></video>
   <a href="/assets/mending/hero-plate.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/hero-plate.jpg" alt="A finished dish with a gold seam on indigo cloth"></a>
 </div>
-
-<video controls preload="none" playsinline poster="/assets/mending/process-poster.jpg" style="width:100%; max-width:480px; border-radius:3px; margin:.5em 0 1em; display:block;">
-  <source src="/assets/mending/process-clip.mp4" type="video/mp4">
-</video>
 
 <h2>Your teacher</h2>
 <div class="teacher">
