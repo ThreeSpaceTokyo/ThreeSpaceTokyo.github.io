@@ -22,8 +22,9 @@ In this participatory “fishbowl” conversation, you can listen, then take a s
 
 ## Ongoing
 
-### Mending Workshop Asakusabashi — Kintsugi
-**Schedule:** Mondays, Wednesdays and Thursdays, 10:00–12:00 and 14:00–16:00  
+### Mend Tokyo — Kintsugi Workshop
+**Schedule:** See upcoming dates on the workshop page (sessions 10:00–12:00 or 14:00–16:00)  
+**Instagram:** [@mendtokyo](https://www.instagram.com/mendtokyo)  
 **Led by:** Lynh Ko ([@lynh.ko](https://www.instagram.com/lynh.ko/))  
 **Price:** ¥20,000 per person (¥22,000 incl. tax)  
 **Language:** English, Japanese, French, Vietnamese  
@@ -31,7 +32,7 @@ In this participatory “fishbowl” conversation, you can listen, then take a s
 
 A two-hour, hands-on kintsugi workshop using natural urushi and real gold — no epoxy, no substitutes. Each guest finishes the repair of an antique vessel prepared in advance by the teacher: painting a line of urushi along the seam and sprinkling it with gold using the maki-e technique, then takes the piece home. Beginners and visitors to Japan welcome.
 
-**[Details & booking](/mending/)**
+**[Details & booking](/mendtokyo/)**
 
 
 ### Works in Progress – in situ
