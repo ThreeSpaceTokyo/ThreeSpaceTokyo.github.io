@@ -23,8 +23,8 @@ In this participatory “fishbowl” conversation, you can listen, then take a s
 ## Ongoing
 
 ### Mending Workshop Asakusabashi — Kintsugi
-**Schedule:** Every Tuesday and the first Thursday of each month, 10:00–12:00 and 14:00–16:00  
-**Led by:** Linh Nguyen ([@lynh.ko](https://www.instagram.com/lynh.ko/))  
+**Schedule:** Mondays, Wednesdays and Thursdays, 10:00–12:00 and 14:00–16:00  
+**Led by:** Lynh Ko ([@lynh.ko](https://www.instagram.com/lynh.ko/))  
 **Price:** ¥20,000 per person (¥22,000 incl. tax)  
 **Language:** English, Japanese, French, Vietnamese  
 **Location:** Three Space Tokyo, Asakusabashi 3-6-6, Taito-ku, Tokyo

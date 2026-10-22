@@ -15,7 +15,7 @@ header:
 .mending { --gold:#b8933f; --ink:#2b2b2b; --muted:#6b6b6b; --line:#e6e2da; }
 .mending .lead { font-size:1.15em; line-height:1.6; max-width:40em; }
 .mending .hero { position:relative; margin:0 0 1.5em; }
-.mending .hero img, .mending .hero video { width:100%; height:auto; max-height:560px; object-fit:cover; display:block; border-radius:4px; }
+.mending .hero img, .mending .hero video { width:100%; height:auto; display:block; border-radius:4px; }
 .mending .hero-text { margin-top:1em; }
 .mending .tagline { font-size:1.2em; color:var(--muted); margin:0 0 .6em; }
 .mending .btn-gold { display:inline-block; background:var(--gold); color:#fff !important; padding:.6em 1.3em; border-radius:3px; text-decoration:none; font-weight:600; letter-spacing:.02em; }
@@ -55,9 +55,9 @@ header:
 <div class="mending" markdown="0">
 
 <div class="hero">
-  <video autoplay muted loop playsinline poster="/assets/mending/hero-plate.jpg">
+  <video autoplay muted loop playsinline poster="/assets/mending/hero-poster.jpg">
     <source src="/assets/mending/hero-loop.mp4" type="video/mp4">
-    <img src="/assets/mending/hero-plate.jpg" alt="An antique porcelain dish repaired with a seam of gold, resting on indigo cloth in dappled light">
+    <img src="/assets/mending/hero-poster.jpg" alt="An antique porcelain dish repaired with a seam of gold, resting on indigo cloth in dappled light">
   </video>
   <div class="hero-text">
     <p class="tagline">Traditional kintsugi with natural urushi and real gold · Asakusabashi, Tokyo</p>
@@ -84,15 +84,15 @@ header:
 </div>
 
 <h2>What you will do</h2>
-<p>A traditional kintsugi repair unfolds over weeks, as successive layers of urushi are applied and left to cure. Before each workshop, Linh sources the vessels and completes those earlier stages. During the session you see samples from every stage, so you understand the whole repair, and then carry out the final, most rewarding step yourself.</p>
+<p>A traditional kintsugi repair unfolds over weeks. Before each workshop, Lynh sources the vessels and completes the earlier stages of the repair, so that during the session you can carry out the final, most rewarding step yourself.</p>
 <ol class="steps">
-  <li><strong>Discover the process.</strong> A short introduction to kintsugi and urushi, with samples of each repair stage to handle and compare.</li>
+  <li><strong>Discover the process.</strong> A short introduction to kintsugi, urushi and the stages of a traditional repair.</li>
   <li><strong>Choose your vessel.</strong> Each guest works on an antique dish or cup whose crack has already been filled and prepared.</li>
   <li><strong>Paint the seam.</strong> With a fine brush, you trace a line of urushi along the repair.</li>
   <li><strong>Sprinkle the gold.</strong> Using the maki-e technique, you dust gold powder onto the wet lacquer and watch the seam turn to gold.</li>
-  <li><strong>Take it home.</strong> Your piece is packed in a protective box with care instructions for the curing weeks ahead.</li>
+  <li><strong>Take it home.</strong> Your piece is packed in a protective box, with aftercare instructions for the weeks ahead.</li>
 </ol>
-<p>The atmosphere is slow and focused: a quiet time, one task at a time. It is a cultural experience as much as a craft class, and no experience is needed. Aprons and gloves are provided; tea and a small sweet are served.</p>
+<p>The atmosphere is slow and focused: a quiet time, one task at a time. It is a cultural experience as much as a craft class, and no experience is needed. Aprons, arm covers and gloves are provided.</p>
 
 <div class="grid">
   <a href="/assets/mending/table-overhead.jpg?full" target="_blank" rel="noopener" class="wide"><img src="/assets/mending/table-overhead.jpg" alt="Antique vessels and tools laid out on the workshop table"></a>
@@ -101,9 +101,8 @@ header:
   <a href="/assets/mending/painting-seam.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/painting-seam.jpg" alt="A guest painting urushi along the seam of a small dish under a lamp"></a>
   <a href="/assets/mending/sprinkling-gold.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/sprinkling-gold.jpg" alt="Gloved hands sprinkling gold powder onto the lacquered seam"></a>
   <a href="/assets/mending/finished-dish.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/finished-dish.jpg" alt="A guest holding her finished dish"></a>
-  <a href="/assets/mending/stage-plate.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/stage-plate.jpg" alt="A large plate repaired with gold, shown as an example of the finished stage"></a>
-  <a href="/assets/mending/room-wide.jpg?full" target="_blank" rel="noopener" class="wide"><img src="/assets/mending/room-wide.jpg" alt="The workshop in progress at Three Space Tokyo"></a>
-  <a href="/assets/mending/linh-teaching.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/linh-teaching.jpg" alt="Linh demonstrating the gold step to a guest"></a>
+  <a href="/assets/mending/room-wide.jpg?full" target="_blank" rel="noopener" class="wide"><img src="/assets/mending/room-wide.jpg" alt="Lynh and guests chatting at the workshop table"></a>
+  <a href="/assets/mending/linh-teaching.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/linh-teaching.jpg" alt="Lynh demonstrating to the group at the workshop table"></a>
   <a href="/assets/mending/hero-plate.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/hero-plate.jpg" alt="A finished dish with a gold seam on indigo cloth"></a>
 </div>
 
@@ -113,15 +112,15 @@ header:
 
 <h2>Your teacher</h2>
 <div class="teacher">
-  <img src="/assets/mending/linh-portrait.jpg" alt="Linh Nguyen, kintsugi teacher">
+  <img src="/assets/mending/linh-portrait.jpg" alt="Lynh Ko, kintsugi artist">
   <div>
-    <p><strong>Linh Nguyen</strong> · <a href="https://www.instagram.com/lynh.ko/" target="_blank" rel="noopener">@lynh.ko</a></p>
-    <p>Linh practises traditional urushi-based kintsugi in Tokyo. For every workshop she searches antique shops for vessels with the right cracks in the right places, and spends two weeks or more preparing each piece by hand before guests arrive. She teaches in English, Japanese, French and Vietnamese — tell us your preference when booking.</p>
+    <p><strong>Lynh Ko</strong> · <a href="https://www.instagram.com/lynh.ko/" target="_blank" rel="noopener">@lynh.ko</a></p>
+    <p>Lynh Ko is a kintsugi artist and tea ceremony practitioner based in Tokyo. Her workshops, taught in English and French, explore the deep focus that emerges through making: slow hands, quiet mind. Through traditional urushi techniques, she invites participants to experience kintsugi not only as a craft, but as a practice of giving full attention to the process.</p>
   </div>
 </div>
 
 <h2 id="sessions">Upcoming sessions</h2>
-<p>Regular sessions run every <strong>Tuesday</strong> and on the <strong>first Thursday</strong> of each month, at <strong>10:00–12:00</strong> and <strong>14:00–16:00</strong>. Private sessions and other dates are available on request.</p>
+<p>Sessions run on <strong>Mondays, Wednesdays and Thursdays</strong>, at <strong>10:00–12:00</strong> and <strong>14:00–16:00</strong>. Private sessions and other dates are available on request.</p>
 
 {% assign today = site.time | date: "%Y-%m-%d" %}
 {% assign sessions = site.data.mending_sessions | sort: "date" %}
@@ -165,11 +164,11 @@ header:
 <p class="small">Payment is by card through Square at the time of booking. Can’t find a date that works? <a href="mailto:threespacetokyo@gmail.com?subject=Mending%20Workshop%20-%20other%20dates">Write to us</a>.</p>
 
 <h2>Good to know</h2>
-<details><summary>What is included?</summary><p>One antique vessel prepared for you, all materials including natural urushi and real gold, tools, apron and gloves, instruction, tea and a sweet, and protective packaging with care instructions.</p></details>
+<details><summary>What is included?</summary><p>One antique vessel prepared for you, all materials including natural urushi and real gold, tools, apron, arm covers and gloves, and protective packaging with aftercare instructions.</p></details>
 <details><summary>What should I bring?</summary><p>Nothing. Wear clothes you don’t mind getting a spot of lacquer on; aprons are provided.</p></details>
 <details><summary>Can I bring my own broken piece?</summary><p>Not in this format — a full traditional repair takes several weeks of curing between layers, so each guest works on a vessel we prepare in advance. If you would like a personal piece repaired, <a href="mailto:threespacetokyo@gmail.com?subject=Kintsugi%20repair%20enquiry">get in touch</a> and we can discuss it separately.</p></details>
-<details><summary>A note on urushi</summary><p>Raw urushi is a natural tree sap and can cause a skin rash in some people before it has cured. You work with gloves and an apron, and your teacher handles the preparation. If you have had a reaction to lacquer or to mango or cashew (related plants), please tell us before booking.</p></details>
-<details><summary>Caring for your piece at home</summary><p>Gold-finished urushi needs a few weeks to cure fully. Keep the piece in its box in a cool, slightly humid place, away from direct sun, and don’t wash it or use it until the date on your care sheet. After that it can be used gently; hand-wash only, no microwave or dishwasher.</p></details>
+<details><summary>A note on urushi</summary><p>This workshop uses real Japanese urushi lacquer, a natural tree sap which may cause skin irritation or an allergic reaction in some people before it has cured. Protective gloves, arm covers and aprons are provided. By taking part, participants accept responsibility for any adverse reaction resulting from contact with urushi. If you have reacted to lacquer, mango or cashew (related plants) in the past, please tell us before booking.</p></details>
+<details><summary>Caring for your piece at home</summary><p>Urushi is a living material and needs time to cure. Leave your piece in its box for at least a week somewhere warm and humid, then enjoy it as a decorative piece for two to three months before using it as tableware. After that: no dishwasher, no microwave, no soaking — wash gently by hand and dry with a soft cloth. You receive full aftercare instructions at the end of the workshop.</p></details>
 <details><summary>Age</summary><p>Guests must be 12 or older. Guests aged 12–15 should be accompanied by a participating adult.</p></details>
 <details><summary>Cancellations</summary><p>Because each vessel is prepared for a specific guest, we ask for notice: full refund up to 7 days before the session, 50% up to 48 hours before, and no refund after that. You may transfer your seat to someone else at any time. If we have to cancel, you receive a full refund.</p></details>
 <details><summary>Private sessions &amp; groups</summary><p>Book all the seats of an open session for a private workshop, or <a href="mailto:threespacetokyo@gmail.com?subject=Mending%20Workshop%20private%20session">email us</a> for other dates and times.</p></details>
@@ -188,6 +187,6 @@ header:
   <iframe class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=3-6-6+Asakusabashi,+Taito-ku,+Tokyo+111-0053&output=embed" title="Map to Three Space Tokyo"></iframe>
 </div>
 
-<p class="small" style="margin-top:2em;">Mending Workshop Asakusabashi is a collaboration between kintsugi teacher Linh Nguyen and Three Space Tokyo.</p>
+<p class="small" style="margin-top:2em;">Mending Workshop Asakusabashi is a collaboration between kintsugi artist Lynh Ko and Three Space Tokyo.</p>
 
 </div>
