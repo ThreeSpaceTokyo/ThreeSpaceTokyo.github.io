@@ -1,12 +1,12 @@
 ---
 layout: single
-title: "Mend Tokyo"
+title: "Mend Tokyo — Kintsugi Workshop"
 author_profile: false
 permalink: /mendtokyo/
 toc: false
 toc_sticky: false
 classes: wide
-excerpt: "Mend Tokyo — traditional kintsugi with natural urushi and real gold. A two-hour small-group workshop in Asakusabashi, Tokyo."
+excerpt: "Mend Tokyo — a small-group, English-speaking kintsugi workshop in Asakusabashi, Tokyo. Two hours with natural urushi and real gold; finish an antique piece and take it home."
 header:
   og_image: /assets/mending/hero-plate.jpg
 ---
@@ -54,17 +54,18 @@ header:
 <div class="mending" markdown="0">
 
 <div class="hero">
-  <p class="tagline">Traditional kintsugi with natural urushi and real gold · Asakusabashi, Tokyo</p>
-  <p class="lead">Spend two quiet hours finishing a real kintsugi repair with your own hands. In a small group, you paint a line of urushi along the seam of an antique vessel, sprinkle it with gold, and take the piece home.</p>
+  <p class="tagline">A small-group, English-speaking kintsugi workshop · natural urushi and real gold · Asakusabashi, Tokyo</p>
+  <p class="lead">Spend two quiet hours finishing a real kintsugi repair with your own hands. In a small group of up to four guests, you paint a line of urushi along the seam of an antique vessel, sprinkle it with gold, and take the piece home. Taught in English, for beginners and visitors to Tokyo alike.</p>
   <p><a class="btn-gold" href="#sessions">View dates &amp; book</a> &nbsp; <a class="btn-line" href="#location">Where we are</a></p>
 </div>
 
 <div class="facts">
   <div><b>Duration</b>2 hours</div>
+  <div><b>Group size</b>Max. 4 guests</div>
   <div><b>Price</b>¥20,000 per person<br><span class="small">(¥22,000 incl. tax)</span></div>
   <div><b>Level</b>Beginners welcome</div>
   <div><b>Age</b>12 and over</div>
-  <div><b>Languages</b>English · 日本語 · Français · Tiếng Việt</div>
+  <div><b>Language</b>English<br><span class="small">French, Japanese or Vietnamese on request</span></div>
 </div>
 
 <h2>About kintsugi</h2>
@@ -105,12 +106,12 @@ header:
   <img src="/assets/mending/linh-portrait.jpg" alt="Lynh Ko, kintsugi artist">
   <div>
     <p><strong>Lynh Ko</strong> · <a href="https://www.instagram.com/lynh.ko/" target="_blank" rel="noopener">@lynh.ko</a></p>
-    <p>Lynh Ko is a kintsugi artist and tea ceremony practitioner based in Tokyo. Her workshops, taught in English and French, explore the deep focus that emerges through making: slow hands, quiet mind. Through traditional urushi techniques, she invites participants to experience kintsugi not only as a craft, but as a practice of giving full attention to the process.</p>
+    <p>Lynh Ko is a kintsugi artist and tea ceremony practitioner based in Tokyo. Her small-group kintsugi workshops, taught in English and French, explore the deep focus that emerges through making: slow hands, quiet mind. Through traditional urushi techniques, she invites participants to experience kintsugi not only as a craft, but as a practice of giving full attention to the process.</p>
   </div>
 </div>
 
 <h2 id="sessions">Upcoming sessions</h2>
-<p>Sessions are <strong>10:00–12:00</strong> or <strong>14:00–16:00</strong> on the dates below. Private sessions and other dates are available on request.</p>
+<p>Sessions are <strong>10:00–12:00</strong> or <strong>14:00–16:00</strong> on the dates below, with a maximum of four guests each. Private sessions and other dates are available on request.</p>
 
 {% assign today = site.time | date: "%Y-%m-%d" %}
 {% assign sessions = site.data.mending_sessions | sort: "date" %}
@@ -130,7 +131,7 @@ header:
       {% if s.status == "soldout" or s.seats == 0 %}<span class="pill soldout">Sold out</span>
       {% elsif s.status == "cancelled" %}<span class="pill cancelled">Cancelled</span>
       {% elsif s.status == "few" or s.seats <= 2 %}<span class="pill few">{{ s.seats }} left</span>
-      {% else %}<span class="pill">{{ s.seats }} open</span>{% endif %}
+      {% else %}<span class="pill">{{ s.seats }} of 4 open</span>{% endif %}
     </td>
     <td>
       {% if s.status == "soldout" or s.status == "cancelled" or s.seats == 0 %}
@@ -155,13 +156,14 @@ header:
 
 <h2>Good to know</h2>
 <details><summary>What is included?</summary><p>One antique vessel prepared for you, all materials including natural urushi and real gold, tools, apron, arm covers and gloves, and protective packaging with aftercare instructions.</p></details>
+<details><summary>Which language is the workshop in?</summary><p>The workshop is held in English. Sessions in French, Japanese or Vietnamese can be arranged — please <a href="mailto:threespacetokyo@gmail.com?subject=Mend%20Tokyo%20-%20language">contact us</a> before booking.</p></details>
 <details><summary>What should I bring?</summary><p>Nothing. Wear clothes you don’t mind getting a spot of lacquer on; aprons are provided.</p></details>
 <details><summary>Can I bring my own broken piece?</summary><p>Not in this format — a full traditional repair takes several weeks of curing between layers, so each guest works on a vessel we prepare in advance. If you would like a personal piece repaired, <a href="mailto:threespacetokyo@gmail.com?subject=Kintsugi%20repair%20enquiry">get in touch</a> and we can discuss it separately.</p></details>
 <details><summary>A note on urushi</summary><p>This workshop uses real Japanese urushi lacquer, a natural tree sap which may cause skin irritation or an allergic reaction in some people before it has cured. Protective gloves, arm covers and aprons are provided. By taking part, participants accept responsibility for any adverse reaction resulting from contact with urushi. If you have reacted to lacquer, mango or cashew (related plants) in the past, please tell us before booking.</p></details>
 <details><summary>Caring for your piece at home</summary><p>Urushi is a living material and needs time to cure. Leave your piece in its box for at least a week somewhere warm and humid, then enjoy it as a decorative piece for two to three months before using it as tableware. After that: no dishwasher, no microwave, no soaking — wash gently by hand and dry with a soft cloth. You receive full aftercare instructions at the end of the workshop.</p></details>
 <details><summary>Age</summary><p>Guests must be 12 or older. Guests aged 12–15 should be accompanied by a participating adult.</p></details>
-<details><summary>Cancellations</summary><p>Because each vessel is prepared for a specific guest, we ask for notice: full refund up to 7 days before the session, 50% up to 48 hours before, and no refund after that. You may transfer your seat to someone else at any time. If we have to cancel, you receive a full refund.</p></details>
-<details><summary>Private sessions &amp; groups</summary><p>Book all the seats of an open session for a private workshop, or <a href="mailto:threespacetokyo@gmail.com?subject=Mend%20Tokyo%20private%20session">email us</a> for other dates and times.</p></details>
+<details><summary>Cancellations</summary><p>Free cancellation up to 24 hours before the session. After that the seat is non-refundable, but you may transfer it to someone else. If we have to cancel, you receive a full refund. Bookings made through other platforms are subject to that platform’s cancellation policy.</p></details>
+<details><summary>Private sessions &amp; larger groups</summary><p>Each session takes a maximum of four guests. Book all four seats of an open session for a private workshop, or <a href="mailto:threespacetokyo@gmail.com?subject=Mend%20Tokyo%20group%20booking">contact us</a> for groups larger than four or for other dates and times.</p></details>
 
 <h2 id="location">Location</h2>
 <div class="two">

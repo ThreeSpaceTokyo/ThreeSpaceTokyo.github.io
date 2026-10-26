@@ -27,10 +27,11 @@ In this participatory “fishbowl” conversation, you can listen, then take a s
 **Instagram:** [@mendtokyo](https://www.instagram.com/mendtokyo)  
 **Led by:** Lynh Ko ([@lynh.ko](https://www.instagram.com/lynh.ko/))  
 **Price:** ¥20,000 per person (¥22,000 incl. tax)  
-**Language:** English, Japanese, French, Vietnamese  
+**Language:** English (French, Japanese or Vietnamese on request)  
+**Group size:** Max. 4 guests  
 **Location:** Three Space Tokyo, Asakusabashi 3-6-6, Taito-ku, Tokyo
 
-A two-hour, hands-on kintsugi workshop using natural urushi and real gold — no epoxy, no substitutes. Each guest finishes the repair of an antique vessel prepared in advance by the teacher: painting a line of urushi along the seam and sprinkling it with gold using the maki-e technique, then takes the piece home. Beginners and visitors to Japan welcome.
+A two-hour, small-group, English-speaking kintsugi workshop using natural urushi and real gold — no epoxy, no substitutes. Each guest finishes the repair of an antique vessel prepared in advance by the teacher: painting a line of urushi along the seam and sprinkling it with gold using the maki-e technique, then takes the piece home. Beginners and visitors to Japan welcome.
 
 **[Details & booking](/mendtokyo/)**
 
