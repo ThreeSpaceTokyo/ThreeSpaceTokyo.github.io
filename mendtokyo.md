@@ -119,7 +119,7 @@ header:
 {% for s in sessions %}{% assign d = s.date | date: "%Y-%m-%d" %}{% if d >= today %}{% assign upcoming_count = upcoming_count | plus: 1 %}{% endif %}{% endfor %}
 {% if upcoming_count > 0 %}
 <table class="sessions">
-  <thead><tr><th>Date</th><th>Time</th><th>Seats</th><th></th></tr></thead>
+  <thead><tr><th>Date</th><th>Time</th><th></th></tr></thead>
   <tbody>
   {% for s in sessions %}
   {% assign d = s.date | date: "%Y-%m-%d" %}
@@ -128,20 +128,16 @@ header:
     <td>{{ s.date | date: "%a %-d %b %Y" }}{% if s.note %}<span class="note">{{ s.note }}</span>{% endif %}</td>
     <td>{{ s.time }}</td>
     <td>
-      {% if s.status == "soldout" or s.seats == 0 %}<span class="pill soldout">Sold out</span>
-      {% elsif s.status == "cancelled" %}<span class="pill cancelled">Cancelled</span>
-      {% elsif s.status == "few" or s.seats <= 2 %}<span class="pill few">{{ s.seats }} left</span>
-      {% else %}<span class="pill">{{ s.seats }} of 4 open</span>{% endif %}
-    </td>
-    <td>
-      {% if s.status == "soldout" or s.status == "cancelled" or s.seats == 0 %}
-        —
+      {% if s.status == "soldout" %}
+        <span class="pill soldout">Sold out</span>
+      {% elsif s.status == "cancelled" %}
+        <span class="pill cancelled">Cancelled</span>
       {% elsif s.channel == "airbnb" and s.link != "" %}
         <a class="btn-line book" href="{{ s.link }}" target="_blank" rel="noopener">Book on Airbnb</a>
       {% elsif s.link != "" %}
         <a class="btn-gold book" href="{{ s.link }}" target="_blank" rel="noopener">Book</a>
       {% else %}
-        <a class="btn-gold book" href="mailto:threespacetokyo@gmail.com?subject=Mend%20Tokyo%20booking%20{{ d }}%20{{ s.time | url_encode }}&body=Hello%2C%20I%20would%20like%20to%20book%20__%20seat(s)%20for%20the%20Mend%20Tokyo%20workshop%20on%20{{ d }}%20({{ s.time | url_encode }}).%0A%0AName%3A%0APreferred%20language%3A%0A">Request a seat</a>
+        <a class="btn-gold book" href="mailto:threespacetokyo@gmail.com?subject=Mend%20Tokyo%20booking%20{{ d }}%20{{ s.time | url_encode }}&body=Hello%2C%20I%20would%20like%20to%20book%20__%20seat(s)%20for%20the%20Mend%20Tokyo%20workshop%20on%20{{ d }}%20({{ s.time | url_encode }}).%0A%0AName%3A%0APreferred%20language%3A%0A">Book by email</a>
       {% endif %}
     </td>
   </tr>
@@ -152,7 +148,7 @@ header:
 <p>New dates are being scheduled. <a href="mailto:threespacetokyo@gmail.com?subject=Mend%20Tokyo">Email us</a> to be notified, or to arrange a private session.</p>
 {% endif %}
 
-<p class="small">Payment is by card through Square at the time of booking. Can’t find a date that works? <a href="mailto:threespacetokyo@gmail.com?subject=Mend%20Tokyo%20-%20other%20dates">Write to us</a>.</p>
+<p class="small">Email bookings are confirmed by reply with a payment link. Can’t find a date that works? <a href="mailto:threespacetokyo@gmail.com?subject=Mend%20Tokyo%20-%20other%20dates">Write to us</a>.</p>
 
 <h2>Good to know</h2>
 <details><summary>What is included?</summary><p>One antique vessel prepared for you, all materials including natural urushi and real gold, tools, apron, arm covers and gloves, and protective packaging with aftercare instructions.</p></details>
