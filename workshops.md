@@ -22,11 +22,11 @@ In this participatory “fishbowl” conversation, you can listen, then take a s
 
 ## Ongoing
 
-### Mend Tokyo — Kintsugi Workshop
+### Mendtokyo — Kintsugi Workshop
 **Schedule:** See upcoming dates on the workshop page (sessions 10:00–12:00 or 14:00–16:00)  
 **Instagram:** [@mendtokyo](https://www.instagram.com/mendtokyo)  
 **Led by:** Lynh Ko ([@lynh.ko](https://www.instagram.com/lynh.ko/))  
-**Price:** ¥20,000 per person (¥22,000 incl. tax)  
+**Price:** ¥20,000 per person  
 **Language:** English (French, Japanese or Vietnamese on request)  
 **Group size:** Max. 4 guests  
 **Location:** Three Space Tokyo, Asakusabashi 3-6-6, Taito-ku, Tokyo
