@@ -1,0 +1,48 @@
+name: Sync Mendtokyo sessions from Google Sheet
+
+on:
+  schedule:
+    - cron: "17 * * * *"      # every hour at :17 UTC
+  workflow_dispatch:          # "Run workflow" button in the Actions tab
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: sync-sessions
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Regenerate _data/mending_sessions.yml from the sheet
+        env:
+          # Override with a repository variable SHEET_CSV_URL if the sheet moves
+          # (Settings -> Secrets and variables -> Actions -> Variables).
+          SHEET_CSV_URL: ${{ vars.SHEET_CSV_URL || 'https://docs.google.com/spreadsheets/d/1GL8YShTbRhtw0zPxlOqpVSOy6kohseQddiPT-Yw2cx0/gviz/tq?tqx=out:csv&gid=1775567458' }}
+        run: python3 scripts/sync_sessions.py "$SHEET_CSV_URL"
+
+      - name: Commit and push if the schedule changed
+        id: commit
+        run: |
+          if git diff --quiet -- _data/mending_sessions.yml; then
+            echo "No change."; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0
+          fi
+          git config user.name "mendtokyo-sync[bot]"
+          git config user.email "threespacetokyo@gmail.com"
+          git add _data/mending_sessions.yml
+          git commit -m "Mendtokyo: sessions synced from schedule sheet"
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # A push made with the built-in token does not trigger GitHub Pages on its own,
+      # so ask Pages to rebuild explicitly.
+      - name: Trigger GitHub Pages rebuild
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api --method POST "repos/${GITHUB_REPOSITORY}/pages/builds"
