@@ -2,4 +2,13 @@
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 
+
+{% comment %} Language alternates for the Mendtokyo workshop pages {% endcomment %}
+{% if page.permalink == "/mendtokyo/" or page.permalink == "/mendtokyo/fr/" or page.permalink == "/mendtokyo/ja/" or page.permalink == "/mendtokyo/vi/" %}
+<link rel="alternate" hreflang="en" href="https://threespacetokyo.com/mendtokyo/">
+<link rel="alternate" hreflang="fr" href="https://threespacetokyo.com/mendtokyo/fr/">
+<link rel="alternate" hreflang="ja" href="https://threespacetokyo.com/mendtokyo/ja/">
+<link rel="alternate" hreflang="vi" href="https://threespacetokyo.com/mendtokyo/vi/">
+<link rel="alternate" hreflang="x-default" href="https://threespacetokyo.com/mendtokyo/">
+{% endif %}
 <!-- end custom head snippets -->

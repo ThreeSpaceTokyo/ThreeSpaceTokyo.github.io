@@ -11,47 +11,10 @@ header:
   og_image: /assets/mending/hero-plate.jpg
 ---
 
-<style>
-.mending { --gold:#b8933f; --ink:#2b2b2b; --muted:#6b6b6b; --line:#e6e2da; }
-.mending .lead { font-size:1.15em; line-height:1.6; max-width:40em; }
-.mending .hero { margin:0 0 1em; }
-.mending .tagline { font-size:1.2em; color:var(--muted); margin:0 0 .6em; }
-.mending .btn-gold { display:inline-block; background:var(--gold); color:#fff !important; padding:.6em 1.3em; border-radius:3px; text-decoration:none; font-weight:600; letter-spacing:.02em; }
-.mending .btn-gold:hover { background:#a07f32; }
-.mending .btn-line { display:inline-block; border:1px solid var(--gold); color:var(--gold) !important; padding:.5em 1.1em; border-radius:3px; text-decoration:none; font-weight:600; }
-.mending .facts { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:.8em; border-top:1px solid var(--line); border-bottom:1px solid var(--line); padding:1.2em 0; margin:1.5em 0 2em; }
-.mending .facts div { font-size:.95em; line-height:1.4; }
-.mending .facts b { display:block; color:var(--gold); font-size:.8em; text-transform:uppercase; letter-spacing:.08em; }
-.mending h2 { margin-top:2em; border-bottom:none; }
-.mending .grid { display:grid; grid-template-columns:repeat(5,1fr); gap:.6em; margin:1em 0; }
-.mending .grid a { display:block; }
-.mending .grid img, .mending .grid video { width:100%; aspect-ratio:3/4; object-fit:cover; display:block; border-radius:3px; background:#111; }
-@media (max-width:900px){ .mending .grid { grid-template-columns:repeat(3,1fr); } }
-@media (max-width:560px){ .mending .grid { grid-template-columns:repeat(2,1fr); } }
-.mending .two { display:grid; grid-template-columns:1fr 1fr; gap:1.5em; align-items:start; }
-.mending .two img { width:100%; border-radius:3px; }
-@media (max-width:700px){ .mending .two { grid-template-columns:1fr; } }
-.mending .steps { counter-reset:s; list-style:none; padding:0; }
-.mending .steps li { counter-increment:s; position:relative; padding-left:2.4em; margin:.7em 0; }
-.mending .steps li::before { content:counter(s); position:absolute; left:0; top:0; width:1.7em; height:1.7em; border-radius:50%; background:var(--gold); color:#fff; text-align:center; font-size:.85em; line-height:1.7em; font-weight:700; }
-.mending table.sessions { width:100%; border-collapse:collapse; font-size:.95em; }
-.mending table.sessions th, .mending table.sessions td { padding:.55em .5em; border-bottom:1px solid var(--line); text-align:left; vertical-align:middle; }
-.mending table.sessions th { font-size:.8em; text-transform:uppercase; letter-spacing:.06em; color:var(--muted); }
-.mending .note { display:block; font-size:.8em; color:var(--muted); }
-.mending .pill { display:inline-block; font-size:.75em; padding:.15em .6em; border-radius:999px; background:#f1ede4; color:#5c4d22; }
-.mending .pill.few { background:#fdf0d5; color:#8a5a00; }
-.mending .pill.soldout, .mending .pill.cancelled { background:#eee; color:#888; }
-.mending .book { font-size:.85em; padding:.35em .9em; }
-.mending .map { aspect-ratio:16/9; width:100%; border:0; border-radius:3px; }
-.mending details { border-bottom:1px solid var(--line); padding:.6em 0; }
-.mending summary { cursor:pointer; font-weight:600; }
-.mending .teacher { display:grid; grid-template-columns:200px 1fr; gap:1.5em; align-items:start; }
-.mending .teacher img { width:100%; border-radius:3px; }
-@media (max-width:600px){ .mending .teacher { grid-template-columns:1fr; } .mending .teacher img { max-width:260px; } }
-.mending .small { font-size:.85em; color:var(--muted); }
-</style>
+{% include mendtokyo/style.html %}
 
 <div class="mending" markdown="0">
+{% include mendtokyo/langbar.html current="en" %}
 
 <div class="hero">
   <p class="tagline">A small-group, English-speaking kintsugi workshop · natural urushi and real gold · Asakusabashi, Tokyo</p>
@@ -88,18 +51,7 @@ header:
 </ol>
 <p>The atmosphere is slow and focused: a quiet time, one task at a time. It is a cultural experience as much as a craft class, and no experience is needed. Aprons, arm covers and gloves are provided.</p>
 
-<div class="grid">
-  <a href="/assets/mending/table-overhead.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/table-overhead.jpg" alt="Antique vessels laid out on the workshop table"></a>
-  <a href="/assets/mending/gold-powder.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/gold-powder.jpg" alt="Gold powder on washi paper between two tubes"></a>
-  <a href="/assets/mending/vessels-box.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/vessels-box.jpg" alt="A box of antique dishes with repaired cracks, ready for the final gold step"></a>
-  <a href="/assets/mending/painting-seam.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/painting-seam.jpg" alt="A guest painting urushi along the seam of a small dish under a lamp"></a>
-  <a href="/assets/mending/sprinkling-gold.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/sprinkling-gold.jpg" alt="Gloved hands sprinkling gold powder onto the lacquered seam"></a>
-  <a href="/assets/mending/finished-dish.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/finished-dish.jpg" alt="A guest holding her finished dish"></a>
-  <a href="/assets/mending/linh-teaching.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/linh-teaching.jpg" alt="Lynh demonstrating to the group at the workshop table"></a>
-  <a href="/assets/mending/room-wide.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/room-wide.jpg" alt="Lynh and guests chatting at the workshop table"></a>
-  <video controls preload="none" playsinline poster="/assets/mending/process-poster.jpg" title="Lynh demonstrating the gold step"><source src="/assets/mending/process-clip.mp4" type="video/mp4"></video>
-  <a href="/assets/mending/hero-plate.jpg?full" target="_blank" rel="noopener"><img src="/assets/mending/hero-plate.jpg" alt="A finished dish with a gold seam on indigo cloth"></a>
-</div>
+{% include mendtokyo/gallery.html %}
 
 <h2>Your teacher</h2>
 <div class="teacher">
@@ -113,40 +65,7 @@ header:
 <h2 id="sessions">Upcoming sessions</h2>
 <p>Sessions are <strong>10:00–12:00</strong> or <strong>14:00–16:00</strong> on the dates below, with a maximum of four guests each. Private sessions and other dates are available on request.</p>
 
-{% assign today = site.time | date: "%Y-%m-%d" %}
-{% assign sessions = site.data.mending_sessions | sort: "date" %}
-{% assign upcoming_count = 0 %}
-{% for s in sessions %}{% assign d = s.date | date: "%Y-%m-%d" %}{% if d >= today %}{% assign upcoming_count = upcoming_count | plus: 1 %}{% endif %}{% endfor %}
-{% if upcoming_count > 0 %}
-<table class="sessions">
-  <thead><tr><th>Date</th><th>Time</th><th></th></tr></thead>
-  <tbody>
-  {% for s in sessions %}
-  {% assign d = s.date | date: "%Y-%m-%d" %}
-  {% if d < today %}{% continue %}{% endif %}
-  <tr>
-    <td>{{ s.date | date: "%a %-d %b %Y" }}{% if s.note %}<span class="note">{{ s.note }}</span>{% endif %}</td>
-    <td>{{ s.time }}</td>
-    <td>
-      {% if s.status == "soldout" %}
-        <span class="pill soldout">Sold out</span>
-      {% elsif s.status == "cancelled" %}
-        <span class="pill cancelled">Cancelled</span>
-      {% elsif s.channel == "airbnb" and s.link != "" %}
-        <a class="btn-line book" href="{{ s.link }}" target="_blank" rel="noopener">Book on Airbnb</a>
-      {% elsif s.link != "" %}
-        <a class="btn-gold book" href="{{ s.link }}" target="_blank" rel="noopener">Book</a>
-      {% else %}
-        <a class="btn-gold book" href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20booking%20{{ d }}%20{{ s.time | url_encode }}&body=Hello%2C%20I%20would%20like%20to%20book%20__%20seat(s)%20for%20the%20Mendtokyo%20workshop%20on%20{{ d }}%20({{ s.time | url_encode }}).%0A%0AName%3A%0APreferred%20language%3A%0A">Book by email</a>
-      {% endif %}
-    </td>
-  </tr>
-  {% endfor %}
-  </tbody>
-</table>
-{% else %}
-<p>New dates are being scheduled. <a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo">Email us</a> to be notified, or to arrange a private session.</p>
-{% endif %}
+{% include mendtokyo/sessions.html lang="en" %}
 
 <p class="small">Payment is by card through Square at the time of booking. Dates marked “Book by email” are confirmed by reply with a payment link. Can’t find a date that works? <a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20-%20other%20dates">Write to us</a>.</p>
 
@@ -172,7 +91,7 @@ header:
     <p>Questions: <a href="mailto:threespacetokyo@gmail.com">threespacetokyo@gmail.com</a><br>
     Instagram: <a href="https://www.instagram.com/mendtokyo" target="_blank" rel="noopener">@mendtokyo</a> · <a href="https://www.instagram.com/threespacetokyo/" target="_blank" rel="noopener">@threespacetokyo</a></p>
   </div>
-  <iframe class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=3-6-6+Asakusabashi,+Taito-ku,+Tokyo+111-0053&output=embed" title="Map to Three Space Tokyo"></iframe>
+  {% include mendtokyo/map.html %}
 </div>
 
 <p class="small" style="margin-top:2em;">Mendtokyo is a collaboration between kintsugi artist Lynh Ko and Three Space Tokyo.</p>

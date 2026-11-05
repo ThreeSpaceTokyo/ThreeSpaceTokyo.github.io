@@ -1,0 +1,7 @@
+{% assign cur = include.current %}
+<p class="langbar">
+{% if cur == "en" %}<b>English</b>{% else %}<a href="/mendtokyo/" hreflang="en">English</a>{% endif %}
+{% if cur == "fr" %}<b>Français</b>{% else %}<a href="/mendtokyo/fr/" hreflang="fr">Français</a>{% endif %}
+{% if cur == "ja" %}<b>日本語</b>{% else %}<a href="/mendtokyo/ja/" hreflang="ja">日本語</a>{% endif %}
+{% if cur == "vi" %}<b>Tiếng Việt</b>{% else %}<a href="/mendtokyo/vi/" hreflang="vi">Tiếng Việt</a>{% endif %}
+</p>
