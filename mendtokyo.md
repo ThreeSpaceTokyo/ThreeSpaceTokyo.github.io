@@ -148,7 +148,7 @@ header:
 <p>New dates are being scheduled. <a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo">Email us</a> to be notified, or to arrange a private session.</p>
 {% endif %}
 
-<p class="small">Email bookings are confirmed by reply with a payment link. Can’t find a date that works? <a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20-%20other%20dates">Write to us</a>.</p>
+<p class="small">Payment is by card through Square at the time of booking. Dates marked “Book by email” are confirmed by reply with a payment link. Can’t find a date that works? <a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20-%20other%20dates">Write to us</a>.</p>
 
 <h2>Good to know</h2>
 <details><summary>What is included?</summary><p>One antique vessel prepared for you, all materials including natural urushi and real gold, tools, apron, arm covers and gloves, and protective packaging with aftercare instructions.</p></details>

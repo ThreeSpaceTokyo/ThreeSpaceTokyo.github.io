@@ -11,19 +11,19 @@
 #
 # Past dates are hidden automatically; you can delete them whenever you like.
 
-- { date: 2026-11-07, time: "10:00–12:00", status: open, link: "", channel: direct }
-- { date: 2026-12-02, time: "10:00–12:00", status: open, link: "", channel: direct }
-- { date: 2026-12-02, time: "14:00–16:00", status: open, link: "", channel: direct }
-- { date: 2026-12-03, time: "10:00–12:00", status: open, link: "", channel: direct }
-- { date: 2026-12-03, time: "14:00–16:00", status: open, link: "", channel: direct }
-- { date: 2026-12-16, time: "10:00–12:00", status: open, link: "", channel: direct }
-- { date: 2026-12-16, time: "14:00–16:00", status: open, link: "", channel: direct }
-- { date: 2026-12-23, time: "10:00–12:00", status: open, link: "", channel: direct }
-- { date: 2026-12-23, time: "14:00–16:00", status: open, link: "", channel: direct }
-- { date: 2026-12-28, time: "10:00–12:00", status: open, link: "", channel: direct }
-- { date: 2026-12-28, time: "14:00–16:00", status: open, link: "", channel: direct }
-- { date: 2026-12-30, time: "10:00–12:00", status: open, link: "", channel: direct }
-- { date: 2026-12-30, time: "14:00–16:00", status: open, link: "", channel: direct }
+- { date: 2026-11-07, time: "10:00–12:00", status: open, link: "https://square.link/u/Q401JdnJ", channel: direct }
+- { date: 2026-12-02, time: "10:00–12:00", status: open, link: "https://square.link/u/f5OhF54z", channel: direct }
+- { date: 2026-12-02, time: "14:00–16:00", status: open, link: "https://square.link/u/w1nxXm6W", channel: direct }
+- { date: 2026-12-03, time: "10:00–12:00", status: open, link: "https://square.link/u/dJbnvM6X", channel: direct }
+- { date: 2026-12-03, time: "14:00–16:00", status: open, link: "https://square.link/u/sytnP6qv", channel: direct }
+- { date: 2026-12-16, time: "10:00–12:00", status: open, link: "https://square.link/u/AkIjDFw7", channel: direct }
+- { date: 2026-12-16, time: "14:00–16:00", status: open, link: "https://square.link/u/eWI567xL", channel: direct }
+- { date: 2026-12-23, time: "10:00–12:00", status: open, link: "https://square.link/u/SiQBHWOb", channel: direct }
+- { date: 2026-12-23, time: "14:00–16:00", status: open, link: "https://square.link/u/UXkIJecm", channel: direct }
+- { date: 2026-12-28, time: "10:00–12:00", status: open, link: "https://square.link/u/KQzaUvHh", channel: direct }
+- { date: 2026-12-28, time: "14:00–16:00", status: open, link: "https://square.link/u/vuUzbw6R", channel: direct }
+- { date: 2026-12-30, time: "10:00–12:00", status: open, link: "https://square.link/u/KyV1tTtw", channel: direct }
+- { date: 2026-12-30, time: "14:00–16:00", status: open, link: "https://square.link/u/ziTbAvbo", channel: direct }
 - { date: 2027-01-06, time: "10:00–12:00", status: open, link: "", channel: direct }
 - { date: 2027-01-06, time: "14:00–16:00", status: open, link: "", channel: direct }
 - { date: 2027-01-07, time: "14:00–16:00", status: open, link: "", channel: direct }
