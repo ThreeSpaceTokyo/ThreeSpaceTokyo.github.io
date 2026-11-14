@@ -7,6 +7,9 @@ validates rows, drops duplicates, sorts by date/time and writes the YAML the pag
 Exits 0 whether or not anything changed; the workflow decides whether to commit.
 """
 import csv, datetime, io, re, sys, urllib.request
+from zoneinfo import ZoneInfo
+
+TOKYO = ZoneInfo("Asia/Tokyo")
 
 HEADER = """# Upcoming sessions for the Mendtokyo kintsugi workshop (/mendtokyo/).
 #
@@ -20,7 +23,7 @@ HEADER = """# Upcoming sessions for the Mendtokyo kintsugi workshop (/mendtokyo/
 #   channel: direct | airbnb   (airbnb rows show "Book on Airbnb")
 #   note:    optional short note shown under the date
 #
-# Past dates are hidden by the page automatically.
+# Only today's and future dates (Tokyo time) are written here; past rows stay in the sheet.
 
 """
 VALID_STATUS = {"open", "few", "soldout", "cancelled"}
@@ -33,7 +36,8 @@ def main():
     url = sys.argv[1]
     out = sys.argv[2] if len(sys.argv) > 2 else "_data/mending_sessions.yml"
     raw = urllib.request.urlopen(url, timeout=60).read().decode("utf-8-sig")
-    rows, seen, problems = [], set(), []
+    today = datetime.datetime.now(TOKYO).date()
+    rows, seen, problems, past = [], set(), [], 0
     for n, r in enumerate(csv.DictReader(io.StringIO(raw)), start=2):
         date = (r.get("date") or "").strip()
         if not date:
@@ -41,9 +45,11 @@ def main():
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date):
             problems.append(f"row {n}: date '{date}' is not YYYY-MM-DD, skipped"); continue
         try:
-            datetime.date.fromisoformat(date)
+            day = datetime.date.fromisoformat(date)
         except ValueError:
             problems.append(f"row {n}: date '{date}' is not a real date, skipped"); continue
+        if day < today:
+            past += 1; continue  # already happened (Tokyo time) - leave it in the sheet, keep it off the site
         time = (r.get("time") or "").strip().replace("-", "–").replace(" ", "")
         if not time:
             problems.append(f"row {n}: no time, skipped"); continue
@@ -71,10 +77,10 @@ def main():
         lines.append(item + " }")
     with open(out, "w", encoding="utf-8") as f:
         f.write(HEADER + "\n".join(lines) + "\n")
-    print(f"{len(rows)} sessions written to {out}")
+    print(f"{len(rows)} upcoming sessions written to {out} ({past} past dates ignored; today in Tokyo is {today})")
     for p in problems:
         print("WARNING:", p)
-    if not rows:
+    if not rows and past == 0:
         print("ERROR: no valid rows found - refusing to publish an empty schedule", file=sys.stderr)
         sys.exit(1)
 
