@@ -10,9 +10,8 @@
 #   channel: direct | airbnb   (airbnb rows show "Book on Airbnb")
 #   note:    optional short note shown under the date
 #
-# Past dates are hidden by the page automatically.
+# Only today's and future dates (Tokyo time) are written here; past rows stay in the sheet.
 
-- { date: 2026-11-07, time: "10:00–12:00", status: open, link: "https://square.link/u/Q401JdnJ", channel: direct }
 - { date: 2026-12-02, time: "10:00–12:00", status: open, link: "https://square.link/u/f5OhF54z", channel: direct }
 - { date: 2026-12-02, time: "14:00–16:00", status: open, link: "https://square.link/u/w1nxXm6W", channel: direct }
 - { date: 2026-12-03, time: "10:00–12:00", status: open, link: "https://square.link/u/dJbnvM6X", channel: direct }
