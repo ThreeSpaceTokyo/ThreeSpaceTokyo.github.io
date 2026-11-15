@@ -28,7 +28,6 @@ header:
   <div><b>Groupe</b>4 personnes max.</div>
   <div><b>Prix</b>20 000 ¥ par personne</div>
   <div><b>Niveau</b>Débutants bienvenus</div>
-  <div><b>Lieux</b>Asakusabashi · Shimokitazawa</div>
   <div><b>Âge</b>À partir de 12 ans</div>
   <div><b>Langue</b>Anglais<br><span class="small">français, japonais ou vietnamien sur demande</span></div>
 </div>

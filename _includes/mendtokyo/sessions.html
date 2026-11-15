@@ -12,7 +12,7 @@
 {% for s in sessions %}{% assign d = s.date | date: "%Y-%m-%d" %}{% if d >= today %}{% assign upcoming_count = upcoming_count | plus: 1 %}{% endif %}{% endfor %}
 {% if upcoming_count > 0 %}
 <table class="sessions">
-  <thead><tr><th>{{ t_date }}</th><th>{{ t_time }}</th><th>{{ t_seats }}</th><th>{{ t_loc }}</th><th></th></tr></thead>
+  <thead><tr><th>{{ t_date }}</th><th>{{ t_time }}</th><th>{{ t_seats }}</th><th></th></tr></thead>
   <tbody>
   {% for s in sessions %}
   {% assign d = s.date | date: "%Y-%m-%d" %}
@@ -28,7 +28,6 @@
     <td>{{ shown | strip }}{% if s.note %}<span class="note">{{ s.note }}</span>{% endif %}</td>
     <td>{{ s.time }}</td>
     <td>{% if s.status == "soldout" %}<span class="pill soldout">{{ t_soldout }}</span>{% elsif s.status == "cancelled" %}—{% elsif s.seats %}{% if s.seats <= 2 %}<span class="pill few">{% if L == "ja" %}残り{{ s.seats }}席{% else %}{{ s.seats }} {{ t_left }}{% endif %}</span>{% else %}{% if L == "ja" %}残り{{ s.seats }}席{% else %}{{ s.seats }} {{ t_left }}{% endif %}{% endif %}{% else %}—{% endif %}</td>
-    <td>{% assign lk = s.location | default: "asakusabashi" %}{% assign L_ = site.data.mending_locations[lk] %}<a class="loc" href="#loc-{{ lk }}">{{ L_.area }}</a><span class="note">{{ L_.name }}</span></td>
     <td>
       {% if s.status == "soldout" %}
         <span class="pill soldout">{{ t_soldout }}</span>

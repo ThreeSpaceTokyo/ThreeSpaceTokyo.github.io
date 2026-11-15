@@ -28,7 +28,6 @@ header:
   <div><b>定員</b>各回4名まで</div>
   <div><b>料金</b>お一人 20,000円</div>
   <div><b>レベル</b>初心者歓迎</div>
-  <div><b>会場</b>浅草橋 · 下北沢</div>
   <div><b>年齢</b>12歳以上</div>
   <div><b>言語</b>英語<br><span class="small">日本語・フランス語・ベトナム語はご相談ください</span></div>
 </div>

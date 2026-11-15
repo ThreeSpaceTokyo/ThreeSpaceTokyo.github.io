@@ -28,7 +28,6 @@ header:
   <div><b>Số người</b>Tối đa 4 khách</div>
   <div><b>Giá</b>¥20.000 / người</div>
   <div><b>Trình độ</b>Người mới bắt đầu</div>
-  <div><b>Địa điểm</b>Asakusabashi · Shimokitazawa</div>
   <div><b>Độ tuổi</b>Từ 12 tuổi</div>
   <div><b>Ngôn ngữ</b>Tiếng Anh<br><span class="small">tiếng Việt, Pháp hoặc Nhật theo yêu cầu</span></div>
 </div>

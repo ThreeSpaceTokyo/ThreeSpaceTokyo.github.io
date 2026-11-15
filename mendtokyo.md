@@ -27,7 +27,6 @@ header:
   <div><b>Group size</b>Max. 4 guests</div>
   <div><b>Price</b>¥20,000 per person</div>
   <div><b>Level</b>Beginners welcome</div>
-  <div><b>Venues</b>Asakusabashi · Shimokitazawa</div>
   <div><b>Age</b>12 and over</div>
   <div><b>Language</b>English<br><span class="small">French, Japanese or Vietnamese on request</span></div>
 </div>
