@@ -13,18 +13,18 @@
 #
 # Only today's and future dates (Tokyo time) are written here; past rows stay in the sheet.
 
-- { date: 2026-12-02, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/f5OhF54z", channel: direct, status: open }
-- { date: 2026-12-02, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/w1nxXm6W", channel: direct, status: open }
-- { date: 2026-12-03, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/dJbnvM6X", channel: direct, status: open }
-- { date: 2026-12-03, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/sytnP6qv", channel: direct, status: open }
-- { date: 2026-12-15, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/aIjAIrUY", channel: direct, status: open }
-- { date: 2026-12-16, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/AkIjDFw7", channel: direct, status: open }
-- { date: 2026-12-16, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/eWI567xL", channel: direct, status: open }
-- { date: 2026-12-23, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/SiQBHWOb", channel: direct, status: open }
-- { date: 2026-12-23, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/UXkIJecm", channel: direct, status: open }
-- { date: 2026-12-28, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/KQzaUvHh", channel: direct, status: open }
-- { date: 2026-12-28, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/vuUzbw6R", channel: direct, status: open }
-- { date: 2026-12-30, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/KyV1tTtw", channel: direct, status: open }
-- { date: 2026-12-30, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/ziTbAvbo", channel: direct, status: open }
-- { date: 2027-01-06, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/nOu9Vmip", channel: direct, status: open, seats: 4 }
-- { date: 2027-01-06, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/BP7m0Zdp", channel: direct, status: open, seats: 4 }
+- { date: 2026-12-02, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/f5OhF54z", channel: direct, status: open, seats: 4 }
+- { date: 2026-12-02, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/w1nxXm6W", channel: direct, status: open, seats: 3 }
+- { date: 2026-12-03, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/dJbnvM6X", channel: direct, status: open, seats: 4 }
+- { date: 2026-12-03, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/sytnP6qv", channel: direct, status: open, seats: 4 }
+- { date: 2026-12-15, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/aIjAIrUY", channel: direct, status: open, seats: 2 }
+- { date: 2026-12-16, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/AkIjDFw7", channel: direct, status: open, seats: 4 }
+- { date: 2026-12-16, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/eWI567xL", channel: direct, status: open, seats: 4 }
+- { date: 2026-12-23, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/SiQBHWOb", channel: direct, status: open, seats: 4 }
+- { date: 2026-12-23, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/UXkIJecm", channel: direct, status: open, seats: 4 }
+- { date: 2026-12-28, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/KQzaUvHh", channel: direct, status: open, seats: 4 }
+- { date: 2026-12-28, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/vuUzbw6R", channel: direct, status: open, seats: 4 }
+- { date: 2026-12-30, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/KyV1tTtw", channel: direct, status: open, seats: 4 }
+- { date: 2026-12-30, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/ziTbAvbo", channel: direct, status: open, seats: 4 }
+- { date: 2027-01-06, time: "10:00–12:00", location: asakusabashi, link: "", channel: direct, status: open }
+- { date: 2027-01-06, time: "14:00–16:00", location: asakusabashi, link: "", channel: direct, status: open }
