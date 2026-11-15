@@ -7,19 +7,6 @@ toc: true
 toc_sticky: true
 ---
 
-## Upcoming
-
-### Art, Science and Complexity
-**A fishbowl discussion with Ulrike Kuchner and Mark Neyrinck**  
-**Date:** Saturday, October 31, 2026, 18:10–19:30  
-**Location:** Three Space Tokyo, Asakusabashi 3-6-6, Taito-ku, Tokyo  
-**Admission:** Free. No registration needed — just come along!
-
-How can art and science help us make sense of — and act within — complex worlds? From ecology and AI to the cosmic web, join us to explore what artistic and scientific perspectives can offer each other.
-
-In this participatory “fishbowl” conversation, you can listen, then take a seat to join the discussion. Together, we’ll trace emerging questions and connections through a live visual map. Artists, scientists and anyone curious are welcome. Bring your questions!
-
-
 ## Ongoing
 
 ### Mendtokyo — Kintsugi Workshop
@@ -41,7 +28,7 @@ A two-hour, small-group, English-speaking kintsugi workshop using natural urushi
 **In collaboration with:** [@artbytecritique](https://www.instagram.com/artbytecritique/) & [@threespacetokyo](https://www.instagram.com/threespacetokyo/)  
 **Location:** Three Space Tokyo, Asakusabashi 3-6-6, Tokyo
 
-The 2026 Works in Progress – in situ call has finished, and our current cohort will present an exhibition in December. The open call for the next Works in Progress – in situ is currently announced through our [exhibition open call](/opencall/) — please submit there, and leave a note if you are only interested in Works in Progress and not an exhibition.
+The 2026 cohort presents the **Creative Incubator Open Studio** at Three Space Tokyo this December: Open Installation on Sunday, December 6 (9:00–18:00), Open Studio Thursday–Sunday, December 10–13 (12:00–18:00), and a reception on Saturday, December 12 (18:00–21:00). See the [exhibitions page](/exhibitions/#works-in-progress--in-situ-creative-incubator-open-studio-2026) for the participating artists. The open call for the next Works in Progress – in situ is currently announced through our [exhibition open call](/opencall/) — please submit there, and leave a note if you are only interested in Works in Progress and not an exhibition.
 
 Works in Progress – in situ is an experimental project designed to bring people together to create new networks, new knowledge, and new possibilities. Art Byte Critique and Three Space Tokyo act as facilitators, but it is the sum of our collective energy, creativity, and openness that moves the project forward. It is an opportunity to step into an unmapped creative journey and move your practice forward.
 
@@ -57,16 +44,28 @@ Works in Progress – in situ has a limited capacity of 10 artists / artist grou
 6. There is no funding or accommodation provided for Works in Progress – in situ.
 
 
+
+## Past
+
+### Art, Science and Complexity
+**A fishbowl discussion with Ulrike Kuchner and Mark Neyrinck**  
+**Date:** Saturday, October 31, 2026, 18:10–19:30  
+**Location:** Three Space Tokyo, Asakusabashi 3-6-6, Taito-ku, Tokyo  
+**Admission:** Free
+
+This fishbowl discussion asked how art and science can help us make sense of — and act within — complex worlds. From ecology and AI to the cosmic web, participants explored what artistic and scientific perspectives can offer each other.
+
+In this participatory “fishbowl” conversation, participants could listen, then take a seat to join the discussion, tracing emerging questions and connections through a live visual map.
+
+
 ### Love Unbounded 
 **Instagram:** [@loveunboundedtokyo](https://www.instagram.com/loveunboundedtokyo/)  
 **Schedule:** Every first Saturday, 16:30–18:00  
 **Location:** Three Space Tokyo, Asakusabashi 3-6-6, Tokyo  
 **Language:** English
 
-Love Unbounded is a 90-min workshop to explore how we form relationships, how we negotiate intimacy, and how love takes shape across different lives. We’ll begin with a brief introduction before moving into a guided open discussion. All identities and relationship styles — monogamous, non-monogamous, or anything beyond labels — are welcome. Please come with curiosity, respect, and presence.
+Love Unbounded was a 90-min workshop to explore how we form relationships, how we negotiate intimacy, and how love takes shape across different lives. Each session began with a brief introduction before moving into a guided open discussion. All identities and relationship styles — monogamous, non-monogamous, or anything beyond labels — were welcome.
 
-
-## Past
 
 ### Three Space To Move
 **Instagram:** [@3space2move](https://www.instagram.com/3space2move/)  

@@ -9,17 +9,41 @@ toc_sticky: false
 
 ## Ongoing & Upcoming
 
+### SICK S□K - out/src - — Berlin (2026)
+**Reception:** Saturday, November 21, 18:00–21:00  
+**Exhibition:** November 19–28, 12:00–19:00 (Thu & Fri until 17:00; closed Nov 24–25)
+
+Sick S□k - out/src - presents installations by Berlin across Three Space Tokyo's three floors, exploring how individuals and society shape one another. Humans have created systems and values to understand the world and relate to others; while these sustain society, they also blur the boundary between our own intentions and socially shaped values. The title "out/src" evokes "outsource," bringing together the external world ("out") and the source of individual thought and judgment ("src"). Through labelled fish connected by tubes, disordered meeting tables, ceramic figures bearing traces of removed labels, and a fictional promotional event for a luxury fruit, the exhibition examines living within social structures, searching for ways to engage with them, and entrusting ourselves to their mechanisms.
+
+
+### WORKS IN PROGRESS – IN SITU: Creative Incubator Open Studio (2026)
+**Open Installation:** Sunday, December 6, 9:00–18:00  
+**Open Studio:** Thursday–Sunday, December 10–13, 12:00–18:00  
+**Reception:** Saturday, December 12, 18:00–21:00  
+**Artists:** AMAjack_si ([@amajack_si](https://www.instagram.com/amajack_si/)), Luísa Noriko Bonadio ([@luisanoriko](https://www.instagram.com/luisanoriko/)), Gabrielle Dulys ([@happy_sisyphus_art](https://www.instagram.com/happy_sisyphus_art/)), Yuko Kamei ([@silica.le](https://www.instagram.com/silica.le/)), Gassi Mehdi ([@gassi_mehdi](https://www.instagram.com/gassi_mehdi/)), Darcy Milne ([@darcyposting](https://www.instagram.com/darcyposting/)), João Luis Krefer, Maria de Los Angeles Pais ([@mariadelosangelespais](https://www.instagram.com/mariadelosangelespais/)), Sae ([@sae.artwork](https://www.instagram.com/sae.artwork/)), Ayano Shinozuka ([@namedate.jpg](https://www.instagram.com/namedate.jpg/)), Yufei Weng ([@piaupiao](https://www.instagram.com/piaupiao/))  
+**Instagram:** [@wip.in.situ](https://www.instagram.com/wip.in.situ/)
+
+Since the summer, the artists of the Works in Progress – in situ creative incubator have gathered monthly at Three Space Tokyo and online to cross-pollinate their practices. Over five months, collage became syntax, silence became structure, and the space has become a living archive — a chimeric organism of distinct practices evolving individually and collectively. Works in Progress – in situ is not about completion; it is about holding space for what is still finding shape. On December 6 the installation process opens to visitors, with the chance to talk with the artists while they set up; the Open Studio then runs December 10–13. Move through the floors, listen across spaces, and observe how practices quietly converse — no interpretation required, just presence and dialogue.
+
+## Past
+
+### "... AND ALL OF HISTORY ROLLING TOWARDS THEM." — Niklas Viola (2026)
+**Reception:** Friday, October 30, 18:00–21:00  
+**Exhibition:** October 31–November 4, 13:00–18:00
+
+Niklas Viola's exhibition was an intense examination of history — not as a factual investigation, but as an exploration of the historical mechanism. History was viewed as an archive of images, deliberately conserved, protected, and institutionalized, and engaged as a transformable entity rather than a collection of objective facts. History is a performance: the seemingly inevitable imposition of a male worldview, in which a sailor's uniform on a male body grants the license to be violent while the same uniform on a female body catalyzes victimization. The exhibition looked at the stage itself — where we enter the play, how it affects the performers, and who is cast as the "strong" while another is cast as the "victim."
+
+
 ### EPHEMERE PHOTO FEST 2026 — TRIPLICITIES
 **Dates:** October 17–27, 2026, 12:00–19:00  
 **Opening party:** Saturday, October 17, 12:00–19:00  
 **Admission:** Free and open to the public  
 **Organized by:** [Ephemere](https://www.ephemere.tokyo/) ([@ephemere.tokyo](https://www.instagram.com/ephemere.tokyo/))
 
-Three Space Tokyo is the main venue of Ephemere Photo Fest 2026, an international festival of contemporary photography, photobooks and printed matter. Guided by this year's theme, *Triplicities*, the eleven-day program fills all three floors: *Come What May: Threefold Perspectives, Fragments, and Forms*, a group exhibition of triptychs by some 90 artists (1F); the Ephemere Photobook Exhibition of 50+ independent photobooks from around the world (2F); and *ANTHOLOGY 3*, a group show of nine photographers from Japan and abroad (3F). The festival also presents the Ephemere Photobook Grant selections and launches Ephemere Photo Journal Vol. 2.
+Three Space Tokyo was the main venue of Ephemere Photo Fest 2026, an international festival of contemporary photography, photobooks and printed matter. Guided by this year's theme, *Triplicities*, the eleven-day program filled all three floors: *Come What May: Threefold Perspectives, Fragments, and Forms*, a group exhibition of triptychs by some 90 artists (1F); the Ephemere Photobook Exhibition of 50+ independent photobooks from around the world (2F); and *ANTHOLOGY 3*, a group show of nine photographers from Japan and abroad (3F). The festival also presented the Ephemere Photobook Grant selections and launched Ephemere Photo Journal Vol. 2.
 
-Weekends are for public programs — artist talks, book launches, free workshops (anthotype, cyanotype, mordançage, zine making) and social gatherings; weekdays are for quiet exhibition viewing. See [@ephemere.tokyo](https://www.instagram.com/ephemere.tokyo/) for the daily schedule.
+Weekends were for public programs — artist talks, book launches, free workshops (anthotype, cyanotype, mordançage, zine making) and social gatherings; weekdays were for quiet exhibition viewing.
 
-## Past
 
 ### UPROOTING — Group Exhibition (2026)
 **Reception:** Friday, September 18, 18:00–21:00  

@@ -8,6 +8,8 @@ main:
     url: /opencall/
   - title: "Workshops"
     url: /workshops/
+  - title: "Mendtokyo"
+    url: /mendtokyo/
   - title: "Works for Purchase"
     url: /works/
   
