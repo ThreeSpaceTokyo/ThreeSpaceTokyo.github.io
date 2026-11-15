@@ -18,6 +18,16 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from square_api import Square, session_item_name
 from sync_sessions import location_key
 
+VENUES = {
+    "asakusabashi": "Three Space Tokyo, 3-6-6 Asakusabashi, Taito-ku, Tokyo (6 min from Asakusabashi Station)",
+    "shimokitazawa": "Bookshop with Story, 5-10-11 Daita, Setagaya-ku, Tokyo (Shimokitazawa area)",
+}
+
+def pretty_date(d, t):
+    import datetime as _dt
+    day = _dt.date.fromisoformat(d)
+    return day.strftime("%a %-d %b %Y") + ", " + t
+
 DEFAULT_SEATS = {"asakusabashi": int(os.environ.get("SEATS_ASAKUSABASHI", 4)),
                  "shimokitazawa": int(os.environ.get("SEATS_SHIMOKITAZAWA", 2))}
 SHEET_ID = os.environ.get("GSHEET_ID", "1GL8YShTbRhtw0zPxlOqpVSOy6kohseQddiPT-Yw2cx0")
@@ -113,7 +123,9 @@ def main():
             if not apply:
                 continue
             var_id = sq.create_session_item(name, price, seats)
-            link = sq.create_payment_link(var_id, description=f"Mendtokyo kintsugi workshop, {d} {t} ({loc})")
+            desc = (f"Mendtokyo kintsugi workshop \u00b7 {pretty_date(d, t)} \u00b7 {VENUES.get(loc, loc)}. "
+                    f"One seat per ticket. Details, what to bring and cancellation terms: threespacetokyo.com/mendtokyo/")
+            link = sq.create_payment_link(var_id, description=desc)
             links[f"{d} {t} {loc}"] = link
             json.dump(links, open(store, "w", encoding="utf-8"), indent=1, ensure_ascii=False, sort_keys=True)
             print(f"     created {link}")

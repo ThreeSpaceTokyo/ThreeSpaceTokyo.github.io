@@ -11,5 +11,5 @@ shimokitazawa:
   area: "Shimokitazawa"
   address_en: "5-10-11 Daita, Setagaya-ku, Tokyo 155-0033"
   address_ja: "東京都世田谷区代田5-10-11"
-  map: "https://share.google/wmwKZHivAwyjlwlJT"
-  embed: "https://www.google.com/maps?q=5-10-11+Daita,+Setagaya-ku,+Tokyo&output=embed"
+  map: "https://www.google.com/maps/search/?api=1&query=%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E4%BB%A3%E7%94%B05-10-11"
+  embed: "https://www.google.com/maps?q=%E6%9D%B1%E4%BA%AC%E9%83%BD%E4%B8%96%E7%94%B0%E8%B0%B7%E5%8C%BA%E4%BB%A3%E7%94%B05-10-11&output=embed"
