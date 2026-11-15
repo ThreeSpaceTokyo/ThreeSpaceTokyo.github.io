@@ -11,6 +11,10 @@
  * Secrets / variables (Worker settings -> Variables and Secrets):
  *   SQUARE_ACCESS_TOKEN  (secret)   SQUARE_LOCATION_ID   SITE_URL (https://threespacetokyo.com)
  *   optional: PRICE_JPY (20000)  DEFAULT_SEATS (4)  SQUARE_ENV ("production" | "sandbox")
+ *             TEMPLATE_ITEM ("Mendtokyo 12/30/2026 afternoon") - an existing Event item made by Aya in the
+ *             Square Dashboard; new sessions are created as copies of it (same type, category, photo,
+ *             description, taxes) with only the name and the event date/time changed.
+ *   GET /inspect?name=<item name>   -> raw catalog object of an item (for checking the template).
  */
 
 const SQUARE_VERSION = "2025-01-23";
@@ -24,6 +28,7 @@ export default {
     if (request.method === "OPTIONS") return new Response(null, { headers: cors });
     try {
       if (url.pathname === "/seats") return json(await seats(env), cors);
+      if (url.pathname === "/inspect") return json(await inspect(env, url.searchParams.get("name") || ""), cors);
       if (url.pathname === "/book") return await book(url, env);
       return new Response("Mendtokyo booking service", { status: 200 });
     } catch (e) {
@@ -99,17 +104,83 @@ async function counts(sq, env, variationIds) {
   }
   return out;
 }
+const ISO_RE = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})$/;
+
+function sessionTimes(date, time) {        // -> [startISO, endISO] in Japan time
+  const [t1, t2] = time.split(DASH);
+  return [`${date}T${t1}:00+09:00`, `${date}T${t2}:00+09:00`];
+}
+function sameFormat(isoNew, like) {         // write isoNew in the same style as the template string
+  const d = new Date(isoNew);
+  if (/Z$/.test(like)) return d.toISOString().replace(/\.\d{3}Z$/, "Z");
+  return isoNew;
+}
+async function findItemObject(sq, name) {
+  const r = await sq("POST", "/catalog/search", { object_types: ["ITEM"], include_related_objects: true,
+    query: { exact_query: { attribute_name: "name", attribute_value: name } } });
+  const obj = (r.objects || [])[0];
+  return obj ? { object: obj, related: r.related_objects || [] } : null;
+}
+async function inspect(env, name) {
+  const sq = api(env);
+  return (await findItemObject(sq, name)) || { error: "not found", name };
+}
+
+/** Create the item for a session by cloning the template item (an Event item made in the Dashboard). */
 async function createItem(sq, env, date, time) {
   const name = itemName(date, time);
-  const r = await sq("POST", "/catalog/object", {
-    idempotency_key: crypto.randomUUID(),
-    object: { type: "ITEM", id: "#item", present_at_all_locations: true,
+  const templateName = env.TEMPLATE_ITEM || "Mendtokyo 12/30/2026 afternoon";
+  const found = await findItemObject(sq, templateName);
+  let object;
+  if (found) {
+    const tpl = found.object;
+    // which datetimes in the template are the event start / end?
+    const stamps = [];
+    (function walk(v) { if (typeof v === "string") { if (ISO_RE.test(v)) stamps.push(v); }
+      else if (Array.isArray(v)) v.forEach(walk); else if (v && typeof v === "object") Object.values(v).forEach(walk); })(tpl.item_data);
+    const sorted = [...new Set(stamps)].sort((x, y) => new Date(x) - new Date(y));
+    const tplStart = sorted[0], tplEnd = sorted[sorted.length - 1];
+    const [newStart, newEnd] = sessionTimes(date, time);
+    const oldName = tpl.item_data.name;
+    const rewrite = (v) => {
+      if (typeof v === "string") {
+        if (v === tplStart) return sameFormat(newStart, v);
+        if (v === tplEnd) return sameFormat(newEnd, v);
+        return v.split(oldName).join(name);
+      }
+      if (Array.isArray(v)) return v.map(rewrite);
+      if (v && typeof v === "object") {
+        const o = {};
+        for (const [k, x] of Object.entries(v)) {
+          if (["id", "version", "updated_at", "created_at", "catalog_v1_ids", "item_id", "uid", "sku",
+               "description_plaintext", "is_deleted"].includes(k)) continue;
+          o[k] = rewrite(x);
+        }
+        return o;
+      }
+      return v;
+    };
+    const itemData = rewrite(tpl.item_data);
+    itemData.name = name;
+    if (itemData.description_html) delete itemData.description;   // html is the source of truth
+    itemData.variations = (tpl.item_data.variations || []).slice(0, 1).map((v, i) => {
+      const vd = rewrite(v.item_variation_data || {});
+      vd.item_id = "#item"; vd.track_inventory = true;
+      if (!vd.price_money) vd.price_money = { amount: parseInt(env.PRICE_JPY || "20000", 10), currency: "JPY" };
+      return { type: "ITEM_VARIATION", id: "#var" + i, present_at_all_locations: v.present_at_all_locations !== false, item_variation_data: vd };
+    });
+    object = { type: "ITEM", id: "#item", present_at_all_locations: tpl.present_at_all_locations !== false, item_data: itemData };
+    if (tpl.present_at_location_ids) object.present_at_location_ids = tpl.present_at_location_ids;
+  } else {
+    // no template found: plain item
+    object = { type: "ITEM", id: "#item", present_at_all_locations: true,
       item_data: { name, description: `Kintsugi workshop at ${VENUE}. One seat per ticket.`,
-        variations: [{ type: "ITEM_VARIATION", id: "#var", present_at_all_locations: true,
+        variations: [{ type: "ITEM_VARIATION", id: "#var0", present_at_all_locations: true,
           item_variation_data: { item_id: "#item", name: "Seat", pricing_type: "FIXED_PRICING",
-            price_money: { amount: parseInt(env.PRICE_JPY || "20000", 10), currency: "JPY" },
-            track_inventory: true, inventory_alert_type: "LOW_QUANTITY", inventory_alert_threshold: 1 } }] } } });
-  const variationId = r.id_mappings.find((m) => m.client_object_id === "#var").object_id;
+            price_money: { amount: parseInt(env.PRICE_JPY || "20000", 10), currency: "JPY" }, track_inventory: true } }] } };
+  }
+  const r = await sq("POST", "/catalog/object", { idempotency_key: crypto.randomUUID(), object });
+  const variationId = r.id_mappings.find((m) => m.client_object_id === "#var0").object_id;
   await sq("POST", "/inventory/changes/batch-create", {
     idempotency_key: crypto.randomUUID(),
     changes: [{ type: "PHYSICAL_COUNT", physical_count: { catalog_object_id: variationId, state: "IN_STOCK",
