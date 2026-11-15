@@ -1,0 +1,4 @@
+# Booking service for the Mendtokyo page.
+# book_url: the Cloudflare Worker URL (no trailing slash), e.g. https://mendtokyo-book.xxxx.workers.dev
+# Leave empty to fall back to "Book by email" buttons for sessions without a sheet link.
+book_url: "https://mendtokyo-book.liuxx479.workers.dev"

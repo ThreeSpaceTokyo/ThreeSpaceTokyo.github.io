@@ -79,6 +79,31 @@ class Square:
         counts = self.inventory_counts({v for v in link_to_var.values() if v})
         return {url: (counts.get(v) if v else None) for url, v in link_to_var.items()}
 
+    def seats_by_session(self):
+        """{(date, time): seats_left} for every catalog item named 'Mendtokyo ...'
+        (works for Dashboard-made links too, which the API cannot resolve by URL)."""
+        name_re = re.compile(r"^Mendtokyo (\d{2})/(\d{2})/(\d{4})(?: (afternoon)| (\d{2}:\d{2})[\u2013-](\d{2}:\d{2}))?")
+        items, cursor = [], None
+        while True:
+            r = self.call("GET", "/catalog/list?types=ITEM" + (f"&cursor={cursor}" if cursor else ""))
+            for o in r.get("objects", []):
+                nm = o.get("item_data", {}).get("name", "")
+                vs = o.get("item_data", {}).get("variations") or []
+                m = name_re.match(nm)
+                if m and vs:
+                    date = f"{m.group(3)}-{m.group(1)}-{m.group(2)}"
+                    time = "14:00\u201316:00" if m.group(4) else (f"{m.group(5)}\u2013{m.group(6)}" if m.group(5) else "10:00\u201312:00")
+                    items.append(((date, time), vs[0]["id"]))
+            cursor = r.get("cursor")
+            if not cursor:
+                break
+        counts = self.inventory_counts([v for _, v in items])
+        out = {}
+        for key, v in items:
+            if v in counts:
+                out[key] = max(out.get(key, 0), counts[v])
+        return out
+
     # ---- creating ------------------------------------------------------
     def create_session_item(self, name, price_jpy, seats):
         """Create a catalog item with one tracked variation and set its stock. Returns variation id."""

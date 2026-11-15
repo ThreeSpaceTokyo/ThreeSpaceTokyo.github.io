@@ -31,3 +31,8 @@ codekit-config.json
 _asset_bundler_cache
 _site
 scripts/__pycache__/
+# retired (Square API payment links are single-use; links are made in the Square Dashboard)
+.github/workflows/create-square-links.yml
+scripts/create_square_links.py
+_data/mending_square_links.json
+_mending.md.old

@@ -19,9 +19,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install Google Sheets client (for writing links back to the sheet)
-        run: pip install -q google-api-python-client google-auth
-
       - name: Regenerate _data/mending_sessions.yml from the sheet
         env:
           SQUARE_ACCESS_TOKEN: ${{ secrets.SQUARE_ACCESS_TOKEN }}
@@ -31,23 +28,10 @@ jobs:
           SHEET_CSV_URL: ${{ vars.SHEET_CSV_URL || 'https://docs.google.com/spreadsheets/d/1GL8YShTbRhtw0zPxlOqpVSOy6kohseQddiPT-Yw2cx0/gviz/tq?tqx=out:csv&gid=1775567458' }}
         run: python3 scripts/sync_sessions.py "$SHEET_CSV_URL"
 
-      - name: Create Square links for sessions that have none (never blocks the schedule sync)
-        continue-on-error: true
-        env:
-          SQUARE_ACCESS_TOKEN: ${{ secrets.SQUARE_ACCESS_TOKEN }}
-          SQUARE_LOCATION_ID: ${{ secrets.SQUARE_LOCATION_ID }}
-          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          SHEET_CSV_URL: ${{ vars.SHEET_CSV_URL || 'https://docs.google.com/spreadsheets/d/1GL8YShTbRhtw0zPxlOqpVSOy6kohseQddiPT-Yw2cx0/gviz/tq?tqx=out:csv&gid=1775567458' }}
-        run: |
-          if [ -z "$SQUARE_ACCESS_TOKEN" ]; then echo "No Square token - skipping link creation"; exit 0; fi
-          python3 scripts/create_square_links.py "$SHEET_CSV_URL" --apply
-          python3 scripts/sync_sessions.py "$SHEET_CSV_URL"
-
       - name: Commit and push if the schedule changed
         id: commit
         run: |
           git add _data/mending_sessions.yml
-          [ -f _data/mending_square_links.json ] && git add _data/mending_square_links.json
           if git diff --cached --quiet; then
             echo "No change."; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0
           fi

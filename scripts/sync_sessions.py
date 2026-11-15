@@ -83,25 +83,18 @@ def main():
         rows.append({"date": date, "time": time, "location": loc, "link": link,
                      "channel": channel, "status": status, "note": note, "seats": None})
 
-    # Links created by create_square_links.py (bridge until Aya copies them into the sheet)
-    jp = os.path.join(os.path.dirname(out) or ".", "mending_square_links.json")
-    if os.path.exists(jp):
-        try:
-            extra = json.load(open(jp, encoding="utf-8"))
-            for s in rows:
-                if not s["link"]:
-                    s["link"] = extra.get(f"{s['date']} {s['time']} {s['location']}") or extra.get(f"{s['date']} {s['time']}", "")
-        except Exception as e:
-            problems.append(f"could not read mending_square_links.json: {e}")
-
     # Seats left from Square
     if os.environ.get("SQUARE_ACCESS_TOKEN") and os.environ.get("SQUARE_LOCATION_ID"):
         try:
             sys.path.insert(0, HERE)
             from square_api import Square
-            left = Square().seats_left_by_link([s["link"] for s in rows if s["link"]])
+            sq = Square()
+            left = sq.seats_left_by_link([s["link"] for s in rows if s["link"]])
+            by_name = sq.seats_by_session()   # fallback: items named "Mendtokyo MM/DD/YYYY ..."
             for s in rows:
                 n_left = left.get(s["link"].rstrip("/")) if s["link"] else None
+                if n_left is None:
+                    n_left = by_name.get((s["date"], s["time"]))
                 if n_left is None or s["status"] == "cancelled":
                     continue
                 s["seats"] = n_left

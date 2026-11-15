@@ -27,7 +27,7 @@
   <tr>
     <td>{{ shown | strip }}{% if s.note %}<span class="note">{{ s.note }}</span>{% endif %}</td>
     <td>{{ s.time }}</td>
-    <td>{% if s.status == "soldout" %}<span class="pill soldout">{{ t_soldout }}</span>{% elsif s.status == "cancelled" %}—{% elsif s.seats %}{% if s.seats <= 2 %}<span class="pill few">{% if L == "ja" %}残り{{ s.seats }}席{% else %}{{ s.seats }} {{ t_left }}{% endif %}</span>{% else %}{% if L == "ja" %}残り{{ s.seats }}席{% else %}{{ s.seats }} {{ t_left }}{% endif %}{% endif %}{% else %}—{% endif %}</td>
+    <td class="seats" data-session="{{ d }} {{ s.time }}">{% if s.status == "soldout" %}<span class="pill soldout">{{ t_soldout }}</span>{% elsif s.status == "cancelled" %}—{% elsif s.seats %}{% if s.seats <= 2 %}<span class="pill few">{% if L == "ja" %}残り{{ s.seats }}席{% else %}{{ s.seats }} {{ t_left }}{% endif %}</span>{% else %}{% if L == "ja" %}残り{{ s.seats }}席{% else %}{{ s.seats }} {{ t_left }}{% endif %}{% endif %}{% else %}—{% endif %}</td>
     <td>
       {% if s.status == "soldout" %}
         <span class="pill soldout">{{ t_soldout }}</span>
@@ -37,6 +37,8 @@
         <a class="btn-line book" href="{{ s.link }}" target="_blank" rel="noopener">{{ t_airbnb }}</a>
       {% elsif s.link != "" %}
         <a class="btn-gold book" href="{{ s.link }}" target="_blank" rel="noopener">{{ t_book }}</a>
+      {% elsif site.data.mending_config.book_url != "" %}
+        <a class="btn-gold book" href="{{ site.data.mending_config.book_url }}/book?date={{ d }}&time={{ s.time | url_encode }}&lang={{ L }}" rel="noopener">{{ t_book }}</a>
       {% else %}
         <a class="btn-gold book" href="mailto:threespacetokyo@gmail.com?subject={{ mail_subj }}%20{{ d }}%20{{ s.time | url_encode }}&body={{ mail_body }}{{ d }}%20({{ s.time | url_encode }}){{ mail_tail }}">{{ t_mail }}</a>
       {% endif %}
@@ -47,4 +49,26 @@
 </table>
 {% else %}
 <p>{{ t_none }} <a href="mailto:threespacetokyo@gmail.com?subject={{ mail_subj }}">{{ t_none_link }}</a>{{ t_none_tail }}</p>
+{% endif %}
+{% if site.data.mending_config.book_url != "" %}
+<script>
+(function(){
+  var base = "{{ site.data.mending_config.book_url }}";
+  var T = { soldout: "{{ t_soldout }}", left: "{{ t_left }}", ja: "{{ L }}" === "ja" };
+  fetch(base + "/seats", {cache: "no-store"}).then(function(r){ return r.json(); }).then(function(seats){
+    document.querySelectorAll("td.seats[data-session]").forEach(function(td){
+      var n = seats[td.getAttribute("data-session")];
+      if (n === undefined) return;
+      var row = td.parentNode, btn = row.querySelector("a.book");
+      if (n <= 0) {
+        td.innerHTML = '<span class="pill soldout">' + T.soldout + '</span>';
+        if (btn) { var sp = document.createElement("span"); sp.className = "pill soldout"; sp.textContent = T.soldout; btn.replaceWith(sp); }
+      } else {
+        var txt = T.ja ? ("残り" + n + "席") : (n + " " + T.left);
+        td.innerHTML = n <= 2 ? '<span class="pill few">' + txt + '</span>' : txt;
+      }
+    });
+  }).catch(function(){});
+})();
+</script>
 {% endif %}
