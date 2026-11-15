@@ -2,35 +2,45 @@
 """Regenerate _data/mending_sessions.yml from the Mendtokyo schedule Google Sheet.
 
 Usage: sync_sessions.py <csv_url> [output_path]
-Reads the sheet as CSV (columns: date, time, seats, status, square_link, channel, note),
-validates rows, drops duplicates, sorts by date/time and writes the YAML the page reads.
-Exits 0 whether or not anything changed; the workflow decides whether to commit.
+Sheet columns: date, time, location, square_link, channel, note
+(older columns seats/status are tolerated and ignored, except status=cancelled).
+Seats left come from Square (stock of the item behind each link) when
+SQUARE_ACCESS_TOKEN / SQUARE_LOCATION_ID are set. Past dates (Tokyo) are dropped.
 """
-import csv, datetime, io, re, sys, urllib.request
+import csv, datetime, io, json, os, re, sys, urllib.request
 from zoneinfo import ZoneInfo
 
 TOKYO = ZoneInfo("Asia/Tokyo")
+HERE = os.path.dirname(os.path.abspath(__file__))
 
 HEADER = """# Upcoming sessions for the Mendtokyo kintsugi workshop (/mendtokyo/).
 #
-# GENERATED FILE - do not edit by hand. The source is Aya's Google Sheet
-# "Mending Workshop - sessions & Square links"; a GitHub Action
-# (.github/workflows/sync-sessions.yml) rewrites this file from it every hour.
+# GENERATED FILE - do not edit by hand. Source: Aya's Google Sheet; a GitHub Action
+# (.github/workflows/sync-sessions.yml) rewrites this file every hour.
 #
-#   date:    YYYY-MM-DD        time: shown as-is
-#   status:  open | soldout | cancelled   (soldout/cancelled replace the button with a label)
-#   link:    Square checkout link; empty -> "Book by email" button
-#   channel: direct | airbnb   (airbnb rows show "Book on Airbnb")
-#   note:    optional short note shown under the date
+#   date:     YYYY-MM-DD          time: shown as-is
+#   location: asakusabashi | shimokitazawa   (keys defined in _data/mending_locations.yml)
+#   link:     Square payment link; empty -> "Book by email" button
+#   channel:  direct | airbnb     (airbnb rows show "Book on Airbnb")
+#   seats:    seats left according to Square (omitted when unknown)
+#   status:   open | soldout | cancelled
+#   note:     optional short note shown under the date
 #
 # Only today's and future dates (Tokyo time) are written here; past rows stay in the sheet.
 
 """
-VALID_STATUS = {"open", "few", "soldout", "cancelled"}
 VALID_CHANNEL = {"direct", "airbnb"}
 
-def yq(s: str) -> str:
-    return '"' + s.replace("\\", "\\\\").replace('"', '\\"') + '"'
+def yq(s):
+    return '"' + str(s).replace("\\", "\\\\").replace('"', '\\"') + '"'
+
+def location_key(text):
+    t = (text or "").strip().lower()
+    if not t or "asakusa" in t or "three space" in t or "tst" in t:
+        return "asakusabashi"
+    if "shimokita" in t or "daita" in t or "bookshop" in t or "setagaya" in t or "下北" in t:
+        return "shimokitazawa"
+    return None
 
 def main():
     url = sys.argv[1]
@@ -39,9 +49,10 @@ def main():
     today = datetime.datetime.now(TOKYO).date()
     rows, seen, problems, past = [], set(), [], 0
     for n, r in enumerate(csv.DictReader(io.StringIO(raw)), start=2):
-        date = (r.get("date") or "").strip()
+        r = {(k or "").strip().lower(): (v or "") for k, v in r.items()}
+        date = r.get("date", "").strip()
         if not date:
-            continue  # blank row or the how-to block
+            continue
         if not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date):
             problems.append(f"row {n}: date '{date}' is not YYYY-MM-DD, skipped"); continue
         try:
@@ -49,31 +60,65 @@ def main():
         except ValueError:
             problems.append(f"row {n}: date '{date}' is not a real date, skipped"); continue
         if day < today:
-            past += 1; continue  # already happened (Tokyo time) - leave it in the sheet, keep it off the site
-        time = (r.get("time") or "").strip().replace("-", "–").replace(" ", "")
+            past += 1; continue
+        time = r.get("time", "").strip().replace("-", "–").replace(" ", "")
         if not time:
             problems.append(f"row {n}: no time, skipped"); continue
-        status = re.sub(r"[\s_-]", "", (r.get("status") or "open").strip().lower()) or "open"
-        if status not in VALID_STATUS:
-            problems.append(f"row {n}: status '{status}' unknown, treated as open"); status = "open"
-        channel = (r.get("channel") or "direct").strip().lower() or "direct"
+        loc = location_key(r.get("location"))
+        if loc is None:
+            problems.append(f"row {n}: location '{r.get('location')}' not recognised, using Asakusabashi"); loc = "asakusabashi"
+        channel = r.get("channel", "direct").strip().lower() or "direct"
         if channel not in VALID_CHANNEL:
             problems.append(f"row {n}: channel '{channel}' unknown, treated as direct"); channel = "direct"
-        link = (r.get("square_link") or "").strip()
+        link = (r.get("square_link") or r.get("link") or "").strip()
         if link and not link.startswith("https://"):
             problems.append(f"row {n}: link '{link}' is not https, dropped"); link = ""
-        note = (r.get("note") or "").strip()
-        key = (date, time)
+        status = re.sub(r"[\s_-]", "", r.get("status", "").lower())
+        status = "cancelled" if status in ("cancelled", "canceled") else "open"
+        note = r.get("note", "").strip()
+        key = (date, time, loc)
         if key in seen:
-            problems.append(f"row {n}: duplicate of {date} {time}, skipped"); continue
+            problems.append(f"row {n}: duplicate of {date} {time} {loc}, skipped"); continue
         seen.add(key)
-        rows.append((date, time, status, link, channel, note))
-    rows.sort()
+        rows.append({"date": date, "time": time, "location": loc, "link": link,
+                     "channel": channel, "status": status, "note": note, "seats": None})
+
+    # Links created by create_square_links.py (bridge until Aya copies them into the sheet)
+    jp = os.path.join(os.path.dirname(out) or ".", "mending_square_links.json")
+    if os.path.exists(jp):
+        try:
+            extra = json.load(open(jp, encoding="utf-8"))
+            for s in rows:
+                if not s["link"]:
+                    s["link"] = extra.get(f"{s['date']} {s['time']} {s['location']}") or extra.get(f"{s['date']} {s['time']}", "")
+        except Exception as e:
+            problems.append(f"could not read mending_square_links.json: {e}")
+
+    # Seats left from Square
+    if os.environ.get("SQUARE_ACCESS_TOKEN") and os.environ.get("SQUARE_LOCATION_ID"):
+        try:
+            sys.path.insert(0, HERE)
+            from square_api import Square
+            left = Square().seats_left_by_link([s["link"] for s in rows if s["link"]])
+            for s in rows:
+                n_left = left.get(s["link"].rstrip("/")) if s["link"] else None
+                if n_left is None or s["status"] == "cancelled":
+                    continue
+                s["seats"] = n_left
+                s["status"] = "soldout" if n_left <= 0 else "open"
+                print(f"square: {s['date']} {s['time']} {s['location']}: {n_left} seat(s) left -> {s['status']}")
+        except Exception as e:
+            problems.append(f"Square check skipped: {e}")
+
+    rows.sort(key=lambda s: (s["date"], s["time"], s["location"]))
     lines = []
-    for date, time, status, link, channel, note in rows:
-        item = f"- {{ date: {date}, time: {yq(time)}, status: {status}, link: {yq(link)}, channel: {channel}"
-        if note:
-            item += f", note: {yq(note)}"
+    for s in rows:
+        item = (f"- {{ date: {s['date']}, time: {yq(s['time'])}, location: {s['location']}, "
+                f"link: {yq(s['link'])}, channel: {s['channel']}, status: {s['status']}")
+        if s["seats"] is not None:
+            item += f", seats: {s['seats']}"
+        if s["note"]:
+            item += f", note: {yq(s['note'])}"
         lines.append(item + " }")
     with open(out, "w", encoding="utf-8") as f:
         f.write(HEADER + "\n".join(lines) + "\n")

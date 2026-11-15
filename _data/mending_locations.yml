@@ -1,0 +1,15 @@
+# Venues for the Mendtokyo workshop. Keys are used in _data/mending_sessions.yml (location:).
+asakusabashi:
+  name: "Three Space Tokyo"
+  area: "Asakusabashi"
+  address_en: "3-6-6 Asakusabashi, Taito-ku, Tokyo 111-0053"
+  address_ja: "東京都台東区浅草橋3-6-6"
+  map: "https://maps.app.goo.gl/4ShWV12RVVhVmNTi6"
+  embed: "https://www.google.com/maps?q=3-6-6+Asakusabashi,+Taito-ku,+Tokyo+111-0053&output=embed"
+shimokitazawa:
+  name: "Bookshop with Story"
+  area: "Shimokitazawa"
+  address_en: "5-10-11 Daita, Setagaya-ku, Tokyo 155-0033"
+  address_ja: "東京都世田谷区代田5-10-11"
+  map: "https://share.google/wmwKZHivAwyjlwlJT"
+  embed: "https://www.google.com/maps?q=5-10-11+Daita,+Setagaya-ku,+Tokyo&output=embed"

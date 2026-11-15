@@ -1,0 +1,53 @@
+{% assign L = include.lang | default: "en" %}
+{% assign A = site.data.mending_locations.asakusabashi %}
+{% assign S = site.data.mending_locations.shimokitazawa %}
+{% case L %}
+{% when "fr" %}
+{% assign t_intro = "L’atelier a lieu dans deux lieux ; le lieu de chaque séance est indiqué dans le tableau des dates." %}
+{% assign t_a_access = "À environ 6 minutes à pied de la gare d’<strong>Asakusabashi</strong> (ligne JR Sobu / ligne Toei Asakusa, sortie A4). Depuis Akihabara, c’est une station sur la ligne Sobu." %}
+{% assign t_s_access = "Une librairie indépendante du quartier de <strong>Shimokitazawa</strong>, à quelques minutes à pied des gares de Shimokitazawa (lignes Odakyu et Keio Inokashira) et de Setagaya-Daita (Odakyu)." %}
+{% assign t_map = "Ouvrir dans Google Maps" %}{% assign t_q = "Questions :" %}{% assign t_at = "Lieu principal" %}{% assign t_at2 = "Second lieu" %}
+{% when "ja" %}
+{% assign t_intro = "ワークショップは2つの会場で開催しています。各回の会場は日程表をご確認ください。" %}
+{% assign t_a_access = "<strong>浅草橋駅</strong>（JR総武線・都営浅草線、A4出口）から徒歩約6分。秋葉原から総武線で1駅です。" %}
+{% assign t_s_access = "<strong>下北沢</strong>エリアの独立系書店。下北沢駅（小田急線・京王井の頭線）、世田谷代田駅（小田急線）から徒歩数分です。" %}
+{% assign t_map = "Googleマップで開く" %}{% assign t_q = "お問い合わせ：" %}{% assign t_at = "メイン会場" %}{% assign t_at2 = "第2会場" %}
+{% when "vi" %}
+{% assign t_intro = "Workshop diễn ra tại hai địa điểm; địa điểm của từng buổi được ghi trong bảng lịch." %}
+{% assign t_a_access = "Khoảng 6 phút đi bộ từ ga <strong>Asakusabashi</strong> (tuyến JR Sobu / tuyến Toei Asakusa, lối ra A4). Từ Akihabara chỉ một ga trên tuyến Sobu." %}
+{% assign t_s_access = "Một hiệu sách độc lập ở khu <strong>Shimokitazawa</strong>, cách ga Shimokitazawa (tuyến Odakyu và Keio Inokashira) và ga Setagaya-Daita (Odakyu) vài phút đi bộ." %}
+{% assign t_map = "Mở trong Google Maps" %}{% assign t_q = "Liên hệ:" %}{% assign t_at = "Địa điểm chính" %}{% assign t_at2 = "Địa điểm thứ hai" %}
+{% else %}
+{% assign t_intro = "The workshop runs at two venues; each session’s venue is shown in the dates table." %}
+{% assign t_a_access = "About 6 minutes on foot from <strong>Asakusabashi Station</strong> (JR Sobu Line / Toei Asakusa Line, exit A4). From Akihabara it is one stop on the Sobu Line." %}
+{% assign t_s_access = "An independent bookshop in the <strong>Shimokitazawa</strong> area, a few minutes on foot from Shimokitazawa Station (Odakyu and Keio Inokashira lines) and Setagaya-Daita Station (Odakyu)." %}
+{% assign t_map = "Open in Google Maps" %}{% assign t_q = "Questions:" %}{% assign t_at = "Main venue" %}{% assign t_at2 = "Second venue" %}
+{% endcase %}
+<p>{{ t_intro }}</p>
+
+<div class="venue" id="loc-asakusabashi">
+  <h3>{{ A.area }} — {{ A.name }} <span class="small">· {{ t_at }}</span></h3>
+  <div class="two">
+    <div>
+      <p>{{ A.address_en }}<br>{{ A.address_ja }}</p>
+      <p>{{ t_a_access }}</p>
+      <p><a class="btn-line" href="{{ A.map }}" target="_blank" rel="noopener">{{ t_map }}</a></p>
+    </div>
+    <iframe class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="{{ A.embed }}" title="{{ A.name }}"></iframe>
+  </div>
+</div>
+
+<div class="venue" id="loc-shimokitazawa">
+  <h3>{{ S.area }} — {{ S.name }} <span class="small">· {{ t_at2 }}</span></h3>
+  <div class="two">
+    <div>
+      <p>{{ S.address_en }}<br>{{ S.address_ja }}</p>
+      <p>{{ t_s_access }}</p>
+      <p><a class="btn-line" href="{{ S.map }}" target="_blank" rel="noopener">{{ t_map }}</a></p>
+    </div>
+    <iframe class="map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="{{ S.embed }}" title="{{ S.name }}"></iframe>
+  </div>
+</div>
+
+<p>{{ t_q }} <a href="mailto:threespacetokyo@gmail.com">threespacetokyo@gmail.com</a><br>
+Instagram: <a href="https://www.instagram.com/mendtokyo" target="_blank" rel="noopener">@mendtokyo</a> · <a href="https://www.instagram.com/threespacetokyo/" target="_blank" rel="noopener">@threespacetokyo</a></p>

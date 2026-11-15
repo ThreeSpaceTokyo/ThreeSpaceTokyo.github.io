@@ -1,0 +1,26 @@
+name: Set seats left for one Square link
+
+on:
+  workflow_dispatch:
+    inputs:
+      link:
+        description: "Square payment link, e.g. https://square.link/u/BGD5ORfl"
+        required: true
+      seats:
+        description: "Seats that should remain available"
+        required: true
+        default: "2"
+      apply:
+        description: "Actually change the stock in Square (unticked = dry run)"
+        type: boolean
+        default: false
+
+jobs:
+  stock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - env:
+          SQUARE_ACCESS_TOKEN: ${{ secrets.SQUARE_ACCESS_TOKEN }}
+          SQUARE_LOCATION_ID: ${{ secrets.SQUARE_LOCATION_ID }}
+        run: python3 scripts/set_square_stock.py "${{ inputs.link }}" "${{ inputs.seats }}" ${{ inputs.apply && '--apply' || '' }}

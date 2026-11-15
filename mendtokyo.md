@@ -27,6 +27,7 @@ header:
   <div><b>Group size</b>Max. 4 guests</div>
   <div><b>Price</b>¥20,000 per person</div>
   <div><b>Level</b>Beginners welcome</div>
+  <div><b>Venues</b>Asakusabashi · Shimokitazawa</div>
   <div><b>Age</b>12 and over</div>
   <div><b>Language</b>English<br><span class="small">French, Japanese or Vietnamese on request</span></div>
 </div>
@@ -81,18 +82,7 @@ header:
 <details><summary>Private sessions &amp; larger groups</summary><p>Each session takes a maximum of four guests. Book all four seats of an open session for a private workshop, or <a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20group%20booking">contact us</a> for groups larger than four or for other dates and times.</p></details>
 
 <h2 id="location">Location</h2>
-<div class="two">
-  <div>
-    <p><strong>Held at Three Space Tokyo</strong><br>
-    3-6-6 Asakusabashi, Taito-ku, Tokyo 111-0053<br>
-    東京都台東区浅草橋3-6-6</p>
-    <p>About 6 minutes on foot from <strong>Asakusabashi Station</strong> (JR Sobu Line / Toei Asakusa Line, exit A4). From Akihabara it is one stop on the Sobu Line.</p>
-    <p><a class="btn-line" href="https://maps.app.goo.gl/4ShWV12RVVhVmNTi6" target="_blank" rel="noopener">Open in Google Maps</a></p>
-    <p>Questions: <a href="mailto:threespacetokyo@gmail.com">threespacetokyo@gmail.com</a><br>
-    Instagram: <a href="https://www.instagram.com/mendtokyo" target="_blank" rel="noopener">@mendtokyo</a> · <a href="https://www.instagram.com/threespacetokyo/" target="_blank" rel="noopener">@threespacetokyo</a></p>
-  </div>
-  {% include mendtokyo/map.html %}
-</div>
+{% include mendtokyo/location.html lang="en" %}
 
 <p class="small" style="margin-top:2em;">Mendtokyo is a collaboration between kintsugi artist Lynh Ko and Three Space Tokyo.</p>
 

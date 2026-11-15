@@ -28,6 +28,7 @@ header:
   <div><b>Groupe</b>4 personnes max.</div>
   <div><b>Prix</b>20 000 ¥ par personne</div>
   <div><b>Niveau</b>Débutants bienvenus</div>
+  <div><b>Lieux</b>Asakusabashi · Shimokitazawa</div>
   <div><b>Âge</b>À partir de 12 ans</div>
   <div><b>Langue</b>Anglais<br><span class="small">français, japonais ou vietnamien sur demande</span></div>
 </div>
@@ -82,18 +83,7 @@ header:
 <details><summary>Séances privées &amp; groupes</summary><p>Chaque séance accueille quatre personnes au maximum. Réservez les quatre places d’une séance ouverte pour un atelier privé, ou <a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20groupe">contactez-nous</a> pour un groupe plus nombreux ou d’autres dates et horaires.</p></details>
 
 <h2 id="location">Lieu</h2>
-<div class="two">
-  <div>
-    <p><strong>À Three Space Tokyo</strong><br>
-    3-6-6 Asakusabashi, Taito-ku, Tokyo 111-0053<br>
-    東京都台東区浅草橋3-6-6</p>
-    <p>À environ 6 minutes à pied de la gare d’<strong>Asakusabashi</strong> (ligne JR Sobu / ligne Toei Asakusa, sortie A4). Depuis Akihabara, c’est une station sur la ligne Sobu.</p>
-    <p><a class="btn-line" href="https://maps.app.goo.gl/4ShWV12RVVhVmNTi6" target="_blank" rel="noopener">Ouvrir dans Google Maps</a></p>
-    <p>Questions : <a href="mailto:threespacetokyo@gmail.com">threespacetokyo@gmail.com</a><br>
-    Instagram : <a href="https://www.instagram.com/mendtokyo" target="_blank" rel="noopener">@mendtokyo</a> · <a href="https://www.instagram.com/threespacetokyo/" target="_blank" rel="noopener">@threespacetokyo</a></p>
-  </div>
-  {% include mendtokyo/map.html %}
-</div>
+{% include mendtokyo/location.html lang="fr" %}
 
 <p class="small" style="margin-top:2em;">Mendtokyo est une collaboration entre l’artiste kintsugi Lynh Ko et Three Space Tokyo.</p>
 

@@ -28,6 +28,7 @@ header:
   <div><b>Số người</b>Tối đa 4 khách</div>
   <div><b>Giá</b>¥20.000 / người</div>
   <div><b>Trình độ</b>Người mới bắt đầu</div>
+  <div><b>Địa điểm</b>Asakusabashi · Shimokitazawa</div>
   <div><b>Độ tuổi</b>Từ 12 tuổi</div>
   <div><b>Ngôn ngữ</b>Tiếng Anh<br><span class="small">tiếng Việt, Pháp hoặc Nhật theo yêu cầu</span></div>
 </div>
@@ -82,18 +83,7 @@ header:
 <details><summary>Buổi riêng &amp; nhóm đông hơn</summary><p>Mỗi buổi tối đa bốn khách. Đặt cả bốn chỗ của một buổi còn trống để có workshop riêng, hoặc <a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20nh%C3%B3m">liên hệ</a> nếu nhóm đông hơn bốn người hoặc muốn ngày giờ khác.</p></details>
 
 <h2 id="location">Địa điểm</h2>
-<div class="two">
-  <div>
-    <p><strong>Tại Three Space Tokyo</strong><br>
-    3-6-6 Asakusabashi, Taito-ku, Tokyo 111-0053<br>
-    東京都台東区浅草橋3-6-6</p>
-    <p>Khoảng 6 phút đi bộ từ ga <strong>Asakusabashi</strong> (tuyến JR Sobu / tuyến Toei Asakusa, lối ra A4). Từ Akihabara chỉ một ga trên tuyến Sobu.</p>
-    <p><a class="btn-line" href="https://maps.app.goo.gl/4ShWV12RVVhVmNTi6" target="_blank" rel="noopener">Mở trong Google Maps</a></p>
-    <p>Liên hệ: <a href="mailto:threespacetokyo@gmail.com">threespacetokyo@gmail.com</a><br>
-    Instagram: <a href="https://www.instagram.com/mendtokyo" target="_blank" rel="noopener">@mendtokyo</a> · <a href="https://www.instagram.com/threespacetokyo/" target="_blank" rel="noopener">@threespacetokyo</a></p>
-  </div>
-  {% include mendtokyo/map.html %}
-</div>
+{% include mendtokyo/location.html lang="vi" %}
 
 <p class="small" style="margin-top:2em;">Mendtokyo là dự án hợp tác giữa nghệ sĩ kintsugi Lynh Ko và Three Space Tokyo.</p>
 

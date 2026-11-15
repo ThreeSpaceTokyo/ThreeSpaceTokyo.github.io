@@ -19,8 +19,23 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Install Google Sheets client (for writing links back to the sheet)
+        run: pip install -q google-api-python-client google-auth
+
+      - name: Create Square links for sessions that have none (4 seats Asakusabashi, 2 Shimokitazawa)
+        env:
+          SQUARE_ACCESS_TOKEN: ${{ secrets.SQUARE_ACCESS_TOKEN }}
+          SQUARE_LOCATION_ID: ${{ secrets.SQUARE_LOCATION_ID }}
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          SHEET_CSV_URL: ${{ vars.SHEET_CSV_URL || 'https://docs.google.com/spreadsheets/d/1GL8YShTbRhtw0zPxlOqpVSOy6kohseQddiPT-Yw2cx0/gviz/tq?tqx=out:csv&gid=1775567458' }}
+        run: |
+          if [ -z "$SQUARE_ACCESS_TOKEN" ]; then echo "No Square token - skipping link creation"; exit 0; fi
+          python3 scripts/create_square_links.py "$SHEET_CSV_URL" --apply
+
       - name: Regenerate _data/mending_sessions.yml from the sheet
         env:
+          SQUARE_ACCESS_TOKEN: ${{ secrets.SQUARE_ACCESS_TOKEN }}
+          SQUARE_LOCATION_ID: ${{ secrets.SQUARE_LOCATION_ID }}
           # Override with a repository variable SHEET_CSV_URL if the sheet moves
           # (Settings -> Secrets and variables -> Actions -> Variables).
           SHEET_CSV_URL: ${{ vars.SHEET_CSV_URL || 'https://docs.google.com/spreadsheets/d/1GL8YShTbRhtw0zPxlOqpVSOy6kohseQddiPT-Yw2cx0/gviz/tq?tqx=out:csv&gid=1775567458' }}
@@ -29,12 +44,12 @@ jobs:
       - name: Commit and push if the schedule changed
         id: commit
         run: |
-          if git diff --quiet -- _data/mending_sessions.yml; then
+          git add _data/mending_sessions.yml _data/mending_square_links.json 2>/dev/null || git add _data/mending_sessions.yml
+          if git diff --cached --quiet; then
             echo "No change."; echo "changed=false" >> "$GITHUB_OUTPUT"; exit 0
           fi
           git config user.name "mendtokyo-sync[bot]"
           git config user.email "threespacetokyo@gmail.com"
-          git add _data/mending_sessions.yml
           git commit -m "Mendtokyo: sessions synced from schedule sheet"
           git push
           echo "changed=true" >> "$GITHUB_OUTPUT"

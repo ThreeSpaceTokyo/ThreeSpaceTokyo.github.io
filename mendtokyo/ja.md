@@ -28,6 +28,7 @@ header:
   <div><b>定員</b>各回4名まで</div>
   <div><b>料金</b>お一人 20,000円</div>
   <div><b>レベル</b>初心者歓迎</div>
+  <div><b>会場</b>浅草橋 · 下北沢</div>
   <div><b>年齢</b>12歳以上</div>
   <div><b>言語</b>英語<br><span class="small">日本語・フランス語・ベトナム語はご相談ください</span></div>
 </div>
@@ -82,18 +83,7 @@ header:
 <details><summary>貸切・団体でのご参加</summary><p>各回の定員は4名です。空きのある回の4席をまとめてご予約いただくと貸切になります。5名以上のグループやその他の日時については<a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20%E5%9B%A3%E4%BD%93%E4%BA%88%E7%B4%84">お問い合わせください</a>。</p></details>
 
 <h2 id="location">アクセス</h2>
-<div class="two">
-  <div>
-    <p><strong>会場：Three Space Tokyo</strong><br>
-    東京都台東区浅草橋3-6-6<br>
-    3-6-6 Asakusabashi, Taito-ku, Tokyo 111-0053</p>
-    <p><strong>浅草橋駅</strong>（JR総武線・都営浅草線、A4出口）から徒歩約6分。秋葉原から総武線で1駅です。</p>
-    <p><a class="btn-line" href="https://maps.app.goo.gl/4ShWV12RVVhVmNTi6" target="_blank" rel="noopener">Googleマップで開く</a></p>
-    <p>お問い合わせ：<a href="mailto:threespacetokyo@gmail.com">threespacetokyo@gmail.com</a><br>
-    Instagram：<a href="https://www.instagram.com/mendtokyo" target="_blank" rel="noopener">@mendtokyo</a> · <a href="https://www.instagram.com/threespacetokyo/" target="_blank" rel="noopener">@threespacetokyo</a></p>
-  </div>
-  {% include mendtokyo/map.html %}
-</div>
+{% include mendtokyo/location.html lang="ja" %}
 
 <p class="small" style="margin-top:2em;">Mendtokyoは、金継ぎ作家Lynh KoとThree Space Tokyoの共同企画です。</p>
 
