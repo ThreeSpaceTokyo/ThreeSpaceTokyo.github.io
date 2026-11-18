@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "SICK S□K - out/src - — Berlin (2026)"
+title: "SICK S□K - out/src — Berlin (2026)"
 permalink: /exhibitions/berlin-sick-sok-out-src/
 ---
 

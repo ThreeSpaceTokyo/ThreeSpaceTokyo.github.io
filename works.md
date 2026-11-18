@@ -9,7 +9,7 @@ toc_sticky: false
 
 <a id="berlin-2026"></a>
 
-### SICK S□K - out/src - — Berlin (2026)
+### SICK S□K - out/src — Berlin (2026)
 
 **[Exhibition Page](/exhibitions/berlin-sick-sok-out-src/)**
 

@@ -9,7 +9,7 @@ toc_sticky: false
 
 ## Ongoing & Upcoming
 
-### SICK S□K - out/src - — Berlin (2026)
+### SICK S□K - out/src — Berlin (2026)
 **Reception:** Saturday, November 21, 18:00–21:00  
 **Exhibition:** November 19–28, 12:00–19:00 (Thu & Fri until 17:00; closed Nov 24–25)
 
