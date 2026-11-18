@@ -15,6 +15,8 @@ toc_sticky: false
 
 Sick S□k - out/src - presents installations by Berlin across Three Space Tokyo's three floors, exploring how individuals and society shape one another. Humans have created systems and values to understand the world and relate to others; while these sustain society, they also blur the boundary between our own intentions and socially shaped values. The title "out/src" evokes "outsource," bringing together the external world ("out") and the source of individual thought and judgment ("src"). Through labelled fish connected by tubes, disordered meeting tables, ceramic figures bearing traces of removed labels, and a fictional promotional event for a luxury fruit, the exhibition examines living within social structures, searching for ways to engage with them, and entrusting ourselves to their mechanisms.
 
+**[Exhibition Page](/exhibitions/berlin-sick-sok-out-src/)** (Including Works for Purchase)
+
 
 ### WORKS IN PROGRESS – IN SITU: Creative Incubator Open Studio (2026)
 **Open Installation:** Sunday, December 6, 9:00–18:00  

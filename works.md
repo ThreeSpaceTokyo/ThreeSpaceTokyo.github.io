@@ -7,6 +7,182 @@ toc: false
 toc_sticky: false
 ---
 
+<a id="berlin-2026"></a>
+
+### SICK S□K - out/src - — Berlin (2026)
+
+**[Exhibition Page](/exhibitions/berlin-sick-sok-out-src/)**
+
+*Farrago* works can be purchased individually at ¥22,000 each, or as the complete 5-piece set for ¥90,000. *ネコ* is available as a single piece for ¥55,000, or as a 3-piece set for ¥135,000. All prices include tax.
+
+<table>
+<tr>
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/ail.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/ail.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Ail</b><br>
+2026<br>
+Ceramic, Ashtray, Concrete, Label<br>
+¥22,000<br><br>
+<a href="https://square.link/u/5gyd9kHB">Purchase Work</a>
+</td>
+
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/paddle.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/paddle.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Paddle</b><br>
+2026<br>
+Ceramic, Ashtray, Concrete, Label<br>
+¥22,000<br><br>
+<a href="https://square.link/u/vvBPkuds">Purchase Work</a>
+</td>
+
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/ballet.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/ballet.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Ballet</b><br>
+2026<br>
+Ceramic, Ashtray, Concrete, Label<br>
+¥22,000<br><br>
+<a href="https://square.link/u/toAKm7ZZ">Purchase Work</a>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/snake.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/snake.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Snake</b><br>
+2026<br>
+Ceramic, Ashtray, Concrete, Label<br>
+¥22,000<br><br>
+<a href="https://square.link/u/idrTCw7z">Purchase Work</a>
+</td>
+
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/split.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/split.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Split</b><br>
+2026<br>
+Ceramic, Ashtray, Concrete, Label<br>
+¥22,000<br><br>
+<a href="https://square.link/u/CztYwmwz">Purchase Work</a>
+</td>
+
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/vertical.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/vertical.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Vertical</b><br>
+2026<br>
+Ceramic, Ashtray, Concrete, Label<br>
+¥22,000<br><br>
+<a href="https://square.link/u/W11kuYEh">Purchase Work</a>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/scull.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/scull.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Scull</b><br>
+2026<br>
+Ceramic, Ashtray, Concrete, Label<br>
+¥22,000<br><br>
+<a href="https://square.link/u/APj6tSaP">Purchase Work</a>
+</td>
+
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/flamingo.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/flamingo.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Flamingo</b><br>
+2026<br>
+Ceramic, Ashtray, Concrete, Label<br>
+¥22,000<br><br>
+<a href="https://square.link/u/gEpYmDbD">Purchase Work</a>
+</td>
+
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/crane.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/crane.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Crane</b><br>
+2026<br>
+Ceramic, Ashtray, Concrete, Label<br>
+¥22,000<br><br>
+<a href="https://square.link/u/W9ZU8dSz">Purchase Work</a>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/whip-kick.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/whip-kick.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Whip Kick</b><br>
+2026<br>
+Ceramic, Ashtray, Concrete, Label<br>
+¥22,000<br><br>
+<a href="https://square.link/u/PXDmeGL6">Purchase Work</a>
+</td>
+
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/farrago-set.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/farrago-set.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Farrago — 5-piece set</b><br>
+2026<br>
+Acrylic paint, Painted on a box<br>
+¥90,000<br><br>
+<a href="https://square.link/u/2bL0AakZ">Purchase Work</a>
+</td>
+
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/farrago-1.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/farrago-1.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Farrago — 1/5</b><br>
+2026<br>
+Acrylic paint, Painted on a box<br>
+¥22,000<br><br>
+<a href="https://square.link/u/ymH7itqt">Purchase Work</a>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/farrago-2.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/farrago-2.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Farrago — 2/5</b><br>
+2026<br>
+Acrylic paint, Painted on a box<br>
+¥22,000<br><br>
+<a href="https://square.link/u/ymH7itqt">Purchase Work</a>
+</td>
+
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/farrago-3.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/farrago-3.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Farrago — 3/5</b><br>
+2026<br>
+Acrylic paint, Painted on a box<br>
+¥22,000<br><br>
+<a href="https://square.link/u/ymH7itqt">Purchase Work</a>
+</td>
+
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/farrago-4.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/farrago-4.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Farrago — 4/5</b><br>
+2026<br>
+Acrylic paint, Painted on a box<br>
+¥22,000<br><br>
+<a href="https://square.link/u/ymH7itqt">Purchase Work</a>
+</td>
+</tr>
+
+<tr>
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/farrago-5.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/farrago-5.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>Farrago — 5/5</b><br>
+2026<br>
+Acrylic paint, Painted on a box<br>
+¥22,000<br><br>
+<a href="https://square.link/u/ymH7itqt">Purchase Work</a>
+</td>
+
+<td align="center" valign="bottom" width="33%" height="420">
+<a href="/assets/berlin-sick-sok-out-src/neko.jpg?full" target="_blank" rel="noopener" title="Open larger image in a new window"><img src="/assets/berlin-sick-sok-out-src/neko.jpg" style="max-height:300px; max-width:100%; width:auto; height:auto;"></a><br><br>
+<b>ネコ</b><br>
+2026<br>
+Mixed media<br>
+1 piece: ¥55,000<br>
+3-piece set: ¥135,000<br><br>
+<a href="https://square.link/u/d7kItJ9F">Purchase 1 Piece</a> &nbsp;·&nbsp; <a href="https://square.link/u/bpadsGi0">Purchase 3-Piece Set</a>
+</td>
+</tr>
+</table>
+
 ### BIRTHDAY STORIES — Negar Kaghazchi (2026)
 
 **[Exhibition Page](/exhibitions/negar-kaghazchi-birthday-stories/)**
