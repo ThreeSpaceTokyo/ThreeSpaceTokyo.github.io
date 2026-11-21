@@ -68,7 +68,7 @@ header:
 
 {% include mendtokyo/sessions.html lang="vi" %}
 
-<p class="small">Thanh toán bằng thẻ qua Square khi đặt chỗ. Với các ngày “Đặt qua email”, chúng tôi sẽ xác nhận bằng thư trả lời kèm liên kết thanh toán. Không có ngày phù hợp? <a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20-%20ng%C3%A0y%20kh%C3%A1c">Hãy viết cho chúng tôi</a>.</p>
+<p class="small">Thanh toán bằng thẻ qua Square khi đặt chỗ. Không có ngày phù hợp? <a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20-%20ng%C3%A0y%20kh%C3%A1c">Hãy viết cho chúng tôi</a>.</p>
 
 <h2>Những điều cần biết</h2>
 <details><summary>Bao gồm những gì?</summary><p>Một món đồ gốm cổ đã chuẩn bị sẵn cho bạn, toàn bộ vật liệu gồm urushi tự nhiên và vàng thật, dụng cụ, tạp dề, ống tay và găng tay, cùng hộp bảo vệ kèm hướng dẫn chăm sóc.</p></details>

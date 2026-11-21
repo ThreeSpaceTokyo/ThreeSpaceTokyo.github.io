@@ -68,7 +68,7 @@ header:
 
 {% include mendtokyo/sessions.html lang="ja" %}
 
-<p class="small">お支払いはご予約時にSquareでのカード決済となります。「メールで予約」の回は、返信にて決済リンクをお送りして確定します。ご都合の合う日程がない場合は<a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20-%20%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%97%A5%E7%A8%8B">お問い合わせください</a>。</p>
+<p class="small">お支払いはご予約時にSquareでのカード決済となります。ご都合の合う日程がない場合は<a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20-%20%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%97%A5%E7%A8%8B">お問い合わせください</a>。</p>
 
 <h2>ご参加にあたって</h2>
 <details><summary>料金に含まれるもの</summary><p>お一人一点の下準備済みの古い器、天然漆と本金を含むすべての材料、道具、エプロン・アームカバー・手袋、お手入れ説明書付きの保護箱。</p></details>

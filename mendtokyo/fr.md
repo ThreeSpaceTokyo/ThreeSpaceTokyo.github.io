@@ -68,7 +68,7 @@ header:
 
 {% include mendtokyo/sessions.html lang="fr" %}
 
-<p class="small">Le paiement s’effectue par carte via Square au moment de la réservation. Pour les dates « Réserver par e-mail », nous confirmons par retour avec un lien de paiement. Aucune date ne vous convient ? <a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20-%20autres%20dates">Écrivez-nous</a>.</p>
+<p class="small">Le paiement s’effectue par carte via Square au moment de la réservation. Aucune date ne vous convient ? <a href="mailto:threespacetokyo@gmail.com?subject=Mendtokyo%20-%20autres%20dates">Écrivez-nous</a>.</p>
 
 <h2>Bon à savoir</h2>
 <details><summary>Qu’est-ce qui est inclus ?</summary><p>Une pièce ancienne préparée pour vous, tout le matériel (urushi naturel et or véritable compris), les outils, tablier, manchettes et gants, ainsi qu’un emballage de protection avec les consignes d’entretien.</p></details>

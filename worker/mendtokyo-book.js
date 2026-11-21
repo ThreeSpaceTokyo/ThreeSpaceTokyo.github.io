@@ -7,6 +7,9 @@
  *          Sold out -> redirects back to the website.
  *   GET /seats
  *       -> JSON { "2026-12-02 14:00–16:00": 3, ... } live seats left for every Mendtokyo item.
+ *   GET /sessions
+ *       -> JSON [ {date, time, link, channel, note}, ... ] upcoming sessions read live from the schedule sheet
+ *          (SHEET_CSV_URL, defaults to Aya's sheet), past dates (Tokyo) removed, sorted.
  *
  * Secrets / variables (Worker settings -> Variables and Secrets):
  *   SQUARE_ACCESS_TOKEN  (secret)   SQUARE_LOCATION_ID   SITE_URL (https://threespacetokyo.com)
@@ -28,6 +31,7 @@ export default {
     if (request.method === "OPTIONS") return new Response(null, { headers: cors });
     try {
       if (url.pathname === "/seats") return json(await seats(env), cors);
+      if (url.pathname === "/sessions") return json(await sessions(env), cors);
       if (url.pathname === "/inspect") return json(await inspect(env, url.searchParams.get("name") || ""), cors);
       if (url.pathname === "/book") return await book(url, env);
       return new Response("Mendtokyo booking service", { status: 200 });
@@ -186,6 +190,49 @@ async function createItem(sq, env, date, time) {
     changes: [{ type: "PHYSICAL_COUNT", physical_count: { catalog_object_id: variationId, state: "IN_STOCK",
       location_id: env.SQUARE_LOCATION_ID, quantity: String(env.DEFAULT_SEATS || 4), occurred_at: new Date().toISOString() } }] });
   return { name, variationId };
+}
+
+// ---------- schedule sheet ----------
+const SHEET_CSV_DEFAULT = "https://docs.google.com/spreadsheets/d/1GL8YShTbRhtw0zPxlOqpVSOy6kohseQddiPT-Yw2cx0/gviz/tq?tqx=out:csv&gid=1775567458";
+function parseCsv(text) {               // minimal RFC4180 parser -> array of rows
+  const rows = [], row = []; let field = "", q = false, cur = [];
+  for (let i = 0; i < text.length; i++) {
+    const c = text[i];
+    if (q) { if (c === '"') { if (text[i + 1] === '"') { field += '"'; i++; } else q = false; } else field += c; }
+    else if (c === '"') q = true;
+    else if (c === ",") { cur.push(field); field = ""; }
+    else if (c === "\n" || c === "\r") { if (c === "\r" && text[i + 1] === "\n") i++; cur.push(field); rows.push(cur); cur = []; field = ""; }
+    else field += c;
+  }
+  if (field.length || cur.length) { cur.push(field); rows.push(cur); }
+  return rows;
+}
+function todayTokyo() {
+  return new Date().toLocaleDateString("sv-SE", { timeZone: "Asia/Tokyo" }); // YYYY-MM-DD
+}
+async function sessions(env) {
+  const r = await fetch(env.SHEET_CSV_URL || SHEET_CSV_DEFAULT, { cf: { cacheTtl: 60 } });
+  if (!r.ok) throw new Error("sheet fetch " + r.status);
+  const rows = parseCsv(await r.text());
+  const header = (rows.shift() || []).map((h) => h.trim().toLowerCase());
+  const col = (n) => header.indexOf(n);
+  const iD = col("date"), iT = col("time"), iL = col("square_link"), iC = col("channel"), iN = col("note"), iS = col("status");
+  const today = todayTokyo(), out = [], seen = new Set();
+  for (const row of rows) {
+    const date = (row[iD] || "").trim();
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || date < today) continue;
+    const time = (row[iT] || "").trim().replace("-", DASH).replace(/\s/g, "");
+    if (!time) continue;
+    const status = iS >= 0 ? (row[iS] || "").trim().toLowerCase().replace(/[\s_-]/g, "") : "";
+    if (status === "cancelled" || status === "canceled") continue;
+    const key = date + " " + time; if (seen.has(key)) continue; seen.add(key);
+    const link = iL >= 0 ? (row[iL] || "").trim() : "";
+    out.push({ date, time, link: /^https:\/\//.test(link) ? link : "",
+               channel: iC >= 0 && /airbnb/i.test(row[iC] || "") ? "airbnb" : "direct",
+               note: iN >= 0 ? (row[iN] || "").trim() : "" });
+  }
+  out.sort((a, b) => (a.date + a.time).localeCompare(b.date + b.time));
+  return out;
 }
 
 // ---------- endpoints ----------
