@@ -26,7 +26,7 @@
 - { date: 2027-01-06, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/f99gGgHA", channel: direct, status: open, seats: 4 }
 - { date: 2027-01-08, time: "10:00–12:00", location: asakusabashi, link: "", channel: direct, status: soldout, seats: 0 }
 - { date: 2027-01-08, time: "14:00–16:00", location: asakusabashi, link: "", channel: direct, status: soldout, seats: 0 }
-- { date: 2027-01-11, time: "10:00–12:00", location: asakusabashi, link: "", channel: direct, status: open }
+- { date: 2027-01-11, time: "10:00–12:00", location: asakusabashi, link: "", channel: direct, status: open, seats: 4 }
 - { date: 2027-01-11, time: "14:00–16:00", location: asakusabashi, link: "", channel: direct, status: open }
 - { date: 2027-01-13, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/Cl18yXf7", channel: direct, status: open, seats: 4 }
 - { date: 2027-01-13, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/LIZv29cC", channel: direct, status: open, seats: 4 }
