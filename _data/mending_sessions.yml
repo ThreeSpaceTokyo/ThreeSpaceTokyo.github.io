@@ -22,7 +22,7 @@
 - { date: 2026-12-23, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/UXkIJecm", channel: direct, status: open, seats: 4 }
 - { date: 2026-12-28, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/KQzaUvHh", channel: direct, status: open, seats: 4 }
 - { date: 2026-12-28, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/vuUzbw6R", channel: direct, status: open, seats: 1 }
-- { date: 2027-01-04, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/KiBkkHNV", channel: direct, status: open, seats: 4 }
+- { date: 2027-01-04, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/KiBkkHNV", channel: direct, status: open, seats: 2 }
 - { date: 2027-01-06, time: "10:00–12:00", location: asakusabashi, link: "https://square.link/u/4z4YcHS1", channel: direct, status: open, seats: 4 }
 - { date: 2027-01-06, time: "14:00–16:00", location: asakusabashi, link: "https://square.link/u/f99gGgHA", channel: direct, status: open, seats: 4 }
 - { date: 2027-01-07, time: "10:00–12:00", location: asakusabashi, link: "", channel: direct, status: open }
